@@ -3897,7 +3897,7 @@ header.navigation ul.submenu {
         width: 15.6em; } }
 
 body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body ul, body li, body table {
-  color: #031941; }
+  color: #3ab0e8; }
 body a {
   word-break: break-all; }
 body a:visited {
@@ -3926,18 +3926,18 @@ a.button, button, a.button, input[type="submit"] {
   margin: 25px 10px 20px 0;
   border-radius: 4px;
   font-size: 18px;
-  color: #031941; }
+  color: #3ab0e8; }
   a.button:hover, button:hover, a.button:hover, input[type="submit"]:hover {
     text-decoration: none;
-    background-color: #34b575;
-    border: 1px solid #34b575;
+    background-color: #04345c;
+    border: 1px solid #04345c;
     color: white; }
     a.button:hover .fa-arrow-circle-o-down, button:hover .fa-arrow-circle-o-down, a.button:hover .fa-arrow-circle-o-down, input[type="submit"]:hover .fa-arrow-circle-o-down {
       color: white; }
 
 a i {
   margin-left: 6px;
-  color: #031941; }
+  color: #3ab0e8; }
 
 .content-wrapper {
   max-width: 90%;
@@ -4053,13 +4053,13 @@ a i {
       margin-bottom: 10px;
       margin-top: 10px;
       line-height: 1.2;
-      color: #34b575; }
+      color: #04345c; }
     .home-template .hero .hero-content h2 {
       font-size: 1.25em;
       font-weight: bold;
       margin: 0 0 2em 0;
       line-height: 1.2;
-      color: #031941; }
+      color: #3ab0e8; }
     .home-template .hero .hero-content h2.info {
       font-size: 1.6em;
       letter-spacing: 0;
@@ -4067,7 +4067,7 @@ a i {
       margin-bottom: 0; }
     .home-template .hero .hero-content p {
       padding: 0 15vw;
-      color: #031941; }
+      color: #3ab0e8; }
     .home-template .hero .hero-content p.blurb {
       font-size: 1.6em;
       font-style: italic;
@@ -4146,7 +4146,7 @@ a i {
     .home-template .video .video-text p {
       font-size: 16px;
       font-weight: 300;
-      color: #031941;
+      color: #3ab0e8;
       margin: auto;
       margin-bottom: 30px;
       line-height: 1.625; }
@@ -4209,7 +4209,7 @@ a i {
   background-color: transparent;
   border: none; }
   .home-template .grid-items .grid-item h4, .home-template .grid-items .grid-item p, .home-template .grid-items .grid-item i {
-    color: #031941 !important;
+    color: #3ab0e8 !important;
     margin-top: 15px;
     margin-bottom: 20px; }
   .home-template .grid-items .grid-item h4 {
@@ -4292,13 +4292,13 @@ a i {
       letter-spacing: 0.5px;
       line-height: 1.2; }
     .home-template .side-image .side-image-content p {
-      color: #031941;
+      color: #3ab0e8;
       font-size: 18px;
       margin: 0 0 30px 0;
       font-weight: 300;
       line-height: 1.625; }
     .home-template .side-image .side-image-content a {
-      color: #031941;
+      color: #3ab0e8;
       text-decoration: none;
       border-bottom: 0; }
     .home-template .side-image .side-image-content a.button {
@@ -4513,7 +4513,7 @@ section {
   section .centered {
     text-align: center; }
   section a {
-    color: #031941;
+    color: #3ab0e8;
     border-bottom: 1px solid #ddd; }
     section a:focus, section a:hover {
       border-bottom: 0; }
@@ -4522,7 +4522,7 @@ section {
     margin-bottom: 3em; }
   section h1.page-title {
     font-size: 1.7em;
-    color: #34b575;
+    color: #04345c;
     text-align: center; }
   section h1 {
     font-size: 1.4em; }
@@ -4723,7 +4723,7 @@ section.about-special .content-wrapper, section.research-special .content-wrappe
   max-width: 100%; }
 
 section.research-special a {
-  color: #031941; }
+  color: #3ab0e8; }
 section.research-special table {
   font-size: 9px; }
 section.research-special td, section.research-special th {
@@ -4732,7 +4732,7 @@ section.research-special td, section.research-special th {
 body.faq p {
   margin-bottom: 20px; }
 body.faq .return-link {
-  color: #34b575; }
+  color: #04345c; }
 body.faq .faq-summary {
   margin-bottom: 10px; }
 body.faq .faq-summary-item {

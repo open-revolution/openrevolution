@@ -2,8 +2,11 @@ $small-screen: em(400);
 $extra-large-screen: em(1280);
 
 // Colours:
-$brand-green: #34b575;
-$brand-blue: #031941;
+$brand-orange: #fd7a23;
+$brand-blue: #3ab0e8;
+$brand-dark-blue: #04345c;
+$brand-light-blue: #4ed6fd;
+$brand-ocean-green: #bff2da;
 
 body {
   // General typography:
@@ -52,8 +55,8 @@ a.button, button {
   color: $brand-blue;
   &:hover {
     text-decoration: none;
-    background-color: $brand-green;
-    border: 1px solid $brand-green;
+    background-color: $brand-dark-blue;
+    border: 1px solid $brand-dark-blue;
     color: white;
     .fa-arrow-circle-o-down{
         color: white;
