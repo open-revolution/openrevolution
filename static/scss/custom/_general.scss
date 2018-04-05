@@ -1,0 +1,74 @@
+$small-screen: em(400);
+$extra-large-screen: em(1280);
+
+// Colours:
+$brand-green: #34b575;
+$brand-blue: #031941;
+
+body {
+  // General typography:
+  // Normal text is blue:
+  h1, h2, h3, h4, h5, h6, p, a, ul, li, table {
+    color: $brand-blue;
+  }
+  a {
+    word-break: break-all;
+  }
+  a:visited {
+    color: #333;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .content-wrapper__inner {
+    @include media($large-screen) {
+      margin-top: 63px;
+    }
+  }
+}
+
+a.button, input[type="submit"], button {
+  @extend button;
+  padding: 10px 12px;
+  color: #34313b;
+  border: 1px solid #34313b;
+  background-color: white;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    background-color: #34313b;
+    color: white;
+  }
+}
+
+a.button, button {
+  font-weight: bold;
+  margin: 25px 10px 20px 0;
+  border-radius: 4px;
+  font-size: 18px;
+  color: $brand-blue;
+  &:hover {
+    text-decoration: none;
+    background-color: $brand-green;
+    border: 1px solid $brand-green;
+    color: white;
+    .fa-arrow-circle-o-down{
+        color: white;
+    }
+  }
+}
+a {
+  i {
+    margin-left: 6px;
+    color: $brand-blue;
+  }
+}
+
+.content-wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

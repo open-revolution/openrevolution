@@ -1,0 +1,36 @@
+image: alpine:3.4
+
+# git lfs stuff from this thread
+# https://gitlab.com/gitlab-org/gitlab-ce/issues/3489
+# https://gitlab.com/gitlab-examples/lfs/blob/master/.gitlab-ci.yml
+# DOES NOT work - apk add git git-lfs --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/
+# HUGO_SHA can obtain from https://github.com/gohugoio/hugo/releases/download/v0.35/hugo_0.35_checksums.txt
+
+variables:
+  HUGO_VERSION: '0.35'
+  HUGO_SHA: '60cd57181c6c898f1ef3b3e8dcefa0f25215c04beee46738c59b865983e0bc1b'
+before_script:
+  - apk update && apk add openssl git
+  - apk add --update --virtual build-dependencies curl
+  - curl -sLO https://github.com/github/git-lfs/releases/download/v2.0.1/git-lfs-linux-amd64-2.0.1.tar.gz
+  - tar xf git-lfs-linux-amd64-2.0.1.tar.gz && mv git-lfs-2.0.1/git-lfs /usr/bin/ && rm -Rf git-lfs-2.0.1
+  - git lfs pull
+  - wget -O ${HUGO_VERSION}.tar.gz https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - echo "${HUGO_SHA}  ${HUGO_VERSION}.tar.gz" | sha256sum -c
+  - tar xf ${HUGO_VERSION}.tar.gz && mv hugo* /usr/bin/hugo
+  - hugo version
+
+test:
+  script:
+  - hugo
+  except:
+  - master
+
+pages:
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

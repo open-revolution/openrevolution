@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+
+<body class="home-template">
+
+  {{ partial "navbar.html" . }}
+
+  <section class="contact">
+       {{ .Content }}
+  </section>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "script.html" . }}
+</body>
+</html>

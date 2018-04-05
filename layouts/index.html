@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+
+<body class="home-template">
+
+  {{ partial "navbar.html" . }}
+
+  <div class="hero">
+    <div class="hero-content">
+
+      {{ .Content }}
+
+    </div>
+  </div>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "script.html" . }}
+</body>
+</html>
