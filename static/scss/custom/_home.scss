@@ -4,98 +4,104 @@
   @import "refills/flex-boxes";
   @import "refills/hero";
   .hero {
+    height: 800px;
+    background: linear-gradient(0deg, $brand-blue 90%, $brand-dark-blue 10%);
+    // Copied
     align-items: center;
     background-repeat: no-repeat;
     display: block;
     justify-content: center;
 
-    padding: 2em 3em;
-
+    padding: 6em 1em;
+    margin: auto;
     @include media($medium-screen) {
-      padding: 0 8em;
+      padding: 15% 8em;
+
     }
-    @include media($large-screen) {
-      min-height: 38em;
+    @include media($extra-large-screen) {
       background-size: cover;
-      padding: 18vh 5%;
-      height: calc(100vh + 6em);
+      padding: 10% calc(5% + 0.75em);
       img {
         height: 100px;
       }
     }
 
-    .hero-content {
-      max-width: 100%;
+    .book {
+      display: block;
+      padding: 130px 40px;
+      margin: auto;
+      width: 330px;
+      @include media($medium-screen) {
+        width: 380px;
+      }
+      @include media($extra-large-screen) {
+        display: inline-block;
+      }
+      color: white;
+      height: 520px;
+      background-color: white;
+      text-align: center;
       h1 {
-        font-family: "Abril Fatface";
-        font-size: 2.0em;
-        letter-spacing: 3px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        line-height: 1.2;
+        font-size: 2.2em;
+        letter-spacing: 4px;
+        line-height: 1.5em;
         color: $brand-dark-blue;
+        margin-bottom: 1.5em;
       }
       h2 {
-        font-size: 1.25em;
-        font-weight: bold;
-        margin: 0 0 2em 0;
-        line-height: 1.2;
+        font-size: 1.9em;
+        font-style: italic;
+        font-weight: lighter;
         color: $brand-blue;
-      }
-      h2.info {
-        font-size: 1.6em;
-        letter-spacing: 0;
-        line-height: 1.2;
-        margin-bottom: 0;
-      }
-      p {
-        padding: 0 15vw;
-        color: $brand-blue;
-      }
-      p.blurb {
-        font-size: 1.6em;
-        font-style:italic;
-        color: white;
-        padding:0 2em;
-      }
-      p.blurb2 {
-        font-size: 1.2em;
-        color: white;
-        padding:0 12em;
-      }
-      @include media($large-screen) {
-        height: 80%;
-        text-align: center;
-        img {
-          margin-top: -30px;
-        }
-        p {
-          font-size: 2.15vmin;
-        }
       }
     }
 
-    .call-to-action {
-      display: none;
-      a:visited {
-        color: #333;
+    .main-content {
+      display: block;
+      margin: auto;
+      text-align: center;
+      @include media($extra-large-screen) {
+        text-align: left;
+        display: inline-block;
+        position: absolute;
+        right: 160px;
       }
-      @include media($large-screen) {
-        display: block;
-        @include size(null 12%);
-        p {
-          color: white;
-          text-align: center;
-          align-items: center;
-          margin: 0;
-          //font-size: 0.9em;
+      max-width: 600px;
+      h1.book-title {
+        display: none;
+        @include media($extra-large-screen) {
+          display: block;
         }
-        .arrow-down {
-          font-size: 2.6em;
+        color:white;
+        font-size: 6em;
+        font-weight: lighter;
+        line-height: 1.5em;
+        letter-spacing: 5px;
+        margin-bottom: 0.5em;
+      }
+      h2.book-subtitle {
+        display: none;
+        @include media($extra-large-screen) {
+          display: block;
+        }
+        color: white;
+        font-style: italic;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 6px;
+        margin-bottom: 1.5em;
+      }
+      a.button {
+        background-color: $brand-ocean-green;
+        color: $brand-dark-blue;
+        &:hover {
+          background-color: $brand-orange;
+          color: white;
         }
       }
     }
   }
+
   section.slides {
     padding: 50px 0 20px;
     @include media($large-screen) {
@@ -189,7 +195,42 @@
       }
     }
   }
-  
+
+  section.quotes {
+    background: linear-gradient(0deg, $brand-dark-blue 97%, $brand-light-blue 3%);
+    height: 650px;
+    padding: 15% 20%;
+    .quote-wrapper {
+      text-align: center;
+      max-width: 650px;
+      margin: auto;
+      margin-bottom: 40px;
+      font-style: italic;
+      .quote-text {
+        color: white;
+      }
+      .quote-author {
+        margin-top: 10px;
+      }
+    }
+  }
+  section.author {
+    background: linear-gradient(0deg, $brand-ocean-green 97%, $brand-orange 3%);
+    height: 650px;
+    padding: 10% 20%;
+    .img-wrapper {
+      text-align: center;
+      align-items: center;
+      width: 250px;
+      height: 250px;
+      margin: auto;
+      .img-circular-square {
+        border-radius: 50%;
+        padding: 0 30px;
+      }
+    }
+  }
+
   .side-image {
     $base-line-height: 1.5em !default;
     $action-color: #477DCA !default;

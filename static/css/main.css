@@ -3873,7 +3873,8 @@ header.navigation {
           display: block; } }
 
 header.navigation {
-  background-color: #fd7a23; }
+  background-color: #fd7a23;
+  border-bottom: 0; }
   header.navigation .navigation-wrapper {
     max-width: 90%;
     margin-left: auto;
@@ -4036,78 +4037,88 @@ header.navigation {
   .home-template .hero .hero-logo {
     margin: auto; }
 .home-template .hero {
+  height: 800px;
+  background: linear-gradient(0deg, #3ab0e8 90%, #04345c 10%);
   align-items: center;
   background-repeat: no-repeat;
   display: block;
   justify-content: center;
-  padding: 2em 3em; }
+  padding: 6em 1em;
+  margin: auto; }
   @media screen and (min-width: 40em) {
     .home-template .hero {
-      padding: 0 8em; } }
-  @media screen and (min-width: 53.75em) {
+      padding: 15% 8em; } }
+  @media screen and (min-width: 80em) {
     .home-template .hero {
-      min-height: 38em;
       background-size: cover;
-      padding: 18vh 5%;
-      height: calc(100vh + 6em); }
+      padding: 10% calc(5% + 0.75em); }
       .home-template .hero img {
         height: 100px; } }
-  .home-template .hero .hero-content {
-    max-width: 100%; }
-    .home-template .hero .hero-content h1 {
-      font-family: "Abril Fatface";
-      font-size: 2.0em;
-      letter-spacing: 3px;
-      margin-bottom: 10px;
-      margin-top: 10px;
-      line-height: 1.2;
-      color: #04345c; }
-    .home-template .hero .hero-content h2 {
-      font-size: 1.25em;
-      font-weight: bold;
-      margin: 0 0 2em 0;
-      line-height: 1.2;
-      color: #3ab0e8; }
-    .home-template .hero .hero-content h2.info {
-      font-size: 1.6em;
-      letter-spacing: 0;
-      line-height: 1.2;
-      margin-bottom: 0; }
-    .home-template .hero .hero-content p {
-      padding: 0 15vw;
-      color: #3ab0e8; }
-    .home-template .hero .hero-content p.blurb {
-      font-size: 1.6em;
+  .home-template .hero .book {
+    display: block;
+    padding: 130px 40px;
+    margin: auto;
+    width: 330px;
+    color: white;
+    height: 520px;
+    background-color: white;
+    text-align: center; }
+    @media screen and (min-width: 40em) {
+      .home-template .hero .book {
+        width: 380px; } }
+    @media screen and (min-width: 80em) {
+      .home-template .hero .book {
+        display: inline-block; } }
+    .home-template .hero .book h1 {
+      font-size: 2.2em;
+      letter-spacing: 4px;
+      line-height: 1.5em;
+      color: #04345c;
+      margin-bottom: 1.5em; }
+    .home-template .hero .book h2 {
+      font-size: 1.9em;
       font-style: italic;
+      font-weight: lighter;
+      color: #3ab0e8; }
+  .home-template .hero .main-content {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 600px; }
+    @media screen and (min-width: 80em) {
+      .home-template .hero .main-content {
+        text-align: left;
+        display: inline-block;
+        position: absolute;
+        right: 160px; } }
+    .home-template .hero .main-content h1.book-title {
+      display: none;
       color: white;
-      padding: 0 2em; }
-    .home-template .hero .hero-content p.blurb2 {
-      font-size: 1.2em;
+      font-size: 6em;
+      font-weight: lighter;
+      line-height: 1.5em;
+      letter-spacing: 5px;
+      margin-bottom: 0.5em; }
+      @media screen and (min-width: 80em) {
+        .home-template .hero .main-content h1.book-title {
+          display: block; } }
+    .home-template .hero .main-content h2.book-subtitle {
+      display: none;
       color: white;
-      padding: 0 12em; }
-    @media screen and (min-width: 53.75em) {
-      .home-template .hero .hero-content {
-        height: 80%;
-        text-align: center; }
-        .home-template .hero .hero-content img {
-          margin-top: -30px; }
-        .home-template .hero .hero-content p {
-          font-size: 2.15vmin; } }
-  .home-template .hero .call-to-action {
-    display: none; }
-    .home-template .hero .call-to-action a:visited {
-      color: #333; }
-    @media screen and (min-width: 53.75em) {
-      .home-template .hero .call-to-action {
-        display: block;
-        height: 12%; }
-        .home-template .hero .call-to-action p {
-          color: white;
-          text-align: center;
-          align-items: center;
-          margin: 0; }
-        .home-template .hero .call-to-action .arrow-down {
-          font-size: 2.6em; } }
+      font-style: italic;
+      font-size: 2em;
+      font-weight: lighter;
+      letter-spacing: 6px;
+      margin-bottom: 1.5em; }
+      @media screen and (min-width: 80em) {
+        .home-template .hero .main-content h2.book-subtitle {
+          display: block; } }
+    .home-template .hero .main-content a.button {
+      background-color: #bff2da;
+      color: #04345c; }
+      .home-template .hero .main-content a.button:hover {
+        background-color: #fd7a23;
+        color: white; }
 .home-template section.slides {
   padding: 50px 0 20px; }
   @media screen and (min-width: 53.75em) {
@@ -4231,6 +4242,33 @@ header.navigation {
     line-height: 1.625; }
   .home-template .grid-items .grid-item i {
     font-size: 2em; }
+.home-template section.quotes {
+  background: linear-gradient(0deg, #04345c 97%, #4ed6fd 3%);
+  height: 650px;
+  padding: 15% 20%; }
+  .home-template section.quotes .quote-wrapper {
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-style: italic; }
+    .home-template section.quotes .quote-wrapper .quote-text {
+      color: white; }
+    .home-template section.quotes .quote-wrapper .quote-author {
+      margin-top: 10px; }
+.home-template section.author {
+  background: linear-gradient(0deg, #bff2da 97%, #fd7a23 3%);
+  height: 650px;
+  padding: 10% 20%; }
+  .home-template section.author .img-wrapper {
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: auto; }
+    .home-template section.author .img-wrapper .img-circular-square {
+      border-radius: 50%;
+      padding: 0 30px; }
 .home-template .side-image {
   background: white; }
   .home-template .side-image div.images-wrapper.last {
