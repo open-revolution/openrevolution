@@ -189,13 +189,7 @@
       }
     }
   }
-
-  .fellow {
-    @include outer-container(90%);
-    padding-top: 3em;
-    @import "refills/logos.scss";
-  }
-
+  
   .side-image {
     $base-line-height: 1.5em !default;
     $action-color: #477DCA !default;
@@ -291,28 +285,4 @@
 
     @include reset-display();
   }
-}
-
-.orange {
-  background-color: #e3703c;
-}
-
-.blue {
-  background-color: #448ac9;
-}
-
-#infographics-bad {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 600px 2578px;
-  width: 100%;
-  height: 2578px;
-}
-
-#infographics-solution {
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 600px 2154px;
-  width: 100%;
-  height: 2154px;
 }

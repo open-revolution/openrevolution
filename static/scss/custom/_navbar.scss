@@ -6,7 +6,7 @@ header.navigation {
   $horizontal-bar-mode: $large-screen;
   $navigation-submenu-width: 12em;
   $container: 90%;
-
+  background-color: $brand-orange;
   .navigation-wrapper {
     @include outer-container($container);
   }
@@ -23,7 +23,7 @@ header.navigation {
   }
 
   a.logo {
-    color: #333;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     font-weight: 400;
@@ -47,8 +47,17 @@ header.navigation {
       }
     }
   }
-
+  ul.navigation-menu {
+    li {
+      background-color: $brand-orange;
+      color: white;
+    }
+  }
   a.navigation-menu-button {
+    color: white;
+    i {
+      color: white;
+    }
     line-height: normal;
     float: none;
     width: 100%;
@@ -70,7 +79,7 @@ header.navigation {
     font-weight: 400;
     letter-spacing: 1px;
     padding: 0 10px;
-    color: #333 !important;
+    color: white !important;
   }
   li.more {
     > a {
