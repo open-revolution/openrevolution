@@ -5,7 +5,7 @@ Open Revolution
 This website is a static website.
 
 * The source is managed in git.
-  * The central git repo is on gitlab: https://gitlab.com/.../...
+  * The central git repo is on gitlab: https://gitlab.com/artearthtech/open-revolution
 * The website is statically built using [hugo][].
 
 [hugo]: https://gohugo.io/
@@ -16,7 +16,7 @@ This website is a static website.
 * Install git lfs and pull git large files
 * git clone the repo:
 
-  `git clone git@gitlab.com:.../....git`
+  `git clone git@gitlab.com:artearthtech/open-revolution.git`
 * Run hugo:
 
   `hugo server`
