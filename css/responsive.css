@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+    .navbar-collapse
+    {
+        background: rgb(230, 230, 230) !important;
+        z-index: 1 ;
+    }
+    .left-side-text h1{
+        font-size:30px;
+    }
+	
+	.left-side-text {
+		margin-left:0;
+	}
+}
