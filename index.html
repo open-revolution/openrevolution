@@ -16,9 +16,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="150">
         <!-- Second navbar for categories -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -34,8 +34,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li ><a  href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a  href="#home">Home</a></li>
+                        <li><a href="#about">Biography</a></li>
+						<li><a href="#quotes">Quotes</a></li>
+						<li><a href="#hardcopy">Hard Copy</a></li>
                         <li><a href="#newsletter">Newsletter</a></li>
                         <li><a href="#contact">Contact</a></li>
 						<li><a data-toggle="modal" data-target="#downloadmodal" class="download-book-nav download-btn">Download eBook</a></li>
@@ -62,7 +64,7 @@
                             <p>Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. </p>
 
                             <div class="book-btn">
-                                <a class="btn btn-round btn-orange" data-toggle="modal" data-target="#downloadmodal">DOWNLOAD eBOOK</a>
+                                <a class="btn btn-round btn-green font-bold" data-toggle="modal" data-target="#downloadmodal">DOWNLOAD eBOOK</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +137,7 @@
                     </div>
                 </div>
         </section>
-		<section class="hardcopy">
+		<section class="hardcopy" id="hardcopy">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2 text-center">
@@ -149,8 +151,8 @@
                     </p>
 					<br/>
 					
-					<div class="col-sm-10 col-sm-offset-1 ">
-						<a href="https://amazon.com"><img src="img/amazon.png" class="img-responsive center-block" /> </a>
+					<div class="col-sm-4 col-sm-offset-4">
+						<a href="https://amazon.com"><img src="img/amazon.png" class="center-block" width=240/> </a>
 					</div
 					</div>
 				</div>
@@ -202,14 +204,6 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input name="text" id="sub" type="text" class="form-control" placeholder="Your subject...">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
                                         <textarea name="comments"  rows="7" class="form-control" placeholder="Your message..."></textarea>
                                     </div>
                                 </div>
@@ -232,10 +226,13 @@
                     <div class="col-lg-12">
                         <div class="footer-content">
                             <ul class="list-unstyled text-center footerlink">
-                                <li class="list-inline-item"><a href="#home">Home</a></li>
-                                <li class="list-inline-item"><a href="#about">About</a></li>
-                                <li class="list-inline-item"><a href="#newsletter">Newsletter</a></li>
-                                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+								<li class="list-inline-item"><a  href="#home">Home</a></li>
+								<li class="list-inline-item"><a href="#about">Biography</a></li>
+								<li class="list-inline-item"><a href="#quotes">Quotes</a></li>
+								<li class="list-inline-item"><a href="#hardcopy">Hard Copy</a></li>
+								<li class="list-inline-item"><a href="#newsletter">Newsletter</a></li>
+								<li class="list-inline-item"><a href="#contact">Contact</a></li>
+                                
                             </ul>
                             <div>
                                 <p class="text-center">2018 © . All Rights Reserved</p>

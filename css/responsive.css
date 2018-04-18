@@ -26,18 +26,24 @@
 		position:relative;
 		bottom:30px;
 	}
-        
+    
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		color: #ff7417;
+	}
+
 }
 
 @media screen and (min-width:769px){
 	.download-btn {
 		background-color: #ea5e00;
-		padding: 10px 25px !important;
-		margin-top: 6px;
+		padding: 12px 22px !important;
+		margin-top: 4px;
+		border-radius:4px;
 	}
 	
 	.download-btn:hover {
-		background-color: #e86b17 !important;
+		background-color: #da5700 !important;
+		color:#fff !important;
 	}
 }
 
