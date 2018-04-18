@@ -184,7 +184,7 @@ section {
 
 /* testimonial */
 #quotes {
-	background-color:#0067a5;
+	background-color:#0097f3;
 }
 
 #quotes {
@@ -255,6 +255,21 @@ section {
 }
 .sec-heading {
 	color:#0067a5;
+}
+
+/* hardcopy section */
+.hardcopy {
+	padding:80px 0;
+	background-color: #0067a5;
+}
+
+.hardcopy h3{
+	font-size:30px;
+	color:#fff;
+}
+
+.hardcopy p {
+	color:#fff;
 }
 
 /* Section-4 */
