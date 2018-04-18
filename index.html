@@ -4,14 +4,15 @@
         <title>Open Revolution</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+		<link rel="icon" type="image/x-icon" href="favicon.png" />
+		
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
-		
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
-		
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
@@ -33,11 +34,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li ><a class="active-nav"  href="#home">Home</a></li>
+                        <li ><a  href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#newsletter">Newsletter</a></li>
                         <li><a href="#contact">Contact</a></li>
-
+						<li><a data-toggle="modal" data-target="#downloadmodal" class="download-book-nav download-btn">Download eBook</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
@@ -45,62 +46,62 @@
         </nav><!-- /.navbar -->
         <!-- Intro Seven -->
         <section class="section-one" id="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-6 col-xs-offset-3 col-sm-offset-1">
-                            <div class="book">
-                                <img width="100%" src="img/open-revolution-cover.jpg"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-6 col-xs-offset-3 col-sm-offset-1">
+                        <div class="book">
+                            <img width="100%" src="img/open-revolution-cover.jpg"> 
 
-                            </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="left-side-text">
-                                <h1>OPEN REVOLUTION <span>- By Dr. Rufus Pollock</span></h1>
-						
-                                <p>Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. </p>
-                                <p>Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. </p>
-                                
-                                <div class="book-btn">
-                                    <a class="btn btn-round btn-orange">DOWNLOAD BOOK</a>
-                                </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="left-side-text">
+                            <h1>OPEN REVOLUTION <span>- By Dr. Rufus Pollock</span></h1>
+
+                            <p>Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. </p>
+                            <p>Lorem ipsum dolor sit amet, case legere necessitatibus ad per. Cum ut debet vulputate delicatissimi, vix ea argumentum percipitur. </p>
+
+                            <div class="book-btn">
+                                <a class="btn btn-round btn-orange" data-toggle="modal" data-target="#downloadmodal">DOWNLOAD eBOOK</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </section>
-		<section id="about" class="section-3">
-			<div class="container">
-				<h2>
-					Biography of Dr. Rufus Pollock
-				</h2>
-				<p class="text-center">Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
+        <section id="about" class="section-3">
+            <div class="container">
+                <h2 class="sec-heading">
+                    Biography of Dr. Rufus Pollock
+                </h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
 
-				<div class="row">
-					<div class="section-margin">
-						<div class="col-sm-5 col-sm-offset-1">
-							<img class="img-responsive" src="img/rufus_pollock.jpg">
-							<br/>
-						</div>
-						<div class="col-sm-5">
-							<div class="p-4">
-								<h5><img src="img/right-arrow.png" class="arrow-r" /> Background</h5>
-								<p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
-								<p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
-							</div>
-							<div class="p-4">
-								<h5><img src="img/right-arrow.png" class="arrow-r" /> Research</h5>
-								<p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Eu vim exerci tritani, integre habemus vim in.Eu vim exerci tritani, integre habemus vim in.</p>
-							</div>
-							<div class="p-4">
-								<h5><img src="img/right-arrow.png" class="arrow-r" /> Recent Work</h5>
-								<p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
-							</div>
-					
-						</div>
-					</div>
-				</div>
+                <div class="row">
+                    <div class="section-margin">
+                        <div class="col-sm-5 col-sm-offset-1">
+                            <img class="img-responsive" src="img/rufus_pollock.jpg">
+                            <br/>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="p-4">
+                                <h5 class="sec-heading"> Background</h5>
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="sec-heading"> Research</h5>
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Eu vim exerci tritani, integre habemus vim in.Eu vim exerci tritani, integre habemus vim in.</p>
+                            </div>
+                            <div class="p-4">
+                                <h5 class="sec-heading"> Recent Work</h5>
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
         </section>
-		
+
         <section id="quotes">
             <div class="container">
                 <div class="testimonial">
@@ -111,104 +112,119 @@
                     <div class="row">
                         <div class="testimonial-box">
                             <div class="col-sm-6">
-                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Vis tollit insolens moderatius cu. Eu prima porro nostrum has, nominati deseruisse qui at.</p>
-                                <div class="text-center"><img class=" img-round" src="img/testi-1.jpg"></div>
+								<div class="text-center"><img class=" img-round" src="img/testi-1.jpg"></div>
                                 <div class="text-center">
                                     <h6>Keri Nicholas</h6>
                                     <small>Journalist, NY Times</small>
                                 </div>
-								<br/><br/>
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Vis tollit insolens moderatius cu. Eu prima porro nostrum has, nominati deseruisse qui at.</p>
+                                
+                                <br/><br/>
                             </div>
                             <div class="col-sm-6">
-                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Vis tollit insolens moderatius cu. Eu prima porro nostrum has, nominati deseruisse qui at.</p>
-                                <div class="text-center"><img class=" img-round" src="img/testi-2.jpg"></div>
+								<div class="text-center"><img class=" img-round" src="img/testi-2.jpg"></div>
                                 <div class="text-center">
                                     <h6>Charle nathan</h6>
                                     <small>Data Scientist, MIT</small>
                                 </div>
-
+                                <p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Vis tollit insolens moderatius cu. Eu prima porro nostrum has, nominati deseruisse qui at.</p>
+                                
+								<br/><br/>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
-        
+		<section class="hardcopy">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 text-center">
+						<h3>Pay For Hard Copy</h3>
+						<p>
+                        Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. 
+                    </p>
+					
+						<p>
+                       integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,mea id veri paulo. Eu vim exerci tritani, integre habemus vim in. Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis, mea id veri paulo. Eu vim exerci tritani. 
+                    </p>
+					<br/>
+					
+					<div class="col-sm-10 col-sm-offset-1 ">
+						<a href="https://amazon.com"><img src="img/amazon.png" class="img-responsive center-block" /> </a>
+					</div
+					</div>
+				</div>
+			</div>
+		</section>
+
         <section class="section-4" id="newsletter">
-                <div class="bg-subscriber">
-                    <div class="container">
-                        <h5>Subscribe Today</h5>
+            <div class="bg-subscriber">
+                <div class="container">
+                    <h5>Subscribe Today</h5>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.
+                    </p>
+
+                    <div class="text-center search-form">
+                        <form action="#">
+                            <input type="text" placeholder="Enter Email Address">
+                            <button type="submit" class="btn btn-round btn-orange">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5 class="text-center">Contact Us</h5>
                         <p class="text-center">
                             Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.
                         </p>
-
-                        <div class="text-center search-form">
-                            <form action="#">
-                                <input type="text" placeholder="Enter Email Address">
-                                <button type="submit" class="btn btn-custom">Subscribe</button>
-                            </form>
-                        </div>
                     </div>
-                </div>
-        </section>
-        <section id="contact" class="section-contact">
-                
 
-                <div class="container">
-                    <div class="row">
-						<div class="col-sm-12">
-							<h5 class="text-center">Contact Us</h5>
-							<p class="text-center">
-								Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.
-							</p>
-						</div>
-                        <div class="col-sm-4">
-                            <div class="contact-info">
-                                <p class=""> <span class="contact-heading"><img src="img/right-arrow.png" class="arrow-r" />  Customer care </span><br> <span class="mt-2">+1 234 56 7894</span></p>
-                                <p class=""> <span class="contact-heading"><img src="img/right-arrow.png" class="arrow-r" />  Office Address </span><br> <span class="mt-2">4461 Cedar Street Moro, AR 72368</span></p>
-                                <p class=""> <span class="contact-heading"><img src="img/right-arrow.png" class="arrow-r"/>  Email Address </span> <br> <span class="mt-2">Support@gmail.com</span></p>
+                    <div class="col-sm-8 col-sm-offset-2">
+
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">                                            
+                                        <input name="name" id="name" type="text" class="form-control" placeholder="Your name...">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your email...">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input name="text" id="sub" type="text" class="form-control" placeholder="Your subject...">
+                                    </div>
+                                </div>
+                            </div>
 
-                            <form method="post">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">                                            
-                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name...">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email...">
-                                        </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea name="comments"  rows="7" class="form-control" placeholder="Your message..."></textarea>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input name="text" id="sub" type="text" class="form-control" placeholder="Your subject...">
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button class="btn btn-round btn-orange">Send Message</button>
+                                    <br/><br/><br/>
                                 </div>
+                            </div>
 
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <textarea name="comments"  rows="7" class="form-control" placeholder="Your message..."></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <button class="btn btn-round btn-orange">Send Message</button>
-										<br/><br/><br/>
-                                    </div>
-                                </div>
-								
-								
-                        </div>
+
                     </div>
                 </div>
+            </div>
         </section>
         <section class="section bg-footer">
             <div class="container">
@@ -225,38 +241,68 @@
                                 <p class="text-center">2018 © . All Rights Reserved</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<!-- Modal -->
+		<div class="modal fade" id="downloadmodal" tabindex="-1" role="dialog" aria-labelledby="downloadmodal" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+				   
+					<div class="row">
+						<div class="col-sm-12 col-md-5">
+						 <img class="img-responsive hidden-xs hidden-sm" src="img/open-revolution-cover.jpg">
+						</div>
+						<div class="col-sm-12 col-md-7">
+							<button type="button" class="close close-btn-respons" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+							<div class="book-sale">
+							<h4> Lorem ipsum dolor sit amet</h4>
+							<h3>Enter your email below to Download</h3> 
+							<input name="email" id="email" type="email" class="form-control text-center input-modal" placeholder="Enter your email here">
+							<a class="btn-orange btn-round btn">Download Now!</a>
+							<p>Or</p>
+							<h6><a href="#">Buy From Amazon!</a></h6>
+							<p>Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,
+mea id veri paulo.
+
+</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		
-						
-						
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script>
-		$('a[href^="#"]').on('click', function (event) {
-			var target = $(this.getAttribute('href'));
-			if (target.length) {
-				event.preventDefault();
-				$('html, body').stop().animate({
-					scrollTop: target.offset().top
-				}, 1000);
-			}
-		});
+		</div>
 
-		$("#nav").scrollspy({offset: -600});
 
-		$(".orderLink").click(function (event) {
-			event.stopPropagation();
-			// Do something
-		});
-		$('.collapse').on('shown.bs.collapse', function () {
-			$(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-window-close");
-		}).on('hidden.bs.collapse', function () {
-			$(this).parent().find(".fa-window-close").removeClass("fa-window-close").addClass("fa-angle-down");
-		});
-	</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script>
+            $('a[href^="#"]').on('click', function (event) {
+                var target = $(this.getAttribute('href'));
+                if (target.length) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
 
-</body>
+            $("#nav").scrollspy({offset: -600});
+
+            $(".orderLink").click(function (event) {
+                event.stopPropagation();
+                // Do something
+            });
+            $('.collapse').on('shown.bs.collapse', function () {
+                $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-window-close");
+            }).on('hidden.bs.collapse', function () {
+                $(this).parent().find(".fa-window-close").removeClass("fa-window-close").addClass("fa-angle-down");
+            });
+        </script>
+
+    </body>
 </html>
