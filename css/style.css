@@ -12,6 +12,10 @@ h1,h2,h3,h4,h5,h6{
 p,a,span {
 	font-family: 'Lato', sans-serif;
 }
+
+.font-bold {
+	font-weight:bold
+}
 /* buttons */
 .btn-round {
 	border-radius:5px;
@@ -68,7 +72,7 @@ section {
 }
 .navbar-default
 {
-    background:#ff8c23  ;
+    background:#ff922f  ;
     border:none ;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15)
 }
