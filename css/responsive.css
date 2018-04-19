@@ -11,4 +11,47 @@
 	.left-side-text {
 		margin-left:0;
 	}
+<<<<<<< HEAD
+=======
+	
+	.navbar-collapse {
+		background: #424141 !important;
+		z-index: 1;
+		margin-top:5px;
+	}
+	.book-sale 
+	{
+		padding:0px 30px 30px 30px;
+	}
+	.close-btn-respons 
+	{
+		position:relative;
+		bottom:30px;
+	}
+    
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+		color: #ff7417;
+	}
+
+}
+
+@media screen and (min-width:769px){
+	.download-btn {
+		background-color: #ea5e00;
+		padding: 12px 22px !important;
+		margin-top: 4px;
+		border-radius:4px;
+	}
+	
+	.download-btn:hover {
+		background-color: #da5700 !important;
+		color:#fff !important;
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:990px){
+	.book-sale {
+		padding: 43px 28px 43px 28px;
+	}
+>>>>>>> 9530c22c7d0cdc94f7bc5c9ba8552c72e29efc15
 }
