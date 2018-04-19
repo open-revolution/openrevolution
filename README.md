@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 **Open Revolution**
 
 
@@ -24,4 +22,3 @@ This website is a static website.
  - We deploy the website live using gitlab pipelines.
  - Just git push and the new version of the site will go live.
  - If you want to learn more about how this happens see .gitlab-ci.yml file.
->>>>>>> 9530c22c7d0cdc94f7bc5c9ba8552c72e29efc15
