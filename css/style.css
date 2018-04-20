@@ -266,6 +266,10 @@ section {
 .p-4 {
     padding-bottom:20px;
 }
+.p-4 a {
+	padding-bottom:5px;
+	display:block;
+}
 .sec-heading {
 	color:#0067a5;
 }
