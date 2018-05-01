@@ -36,6 +36,9 @@ a:hover {
 	background-color:#f56200;
 	color:#fff;
 }
+.btn-orange:focus,.btn-orange:active{
+	color:#fff;
+}
 
 .btn-green{
 	background-color:#9dd4b9;
@@ -492,4 +495,27 @@ section {
 .download-book-nav
 {
   cursor:pointer;  
+}
+
+/* for modal_2 */
+.modal2 .modal-header
+{
+    border-bottom:0 !important;
+}
+.modal2 img 
+{
+    margin-top:40px;
+}
+.modal2 h3
+{
+    margin-bottom:40px;
+    color:#109bec;
+}
+.modal2 .btn-orange
+
+{
+    font-size:20px  !important;
+      margin-bottom:40px;
+          padding: 4px 50px;
+          margin-top:20px;
 }

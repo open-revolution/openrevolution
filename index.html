@@ -65,7 +65,7 @@
 
                             <div class="book-btn">
                                 <a class="btn btn-round btn-green font-bold" data-toggle="modal" data-target="#downloadmodal">DOWNLOAD eBOOK</a>
-                            </div>
+                            </div><br>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,8 @@
                     <p class="text-center">
                         Lorem ipsum dolor sit amet, molestie nominati usu ei. An vix possim mollis,<br> mea id veri paulo. Eu vim exerci tritani, integre habemus vim in.
                     </p>
-
+					
+		
                     <div class="text-center search-form">
 						
 							<!-- Begin MailChimp Signup Form -->
@@ -300,6 +301,24 @@ mea id veri paulo.
 		</div>
 
 
+		<!-- Modal 2 code -->
+		<div class="modal2">
+			<div class="modal fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header text-center">
+				  <img height="100" src="img/massage.png">
+				  <h2>Thank you for subscribing!</h2>
+				  <h4>We have sent the download link in your email</h4>
+				  <p>Stay connected as we bring more ideas realted to Open Revolution each month!<p>
+				  <button type="button" class="btn btn-round btn-orange" name="subscribe" id="mc-embedded-subscribe" data-dismiss="modal" aria-label="Close">Great! </button>
+				</div>
+
+				</div>
+			</div>
+			</div>
+		</div>
+
         <script src="js/jquery-1.11.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script>
@@ -317,13 +336,19 @@ mea id veri paulo.
 
             $(".orderLink").click(function (event) {
                 event.stopPropagation();
-                // Do something
             });
             $('.collapse').on('shown.bs.collapse', function () {
                 $(this).parent().find(".fa-angle-down").removeClass("fa-angle-down").addClass("fa-window-close");
             }).on('hidden.bs.collapse', function () {
                 $(this).parent().find(".fa-window-close").removeClass("fa-window-close").addClass("fa-angle-down");
             });
+			
+			$(function(){
+			  if(window.location.hash) {
+				  var hash = window.location.hash;
+				  $(hash).modal('toggle');
+			  }
+		  });
         </script>
 
     </body>
