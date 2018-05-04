@@ -39,9 +39,8 @@
                         <li><a href="#quotes">Quotes</a></li>
                         <li><a href="#hardcopy">Hard Copy</a></li>
                         <li><a href="#newsletter">Newsletter</a></li>
-
+                        <li><a href="#donate" > Donate</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#payments-modal"> Donate</a></li>
 
                         <li><a data-toggle="modal" data-target="#downloadmodal" class="download-book-nav download-btn">Download eBook</a></li>
                     </ul>
@@ -203,7 +202,27 @@
             </div>
         </section>
 
+ <section class="donate" id="donate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
+                        <h3>Pay As You Wish</h3>
+                        <p>
+                           Open Revolution believes in spreading the idea for an open world for free. Being 100% free to download, we encourage you to donate an amount as per your wish to support the idea of Open Revolution.
+                        </p>
 
+                        <p>
+                            Add your contribution to the Open Revolution by Donating an amount by clicking the button below. We do not have a fixed donation amount and expect you to give a donation as per your wish. All the transactions are processed by Donorbox and are 100% secure.
+                        </p>
+                        <br/>
+                        <div class="book-btn">
+                            <a class="btn btn-round btn-orange font-bold" data-toggle="modal" data-target="#donatemodal">DONATE</a>
+                        </div>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="contact" class="section-contact">
             <div class="container">
@@ -317,34 +336,25 @@
             </div>
         </div>
 
-
-        <!-- Modal 2 code -->
-        <div class="modal2">
-            <div class="modal fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <img height="100" src="img/massage.png">
-                            <h2>Thank you for subscribing!</h2>
-                            <h4>We have sent the download link in your email</h4>
-                            <p>Stay connected as we bring more ideas realted to Open Revolution each month!<p>
-                                <button type="button" class="btn btn-round btn-orange" name="subscribe" id="mc-embedded-subscribe" data-dismiss="modal" aria-label="Close">Great! </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="payments-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="payment-modal">
-                    <iframe src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
-                            style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
-                </div>
-            </div>
-        </div>
+<!-- Modal -->
+<div class="for-donate">
+<div class="modal fade" id="donatemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body ">
+          <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
+        style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
 
         <script src="js/jquery-1.11.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -378,5 +388,6 @@
             });
         </script>
         <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+        <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
     </body>
 </html>

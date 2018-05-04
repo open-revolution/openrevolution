@@ -52,3 +52,19 @@
 		padding: 43px 28px 43px 28px;
 	}
 }
+@media only screen and (min-width: 320px) and (max-width:500px) {
+.donate-popup {
+    position: relative;
+    left:0;
+}
+}
+
+@media screen and (min-width:769px) and (max-width:990px){
+    .nav>li>a{
+      padding: 17px 4px;  
+    }
+    .left-side-text h1 
+    {
+            font-size: 70px;
+    }
+}
