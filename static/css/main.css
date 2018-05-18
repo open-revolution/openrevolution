@@ -6767,7 +6767,7 @@ p, ul, li, a {
   font-size: 14.5px; }
 
 .btn-custom {
-  padding: 14px 25px;
+  padding: 10px 25px;
   font-family: 'Fjalla One', sans-serif;
   font-size: 14px;
   border-radius: 6px; }
@@ -6790,10 +6790,38 @@ p, ul, li, a {
   -moz-box-shadow: 4px 4px 14px -1px rgba(254, 194, 14, 0.23);
   box-shadow: 4px 4px 14px -1px rgba(254, 194, 14, 0.23); }
 
+.input-custom {
+  background-color: #f8f8f8;
+  border: none !important;
+  padding: 10px 15px !important;
+  cursor: pointer; }
+
+.input-custom:focus {
+  background-color: #f2f2f2 !important;
+  box-shadow: none !important; }
+
+.input-custom::placeholder {
+  color: #909090; }
+
+.section-pad {
+  padding: 80px 0px 80px 0px !important; }
+
+.section-grey {
+  background-color: #f8f8f8; }
+
+.heading-main {
+  margin-bottom: 10px;
+  font-size: 35px !Important; }
+
+.heading-intro {
+  color: #ed1f24 !important; }
+
+.content {
+  margin: 10px 0px 0px 0px; }
+
 /* Homepage Code */
 /* Navabar */
 .hero {
-  background-color: #f8f8f8;
   height: 660px !important;
   /* navigation */
   /* banner */ }
@@ -6824,5 +6852,56 @@ p, ul, li, a {
     .hero .banner .btn-orange {
       font-family: 'Lato', sans-serif;
       font-weight: 700; }
+
+/************** what is open revolution *********/
+.whatisopen {
+  padding-right: 260px !important;
+  padding-left: 260px !important; }
+  @media screen and (max-width: 768px) {
+    .whatisopen {
+      padding-left: 0px !important;
+      padding-right: 0px !important; } }
+
+/**************** about rufus ****************/
+.about-rufus .content {
+  margin: 30px 0px 0px 0px !important; }
+  @media screen and (max-width: 768px) {
+    .about-rufus .content img {
+      float: none !important;
+      margin-bottom: 20px; } }
+  .about-rufus .content .description {
+    margin: 15px 0px 0px 0px; }
+    .about-rufus .content .description h5 {
+      color: #45a2b4 !important; }
+
+/********************* pay for hardcopy ***********/
+.pay-for-hardcopy .content {
+  margin: 0px 0px 0px 0px !important; }
+  .pay-for-hardcopy .content h2 {
+    margin-bottom: 40px !Important; }
+  .pay-for-hardcopy .content a img {
+    transition: transform .2s;
+    /* Animation */
+    margin-top: 87px;
+    width: 50%; }
+  .pay-for-hardcopy .content a:hover img {
+    transform: scale(1.01); }
+
+/******************pay-as-youwish*********************/
+.pay-as-youwish {
+  padding: 0px 0px 80px 0px !Important; }
+  .pay-as-youwish .content {
+    margin: 0px 0px 0px 0px !important; }
+    .pay-as-youwish .content h2 {
+      margin-bottom: 40px !Important; }
+    .pay-as-youwish .content img {
+      width: 35% !important;
+      margin-top: 60px; }
+    .pay-as-youwish .content .btn-custom {
+      margin-top: 30px; }
+
+/***************** contact us *******************/
+.contact-us p {
+  padding-right: 50px !important; }
 
 /*# sourceMappingURL=main.css.map */

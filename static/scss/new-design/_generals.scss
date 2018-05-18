@@ -21,7 +21,7 @@ p,ul,li,a
 }
 .btn-custom 
 {
-    padding:14px 25px;
+    padding:10px 25px;
     font-family: 'Fjalla One', sans-serif;
     font-size:14px;
     border-radius:6px;
@@ -48,4 +48,42 @@ p,ul,li,a
     -webkit-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
     -moz-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
     box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
+}
+.input-custom 
+{
+    background-color:$grey;
+    border:none !important;
+    padding:10px 15px !important;
+    cursor:pointer;
+}
+.input-custom:focus 
+{
+    background-color:$inputhovercolor !important;
+    box-shadow: none !important;
+    
+}
+.input-custom::placeholder 
+{
+    color:$inputgrey;
+}
+.section-pad
+{
+    padding:80px 0px 80px 0px !important;
+} 
+.section-grey 
+{
+    background-color:$grey;
+}
+.heading-main 
+{
+    margin-bottom:10px;
+    font-size:35px !Important;
+}
+.heading-intro 
+{
+    color:$red !Important;
+}
+.content
+{
+    margin:10px 0px 0px 0px;
 }

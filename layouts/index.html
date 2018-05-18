@@ -2,13 +2,14 @@
 
 <body class="home-template">
 
-  <section class="hero">
+  
+  <section class="hero section-grey">
       <div class="container">
           {{ partial "navbar.html" . }}
-      </div>
+      
       
       <div class="banner">
-        <div class="container">
+        
           <div class="row">
             <div class="col-sm-5">
               <img src="img/open-revolution-cover.jpg" class="img-fluid mx-auto d-block" alt="Responsive image"/>
@@ -26,11 +27,150 @@
         </div>
       </div>
   </section>
-  
  
+  <!------------- what is open revolution section ---------------->
 
+  <section class="whatisopen section-pad">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center">
+              <h2 class="heading-main">What is <br> Open Revolution?</h2>
+              <p class="heading-intro">Open Revolution is available for reading in various formats.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="content">
+              <p class=text-center>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?""</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
   
+ <!---------------- about rufus pollock ---------------->
+
+ <section class="about-rufus section-pad section-grey">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+          <div class="text-center">
+              <h2 class="heading-main">About<br>Dr. Rufus Pollock</h2>
+              <p class="heading-intro">Dr Rufus Pollock is an entrepreneur, researcher and technologist working<br> 
+                  to make a digital information economy that works for everyone.</p>
+          </div>
+       </div>
+     </div>
+     <div class="content">
+        <div class="row">
+            <div class="col-sm-4">
+              <img src="img/rufus.jpg" class="img-fluid float-right"/>
+            </div>
+            <div class="col-sm-8">
+              <div class="description">
+                <h5>BACKGROUND</h5>
+                <p>Founder and President of Open Knowledge. He has advised national governments, IGOs, companies and NGOs on how to succeed in the digital world.</p>
+              </div>
+              <div class="description">
+                <h5>EDUCATION</h5>
+                <p>He holds a double first in Mathematics and a PhD in Economics <br> from the University of Cambridge.</p>
+              </div>
+              <div class="description">
+                <h5>ACCOMPLISHMENTS</h5>
+                <p>He is an Ashoka Fellow, a Fellow of the RSA, a recipient of a three year $1m Shuttleworth Foundation Fellowship as well as the Mead Fellowship in Economics at Emmanuel College, University of Cambridge.</p>
+              </div>
+            </div>
+       </div>
+     </div>
+     
+   </div>
+ </section>
+
+
+ <!---------------- pay-for-hardcopy ---------------->
+
+ <section class="pay-for-hardcopy section-pad ">
+   <div class="container">
+     
+     <div class="content">
+       <div class="row">
+         <div class="col-sm-6">
+            <h2 class="heading-main">Pay For Hard Copy</h2>
+            <p>Open Revolution is available for reading in various formats. The e-book version is always free to download and read. In case you're looking for an immersive reading experience, Open Revolution is also available to be ordered as a hard copy. Click on the below given link to know about hard copy of Open Revolution.</p>
+            <p>You can also request the printed version of the book by reaching us out through the contact form. Our team will reach you out promptly to address your request regarding hard copy of the book.</p>
+          </div>
+         <div class="col-sm-6">
+           <a href="http://www.amazon.com" target="_blank" >
+            <img src="img/amazonbtn.png" class="img-fluid mx-auto d-block"/>
+            </a>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+ <!---------------- pay-as-youwish ---------------->
+
+ <section class="pay-as-youwish">
+    <div class="container">
+ 
+      <div class="content">
+        <div class="row">
+          <div class="col-sm-6">
+             <img src="img/payment-method.png" class="img-fluid mx-auto d-block"/>
+          </div>
+          <div class="col-sm-6">
+              <h2 class="heading-main">Pay As You wish</h2>
+              <p>Open Revolution is available for reading in various formats. The e-book version is always free to download and read. In case you're looking for an immersive reading experience, Open Revolution is also available to be ordered as a hard copy. Click on the below given link to know about hard copy of Open Revolution.</p>
+              <p>You can also request the printed version of the book by reaching us out through the contact form. Our team will reach you out promptly to address your request regarding hard copy of the book.</p>
+              <a class="btn btn-custom btn-orange">DONATE</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
+  <!---------------- contact us ---------------->
+
+  <section class=" contact-us section-pad">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+            <h2 class="heading-main">Contact Us</h2>
+            <p class="heading-intro">Seach us out for any queries, feel free to ask questions and demand 
+                hard copies of the Open Revolution Book!</p>
+
+        </div>
+        <div class="col-sm-6">
+            <form>
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                          <input type="email" class="form-control input-custom " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                          <input type="email" class="form-control input-custom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="form-group">
+                          <textarea class="form-control input-custom" rows="4" id="comment" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+              </div> 
+                <button type="submit" class="btn btn-custom btn-blue">Send Message</button>
+              </form>  
+        </div>
+      </div>
+    </div>
+  </section>
   {{ partial "footer.html" . }}
 
   {{ partial "script.html" . }}

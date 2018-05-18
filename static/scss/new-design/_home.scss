@@ -3,7 +3,6 @@
 /* Navabar */ 
 .hero
 {
-    background-color:$grey;
     height:660px !important;
 
     /* navigation */
@@ -59,7 +58,107 @@
             font-weight:700;
         }
     }
-   
+}
+
+ /************** what is open revolution *********/
+
+ .whatisopen{
+    padding-right:260px!important;
+    padding-left:260px!important;
+
+    @media screen and (max-width:768px) {
+        
+            padding-left:0px !important;
+            padding-right:0px !important;
+    }
+        
+    }
+
+/**************** about rufus ****************/ 
+
+.about-rufus{
+
+    .content{
+
+        margin:30px 0px 0px 0px !important;
+
+        img{
+            @media screen and (max-width:768px) {
+                
+                    float:none !important;
+                    margin-bottom:20px;
+            }
+        }
+        
+        .description{
+            margin:15px 0px 0px 0px;
+
+            h5{
+                color:$blue !important;
+            }
+        }
+    }
+}
+
+/********************* pay for hardcopy ***********/ 
+
+.pay-for-hardcopy{
+
+    
+    .content{
+        margin:0px 0px 0px 0px !important;
+
+        h2{
+            margin-bottom:40px !Important;
+        }
+
+        a{
+            img{
+                transition: transform .2s; /* Animation */
+                margin-top:87px;
+                width:50%;
+            }
+        }
+        a:hover{
+
+            img{
+                transform: scale(1.01);
+            }
+        }
+    }
+}
+
+
+/******************pay-as-youwish*********************/
+.pay-as-youwish{
+    
+        padding:0px 0px 80px 0px !Important; 
+
+        .content{
+
+            margin:0px 0px 0px 0px !important;
+
+            h2{
+                margin-bottom:40px !Important;
+            }
+
+            img{
+                width:35% !important;
+                margin-top:60px;
+            }
+            .btn-custom{
+                margin-top:30px;
+            }
+        }
+    }
+
+
+/***************** contact us *******************/ 
+
+.contact-us{
+    p{
+        padding-right:50px !important;
+    }
 }
 
 
