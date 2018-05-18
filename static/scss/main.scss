@@ -2,19 +2,8 @@
 @charset "utf-8";
 
 @import
-  "normalize",
-  "bourbon/bourbon",
-  "base/base",
-  "neat/neat",
-  "icons/icons",
-  "custom/bullets",
-  "custom/general",
-  "custom/navbar",
-  "custom/home",
-  "custom/ideas",
-  "custom/sections",
-  "custom/faq",
-  "refills/logos",
-  "refills/footer",
-  "refills/tables"
+  "bootstrap-4.1.1/scss/bootstrap.scss",
+  "new-design/generals",
+  "new-design/home",
+  "new-design/typography"
 ;

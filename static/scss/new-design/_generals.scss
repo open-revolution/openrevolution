@@ -1,0 +1,51 @@
+@import "colors";
+body {
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-family: 'Fjalla One', sans-serif;
+    padding:0px;
+    margin:0px;
+    color:$black;
+
+}
+p
+{
+    color:$textgrey;
+}
+p,ul,li,a 
+{
+    font-family: 'Lato', sans-serif;
+    font-size:14.5px;
+}
+.btn-custom 
+{
+    padding:14px 25px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:14px;
+    border-radius:6px;
+}
+.btn-blue 
+{
+    background:$blue;
+    color:$white;
+}
+.btn-blue:hover 
+{
+    webkit-box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
+    -moz-box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
+    box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
+
+}
+.btn-orange 
+{
+    background:$orange;
+    color:$black;
+}
+.btn-orange:hover
+{
+    -webkit-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
+    -moz-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
+    box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
+}

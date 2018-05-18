@@ -2,45 +2,35 @@
 
 <body class="home-template">
 
-  {{ partial "navbar.html" . }}
-
   <section class="hero">
-    <div class="book">
-      <h1>OPEN REVOLUTION</h1>
-      <h2>"New rules for a new world"</h2>
-    </div>
-    <div class="main-content">
-      <h1 class="book-title">OPEN REVOLUTION</h1>
-      <h2 class="book-subtitle">"New rules for a new world"</h2>
-      <a href="/data/book.pdf" class="button" target="_blank">DOWNLOAD BOOK</a>
-    </div>
+      <div class="container">
+          {{ partial "navbar.html" . }}
+      </div>
+      
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+              <img src="img/open-revolution-cover.jpg" class="img-fluid mx-auto d-block" alt="Responsive image"/>
+            </div>
+            <div class="col-sm-6">
+              <h1 class="heading">OPEN<br> REVOLUTION</h1>
+              <p>- By Dr. Rufus Pollock</p>
+              <p>An open world, a world in which information is openly and freely available 
+                  to us all, is not only desirable and necessary – it is possible too.
+              </p> 
+              <button class="btn btn-custom btn-blue" type="button">FREE e-BOOK DOWNLOAD</button>
+              <button class="btn btn-custom btn-orange" type="button">Crowd Fund the Documentary</button>  
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
+  
+ 
 
-  <section class="quotes">
-    <div class="quote-wrapper">
-      <p class="quote-text">
-        "He who receives an idea from me receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me."
-      </p>
-      <p class="quote-author">
-        Thomas Jefferson to Isaac McPherson, 13 Aug 1813
-      </p>
-    </div>
-    <div class="quote-wrapper">
-      <p class="quote-text">
-        "Monopolies are dangerous both to our economies and our societies. We need new rules for this new world. Rules appropriate to the information economy; that preserve fairness and freedom. Most of all, we need Open information."
-      </p>
-      <p class="quote-author">
-        Dr Rufus Pollock
-      </p>
-    </div>
-  </section>
-
-  <section class="author">
-    <div class="img-wrapper">
-      <img src="{{ $.Site.BaseURL }}img/rufus.jpeg" class="img-circular-square" />
-    </div>
-  </section>
-
+  
+  
   {{ partial "footer.html" . }}
 
   {{ partial "script.html" . }}
