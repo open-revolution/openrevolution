@@ -84,10 +84,15 @@ p, ul, li, a {
   margin-left: 10px;
   padding: 10px 25px !important; }
 
+footer {
+  width: 100%;
+  border-top: 5px solid grey; }
+
 /* Homepage Code */
 /* Navabar */
 .hero {
   height: auto;
+  border-bottom: 1px solid #ececec;
   /* banner */ }
   .hero .banner {
     padding: 20px 0px 75px 0px; }
@@ -106,14 +111,22 @@ p, ul, li, a {
       font-family: 'Lato', sans-serif;
       font-weight: 700; }
 
+/******* Amazon button ***********/
+.amazonbtn {
+  padding: 15px 50px;
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 100px;
+  position: relative;
+  top: -13px;
+  color: #000;
+  text-decoration: underline; }
+
 /************** what is open revolution *********/
-.whatisopen {
-  padding-right: 260px !important;
-  padding-left: 260px !important; }
-  @media screen and (max-width: 768px) {
-    .whatisopen {
-      padding-left: 0px !important;
-      padding-right: 0px !important; } }
+@media screen and (max-width: 768px) {
+  .whatisopen {
+    padding-left: 0px !important;
+    padding-right: 0px !important; } }
 
 /**************** about rufus ****************/
 .about-rufus .content {
@@ -122,10 +135,24 @@ p, ul, li, a {
     .about-rufus .content img {
       float: none !important;
       margin-bottom: 20px; } }
+  .about-rufus .content .description:first-child {
+    margin-top: 0; }
+    @media screen and (max-width: 768px) {
+      .about-rufus .content .description:first-child {
+        margin-top: 25px; } }
   .about-rufus .content .description {
     margin: 15px 0px 0px 0px; }
     .about-rufus .content .description h5 {
       color: #45a2b4 !important; }
+    @media screen and (max-width: 768px) {
+      .about-rufus .content .description {
+        margin-top: 25px; }
+        .about-rufus .content .description .description:first-child {
+          margin-top: 0; } }
+.about-rufus a {
+  color: #ed1f24;
+  margin-right: 10px;
+  font-size: 1.6em; }
 
 /********************* pay for hardcopy ***********/
 .pay-for-hardcopy .content {
@@ -136,9 +163,11 @@ p, ul, li, a {
     transition: transform .2s;
     /* Animation */
     margin-top: 87px;
-    width: 50%; }
-  .pay-for-hardcopy .content a:hover img {
-    transform: scale(1.01); }
+    width: 250px; }
+    @media screen and (max-width: 480px) {
+      .pay-for-hardcopy .content a img {
+        width: 200px;
+        margin-top: 20px; } }
 
 /******************pay-as-youwish*********************/
 .pay-as-youwish {
@@ -148,8 +177,14 @@ p, ul, li, a {
     .pay-as-youwish .content h2 {
       margin-bottom: 40px !Important; }
     .pay-as-youwish .content img {
-      width: 35% !important;
-      margin-top: 60px; }
+      margin-top: 60px;
+      margin-bottom: 50px;
+      width: 200px; }
+      @media screen and (max-width: 480px) {
+        .pay-as-youwish .content img {
+          width: 120px;
+          margin-top: 20px;
+          display: none !important; } }
     .pay-as-youwish .content .btn-custom {
       margin-top: 30px; }
 
@@ -157,6 +192,7 @@ p, ul, li, a {
 .contact-us p {
   padding-right: 50px !important; }
 
+/**************** subscribe *********************/
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 50px !important; } }

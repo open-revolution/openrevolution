@@ -4,7 +4,7 @@
 .hero
 {
     height:auto;
-    
+    border-bottom: 1px solid #ececec;
     /* banner */
     .banner{
         padding:20px 0px 75px 0px;
@@ -33,11 +33,21 @@
     }
 }
 
+
+/******* Amazon button ***********/
+.amazonbtn {
+    padding:15px 50px;
+    background-color:#d9d9d9;
+    border:0;
+    border-radius:100px;
+    position: relative;
+    top: -13px;
+    color:#000;
+    text-decoration:underline;
+}
  /************** what is open revolution *********/
 
  .whatisopen{
-    padding-right:260px!important;
-    padding-left:260px!important;
 
     @media screen and (max-width:768px) {
         
@@ -63,13 +73,34 @@
             }
         }
         
+        
+        .description:first-child {
+            margin-top:0;
+            @media screen and (max-width:768px){
+                margin-top:25px;
+            }
+        }
+
         .description{
             margin:15px 0px 0px 0px;
-
+           
             h5{
                 color:$blue !important;
             }
+            @media screen and (max-width:768px){
+                margin-top:25px;
+                .description:first-child {
+                    margin-top:0;
+                }
+            }
         }
+
+    }
+
+    a {
+        color:$red;
+        margin-right:10px;
+        font-size:1.6em;
     }
 }
 
@@ -89,14 +120,14 @@
             img{
                 transition: transform .2s; /* Animation */
                 margin-top:87px;
-                width:50%;
-            }
-        }
-        a:hover{
+                width:250px;
 
-            img{
-                transform: scale(1.01);
+                @media screen and (max-width:480px){
+                    width:200px;
+                    margin-top:20px;
+                }
             }
+            
         }
     }
 }
@@ -116,8 +147,15 @@
             }
 
             img{
-                width:35% !important;
                 margin-top:60px;
+                margin-bottom:50px;
+                width:200px;
+
+                @media screen and (max-width:480px){
+                    width:120px;
+                    margin-top:20px;
+                    display:none !important;
+                }
             }
             .btn-custom{
                 margin-top:30px;
@@ -132,6 +170,12 @@
     p{
         padding-right:50px !important;
     }
+}
+
+
+/**************** subscribe *********************/
+.subscribe {
+
 }
 
 
