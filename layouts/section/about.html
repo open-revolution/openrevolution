@@ -2,7 +2,9 @@
 
 <body class="home-template">
 
-  {{ partial "navbar.html" . }}
+  <div class="container">
+    {{ partial "navbar.html" . }}
+ 
 
   <section class="about">
     <div class="content-wrapper">
@@ -10,6 +12,8 @@
       {{ .Content }}
     </div>
   </section>
+
+  </div>
 
   {{ partial "footer.html" . }}
 

@@ -3,46 +3,19 @@
 /* Navabar */ 
 .hero
 {
-    height:660px !important;
-
-    /* navigation */
-
-    .nav-custom {
-        .navbar-brand{
-            color:$red !important;
-            margin:15px 0px 15px 0px;
-        }
-        .navbar-nav{
-            .nav-item{ 
-                    margin-left:45px;
-                   
-                
-                .nav-link{
-                    color:$black;
-                }
-                .nav-link:hover{
-                    color:$textgrey;
-                }
-                
-            }
-            .nav-item{
-                .btn-custom{
-                    margin-left:10px;
-                    padding:10px 25px !important;
-                }
-            }
-        }
-    }
-
+    height:auto;
+    
     /* banner */
     .banner{
-        margin:60px 0px 15px 0px;
+        padding:20px 0px 75px 0px;
 
-        img{
-            height:40%;
+        .cover-img {
+            width:80%;
+            margin-bottom:30px;
         }
+
         .heading{
-            font-size:90px !important;
+            font-size:90px;
         }
         p:nth-child(2){
             margin:10px 0px 25px 0px;
@@ -72,7 +45,7 @@
             padding-right:0px !important;
     }
         
-    }
+}
 
 /**************** about rufus ****************/ 
 
