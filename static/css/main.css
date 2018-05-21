@@ -193,8 +193,87 @@ footer {
   padding-right: 50px !important; }
 
 /**************** subscribe *********************/
+.subscribe {
+  padding: 80px 0px 0px 0px !important; }
+  .subscribe p {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .subscribe .input-custom {
+    background-color: #f1f1f1; }
+
+/**************** footer *********************/
+footer {
+  margin-top: 50px;
+  margin-bottom: 10;
+  border-top: 2px solid #d7d7d7 !important; }
+  footer ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  footer li {
+    display: inline;
+    margin: 0 30px 0 0;
+    text-align: center;
+    text-transform: uppercase; }
+  footer a {
+    color: #000; }
+
+/**************** carousel*********************/
+.carousel p {
+  color: #ed1f24;
+  margin-top: 10px; }
+.carousel .item img {
+  border-radius: 50%;
+  margin-top: 50px; }
+.carousel .item .author-detail {
+  font-weight: normal;
+  margin-top: 30px;
+  color: #000; }
+.carousel .item h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 10px; }
+  .carousel .item h2 span {
+    font-size: 20px; }
+
 @media screen and (max-width: 768px) {
   .heading {
     font-size: 50px !important; } }
+.about {
+  height: auto;
+  border-bottom: 1px solid #ececec;
+  /* banner */ }
+  .about .banner {
+    padding: 20px 0px 0px 0px; }
+    .about .banner .cover-img {
+      width: 80%;
+      margin-bottom: 30px; }
+    .about .banner .heading {
+      font-size: 90px; }
+    .about .banner .heading-main {
+      margin: 6px 0px 20px 0px; }
+    .about .banner .btn-blue {
+      margin-right: 10px; }
+    .about .banner .btn-orange {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700; }
+    .about .banner .quote {
+      margin: 80px 0px 80px 0px; }
+      .about .banner .quote span {
+        color: #45a2b4; }
+
+.about-page .heading-intro {
+  margin: 30px 0px 30px 0px !important; }
+.about-page .content .description {
+  margin: 25px 0px 0px 0px !important; }
+.about-page .content strong {
+  color: #6b6b6b;
+  position: relative;
+  bottom: 5px;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -138,7 +138,41 @@
       </div>
     </div>
   </section>
-  
+   <!---------------- testimonial  ---------------->
+   <section class="carousel section-grey section-pad">
+   <div class="container">
+	<div class="testimonial text-center">
+		<div class="item"><h1>Quotes <br>about Open Revolution</h1>
+			<P >Following are the thoughts of the people who read the Open Revolution</P>
+			<img  src="img/author1.jpg">
+			<p class="author-detail">Founder and President of Open Knowledge. He has Advised nation-<br>al governments,IGOs,Companies and NGOs on How to succees in<br>the digital word. </p>
+		<h2>
+		keri nicholas<br>
+		<span>Journalist</span>
+		</h2>
+		</div>
+		<div class="item"><h1>Quotes <br>about Open Revolution</h1>
+			<P >Following are the thoughts of the people who read the Open Revolution</P>
+			<img  src="img/author2.jpg">
+			<p class="author-detail">Founder and President of Open Knowledge. He has Advised nation-<br>al governments,IGOs,Companies and NGOs on How to succees in<br>the digital word. </p>
+		<h2>
+		keri nicholas<br>
+		<span>Journalist</span>
+		</h2>
+		</div>
+		<div class="item"><h1>Quotes <br>about Open Revolution</h1>
+			<P >Following are the thoughts of the people who read the Open Revolution</P>
+			<img  src="img/author3.jpg">
+			<p class="author-detail">Founder and President of Open Knowledge. He has Advised nation-<br>al governments,IGOs,Companies and NGOs on How to succees in<br>the digital word. </p>
+		<h2>
+		keri nicholas<br>
+		<span>Journalist</span>
+		</h2>
+		</div>
+	</div>
+	</div>
+	</div>
+</section>
   <!---------------- contact us ---------------->
 
   <section class=" contact-us section-pad">
@@ -184,7 +218,23 @@
         <div class="row">
           <div class="col-sm-12 text-center">
               <h2 class="heading-main">Subscribe and Download</h2>
-          </div>
+			  <p>Subscribe to our monthly newsletter to receive ideas about Open Data each <br> month and stay engaged with the concept.<br>Also get a download link tto Open Revolution Book by submitting your email!</p>
+         <form>
+              <div class="row">
+                  <div class="col-sm-5 offset-sm-3">
+                      <div class="form-group">
+                          <input type="email" class="form-control input-custom " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your email">
+                      </div>
+                  </div>
+                  <div class="col-sm-2">
+                      <button type="submit" class="btn btn-custom btn-blue">Subscribe</button>
+                  </div>
+              </div>
+            
+              
+              </form>  
+
+		 </div>
             
 
         
@@ -194,8 +244,20 @@
       </div>
   </section>
 
-
+	
 
   {{ partial "script.html" . }}
+  <script>
+
+            $('.testimonial').owlCarousel({
+                loop:true,
+                margin:12,
+                responsiveClass:true,
+				navigation:true,
+                navText : ["<div class='move-other'><img class='move-images' src='img/right-arrow-10.png'></div>"],
+				singleItem:true
+            })
+        </script>
+ 
 </body>
 </html>
