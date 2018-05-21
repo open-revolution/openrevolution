@@ -30,7 +30,7 @@ p,ul,li,a
 .btn-blue 
 {
     background:$blue;
-    color:$white;
+    color:$white !important; 
 }
 .btn-blue:hover 
 {
@@ -49,13 +49,13 @@ p,ul,li,a
     -webkit-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
     -moz-box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
     box-shadow: 4px 4px 14px -1px rgba(254,194,14,0.23);
+    color:$black;
 }
 .input-custom 
 {
     background-color:$grey;
     border:none !important;
     padding:10px 15px !important;
-    cursor:pointer;
 }
 .input-custom:focus 
 {
