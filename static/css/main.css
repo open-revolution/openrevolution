@@ -276,4 +276,42 @@ footer {
   bottom: 5px;
   margin-right: 10px; }
 
+.event {
+  height: auto;
+  border-bottom: 0px solid #ececec;
+  /* banner */ }
+  .event .banner {
+    padding: 100px 0px 100px 0px; }
+    .event .banner .cover-img {
+      width: 80%;
+      margin-bottom: 30px; }
+    .event .banner .heading {
+      font-size: 90px; }
+    .event .banner .heading-main {
+      margin: 20px 0px 20px 0px;
+      color: #45a2b4; }
+    .event .banner h5 {
+      margin: 40px 0px 40px 0px;
+      font-family: 'Lato', sans-serif !important;
+      color: #696969; }
+    .event .banner h5 .fa {
+      color: #ed1f24;
+      margin-right: 10px; }
+    .event .banner .date {
+      margin: 40px 0px 10px 0px; }
+    .event .banner .btn-blue {
+      margin-right: 10px; }
+    .event .banner .btn-orange {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700; }
+    .event .banner .quote {
+      margin: 80px 0px 80px 0px; }
+      .event .banner .quote span {
+        color: #45a2b4; }
+    @media screen and (max-width: 480px) {
+      .event .banner {
+        padding-top: 50px; }
+        .event .banner h5 {
+          font-size: 16px; } }
+
 /*# sourceMappingURL=main.css.map */
