@@ -37,7 +37,7 @@ p,ul,li,a
     webkit-box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
     -moz-box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
     box-shadow: 4px 4px 14px -1px rgba(69,162,180,0.23);
-
+    color:$white !important;
 }
 .btn-orange 
 {
@@ -94,6 +94,10 @@ p,ul,li,a
     .navbar-brand{
         color:$red !important;
         margin:0px 0px 15px 0px;
+
+        @media screen and (max-width:768px){
+            margin: 0px 0px 0px 0px;
+        }
     }
     .navbar-nav{
 
@@ -117,6 +121,12 @@ p,ul,li,a
             }
         }
     }
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,0);
+    outline:none;
+    padding: 0 !important;
 }
 
 

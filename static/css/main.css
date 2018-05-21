@@ -29,7 +29,8 @@ p, ul, li, a {
 .btn-blue:hover {
   webkit-box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
   -moz-box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
-  box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23); }
+  box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
+  color: #fff !important; }
 
 .btn-orange {
   background: #fec10e;
@@ -72,6 +73,9 @@ p, ul, li, a {
 .nav-custom .navbar-brand {
   color: #ed1f24 !important;
   margin: 0px 0px 15px 0px; }
+  @media screen and (max-width: 768px) {
+    .nav-custom .navbar-brand {
+      margin: 0px 0px 0px 0px; } }
 .nav-custom .navbar-nav li {
   padding-top: 15px; }
 .nav-custom .navbar-nav .nav-item {
@@ -83,6 +87,12 @@ p, ul, li, a {
 .nav-custom .navbar-nav .nav-item .btn-custom {
   margin-left: 10px;
   padding: 10px 25px !important; }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+  outline: none;
+  padding: 0 !important; }
 
 footer {
   width: 100%;
@@ -110,6 +120,10 @@ footer {
     .hero .banner .btn-orange {
       font-family: 'Lato', sans-serif;
       font-weight: 700; }
+
+.donatefunds .fa {
+  color: #ed1f24;
+  margin-left: 5px; }
 
 /******* Amazon button ***********/
 .amazonbtn {
@@ -275,6 +289,14 @@ footer {
   position: relative;
   bottom: 5px;
   margin-right: 10px; }
+
+.donate {
+  padding-bottom: 0px; }
+  .donate .heading {
+    font-size: 50px;
+    padding-bottom: 15px; }
+  .donate .heading-main {
+    color: #45a2b4; }
 
 .event {
   height: auto;

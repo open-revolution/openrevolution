@@ -1,0 +1,58 @@
+{{ partial "head.html" . }}
+
+<body class="home-template  section-grey">
+
+    <section class="donate">
+        
+              <div class="container">
+                  {{ partial "navbar.html" . }}
+              
+              
+              <div class="banner">
+                
+                  <div class="row">
+                    
+                    <div class="col-sm-6">
+                      <br/><br/>
+                      <h2 class="heading-main">Pay As You Wish</h2>
+                      <h1 class="heading">DONATE FUNDS</h1>
+                      <p>Open Revolution is available for reading in various formats. The e-book version is always free to download and read. In case you're looking for an immersive reading experience, Open Revolution is also available to be ordered as a hard copy. Click on the below given link to know about hard copy of Open Revolution.
+                      </p><p>    
+                          You can also request the printed version of the book by reaching us out through the contact form. Our team will reach you out promptly to address your request regarding hard copy of the book.</p>
+                          
+                          <p>You can also request the printed version of the book by reaching us out through the contact form. Our team will reach you h the contact form. Our team will reach you out promptly to address your request regarding hard copy of the book out promptly to address your request regarding hard copy of the book.</p>
+                    </div>
+                    <div class="col-sm-5 offset-sm-1">
+                        <br/><br/>
+                        <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
+                        style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+   <!---- <section class="about text-center">
+      <div class="content-wrapper">
+        <h1 class="page-title">{{ .Title }}</h1>
+		
+        {{ .Content }}
+      </div>--->
+    </section>
+  </div>
+
+ 
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+          {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </div>
+  
+
+  {{ partial "script.html" . }}
+</body>
+</html>
