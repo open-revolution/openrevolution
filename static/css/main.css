@@ -212,6 +212,8 @@ footer {
   .subscribe p {
     margin-top: 20px;
     margin-bottom: 50px; }
+  .subscribe p.color-red {
+    color: #ed1f24; }
   .subscribe .input-custom {
     background-color: #f1f1f1; }
 
