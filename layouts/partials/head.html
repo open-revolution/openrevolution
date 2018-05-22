@@ -34,6 +34,9 @@
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
+    <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}img/favicon.png" />
+
+
     <meta name="google-site-verification" content="SBKnjLpgAmZYm6nKcTJ2ED_g31VYRTsVR3jeM9oIhYc" />
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
