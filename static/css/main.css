@@ -13,7 +13,7 @@ p {
 
 p, ul, li, a {
   font-family: 'Lato', sans-serif;
-  font-size: 14.5px; }
+  font-size: 16px; }
 
 .btn-custom {
   padding: 10px 25px;
@@ -72,7 +72,8 @@ p, ul, li, a {
 
 .nav-custom .navbar-brand {
   color: #ed1f24 !important;
-  margin: 0px 0px 15px 0px; }
+  margin: 0px 0px 15px 0px;
+  font-family: 'Fjalla One', sans-serif; }
   @media screen and (max-width: 768px) {
     .nav-custom .navbar-brand {
       margin: 0px 0px 0px 0px; } }
@@ -310,7 +311,8 @@ footer {
       width: 80%;
       margin-bottom: 30px; }
     .event .banner .heading {
-      font-size: 90px; }
+      padding-top: 20px;
+      font-size: 70px; }
     .event .banner .heading-main {
       margin: 20px 0px 20px 0px;
       color: #45a2b4; }
