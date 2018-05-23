@@ -168,6 +168,18 @@
         }
     }
 
+	
+.download-for-free {
+	padding-bottom:80px;
+	
+	form {
+		margin-top:80px;
+		
+		@media screen and (max-width:768px){
+			margin-top:20px;
+		}
+	}
+}
 
 /***************** contact us *******************/ 
 

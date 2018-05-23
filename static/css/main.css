@@ -203,6 +203,14 @@ footer {
     .pay-as-youwish .content .btn-custom {
       margin-top: 30px; }
 
+.download-for-free {
+  padding-bottom: 80px; }
+  .download-for-free form {
+    margin-top: 80px; }
+    @media screen and (max-width: 768px) {
+      .download-for-free form {
+        margin-top: 20px; } }
+
 /***************** contact us *******************/
 .contact-us p {
   padding-right: 50px !important; }
