@@ -1,0 +1,281 @@
+/* Homepage Code */
+
+/* Navabar */ 
+.hero
+{
+    height:auto;
+    border-bottom: 1px solid #ececec;
+    /* banner */
+    .banner{
+        padding:20px 0px 75px 0px;
+
+        .cover-img {
+            width:80%;
+            margin-bottom:30px;
+        }
+
+        .heading{
+            font-size:90px;
+        }
+        p:nth-child(2){
+            margin:10px 0px 25px 0px;
+        }
+        p:nth-child(3){
+            margin:0px 0px 40px 0px;
+        }
+        .btn-blue{
+            margin-right:10px;
+        }
+        .btn-orange{
+            font-family: 'Lato', sans-serif;
+            font-weight:700;
+        }
+    }
+}
+
+.donatefunds .fa {
+    color:$red;
+    margin-left:5px;
+}
+
+
+/******* Amazon button ***********/
+.amazonbtn {
+    padding:15px 50px;
+    background-color:#d9d9d9;
+    border:0;
+    border-radius:100px;
+    position: relative;
+    top: -13px;
+    color:#000;
+    text-decoration:underline;
+}
+ /************** what is open revolution *********/
+
+ .whatisopen{
+
+    @media screen and (max-width:768px) {
+        
+            padding-left:0px !important;
+            padding-right:0px !important;
+    }
+        
+}
+
+/**************** about rufus ****************/ 
+
+.about-rufus{
+
+    .content{
+
+        margin:30px 0px 0px 0px !important;
+
+        img{
+            @media screen and (max-width:768px) {
+                
+                    float:none !important;
+                    margin-bottom:20px;
+            }
+        }
+        
+        
+        .description:first-child {
+            margin-top:0;
+            @media screen and (max-width:768px){
+                margin-top:25px;
+            }
+        }
+
+        .description{
+            margin:15px 0px 0px 0px;
+           
+            h5{
+                color:$blue !important;
+            }
+            @media screen and (max-width:768px){
+                margin-top:25px;
+                .description:first-child {
+                    margin-top:0;
+                }
+            }
+        }
+
+    }
+
+    a {
+        color:$red;
+        margin-right:10px;
+        font-size:1.6em;
+    }
+}
+
+/********************* pay for hardcopy ***********/ 
+
+.pay-for-hardcopy{
+
+    
+    .content{
+        margin:0px 0px 0px 0px !important;
+
+        h2{
+            margin-bottom:40px !Important;
+        }
+
+        a{
+            img{
+                transition: transform .2s; /* Animation */
+                margin-top:87px;
+                width:250px;
+
+                @media screen and (max-width:480px){
+                    width:200px;
+                    margin-top:20px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+/******************pay-as-youwish*********************/
+.pay-as-youwish{
+    
+        padding:0px 0px 80px 0px !Important; 
+
+        .content{
+
+            margin:0px 0px 0px 0px !important;
+
+            h2{
+                margin-bottom:40px !Important;
+            }
+
+            img{
+                margin-top:60px;
+                margin-bottom:50px;
+                width:200px;
+
+                @media screen and (max-width:480px){
+                    width:120px;
+                    margin-top:20px;
+                    display:none !important;
+                }
+            }
+            .btn-custom{
+                margin-top:30px;
+            }
+        }
+    }
+
+	
+.download-for-free {
+	padding-bottom:80px;
+	
+	form {
+		margin-top:80px;
+		
+		@media screen and (max-width:768px){
+			margin-top:20px;
+		}
+	}
+}
+
+/***************** contact us *******************/ 
+
+.contact-us{
+    p{
+        padding-right:50px !important;
+    }
+}
+
+
+/**************** subscribe *********************/
+.subscribe {
+    p
+    {
+        margin-top:20px;
+        margin-bottom:50px;
+    }
+
+    p.color-red {
+        
+        color:$red;
+    }
+.input-custom
+{
+    background-color:#f1f1f1;
+}
+
+    padding: 80px 0px 0px 0px !important;
+
+}
+/**************** footer *********************/
+footer{
+
+    ul
+    { 
+        list-style-type:none;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    li
+    {
+        display:inline;
+        margin: 0 30px 0 0;
+        text-align:center;
+        text-transform: uppercase;
+
+
+    }
+    a
+    {
+        color:#3e3e3e;
+    }
+        margin-top:50px;
+        margin-bottom:10;
+        border-top: 2px solid #d7d7d7 !important;
+
+    }
+
+/**************** carousel*********************/
+.carousel
+{
+    p
+    {
+        color:$red;
+        margin-top:10px;
+
+    }
+.item
+{
+    img
+    {
+        border-radius:50%;
+        margin-top:50px;
+    }
+    .author-detail
+    {
+        font-weight:normal;
+        margin-top:30px;
+        color:$black;
+    }
+    h2
+    {
+        span
+        {
+            font-size:20px;
+        }
+        text-transform: uppercase;
+        font-size:25px;
+        margin-top:20px;
+        border-top:1px solid $black;
+        border-bottom:1px solid $black;
+        display: inline-block;
+        padding:10px;
+        }
+    }
+
+
+}
+

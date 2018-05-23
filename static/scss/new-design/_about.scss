@@ -1,0 +1,51 @@
+.about
+{
+    height:auto;
+    border-bottom: 1px solid #ececec;
+    /* banner */
+    .banner{
+        padding:20px 0px 0px 0px;
+
+        .cover-img {
+            width:80%;
+            margin-bottom:30px;
+        }
+
+        .heading{
+            font-size:90px;
+        }
+        .heading-main{
+            margin:6px 0px 20px 0px;
+        }
+        .btn-blue{
+            margin-right:10px;
+        }
+        .btn-orange{
+            font-family: 'Lato', sans-serif;
+            font-weight:700;
+        }
+        .quote{
+            margin:80px 0px 80px 0px;
+            span{
+                color:$blue;
+            }
+        }
+    }
+}
+
+.about-page {
+    .heading-intro{
+        margin:30px 0px 30px 0px !important;
+    }
+    .content{
+        .description {
+            margin: 25px 0px 0px 0px !important;
+        }
+        strong{
+            color:$textgrey;
+            position:relative;
+            bottom:5px;
+            margin-right:10px;
+        }
+    } 
+}

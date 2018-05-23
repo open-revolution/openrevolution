@@ -1,0 +1,14 @@
+// writings & essays
+@import "refills/comment";
+.comment {
+  @include media($large-screen) {
+    width: 70%;
+  }
+
+  .comment-image {
+    padding-right: 2.4em;
+    i {
+      font-size: 4em;
+    }
+  }
+}

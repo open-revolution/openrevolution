@@ -1,0 +1,11 @@
+// main.scss - the entry point
+@charset "utf-8";
+
+@import
+  "new-design/generals",
+  "new-design/home",
+  "new-design/typography",
+  "new-design/_about",
+  "new-design/donate",
+  "new-design/_event"
+;

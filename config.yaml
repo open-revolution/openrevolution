@@ -1,0 +1,13 @@
+baseurl: "/"
+title: "Open Revolution"
+languageCode: "en-us"
+googleAnalytics: ""
+
+permalinks:
+  blog: /:year/:month/:day/:slug/
+
+params:
+  github: https://github.com/
+  twitter: https://twitter.com/
+  linkedin: https://www.linkedin.com/
+  facebook: https://www.facebook.com/

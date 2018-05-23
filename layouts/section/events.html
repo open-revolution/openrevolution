@@ -1,0 +1,55 @@
+{{ partial "head.html" . }}
+
+<body class="home-template  section-grey">
+
+    <section class="event">
+        
+              <div class="container">
+                  {{ partial "navbar.html" . }}
+              
+              
+              <div class="banner">
+                
+                  <div class="row">
+                    
+                    <div class="col-sm-12 text-center">
+                      
+                      <h2 class="heading-main">THE OPEN REVOLUTION</h2>
+                      <h1 class="heading text-center">BOOK LAUNCH EVENT</h1>
+                      <h5><i class="fa fa-map-marker"></i> Newspeak House, 133 Bethnal Green Rd, London</h5>
+                      <h5><i class="fa fa-calendar"></i> 12th June 2018, 6:30 PM - 8:30 PM (BST)</h5>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                      <a href="https://attending.io/events/open-revolution-book-launch" class="btn btn-custom btn-orange">More Infot About Event</a>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+          </section>
+
+   <!---- <section class="about text-center">
+      <div class="content-wrapper">
+        <h1 class="page-title">{{ .Title }}</h1>
+		
+        {{ .Content }}
+      </div>--->
+    </section>
+  </div>
+
+ 
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+          {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </div>
+  
+
+  {{ partial "script.html" . }}
+</body>
+</html>

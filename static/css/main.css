@@ -1,0 +1,351 @@
+/* Colors */
+body {
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #000; }
+
+p {
+  color: #6b6b6b; }
+
+p, ul, li, a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; }
+
+.btn-custom {
+  padding: 10px 25px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  margin-bottom: 20px; }
+
+.btn-blue {
+  background: #45a2b4;
+  color: #fff !important; }
+
+.btn-blue:hover {
+  webkit-box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
+  -moz-box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
+  box-shadow: 4px 4px 14px -1px rgba(69, 162, 180, 0.23);
+  color: #fff !important; }
+
+.btn-orange {
+  background: #fec10e;
+  color: #000; }
+
+.btn-orange:hover {
+  -webkit-box-shadow: 4px 4px 14px -1px rgba(254, 194, 14, 0.23);
+  -moz-box-shadow: 4px 4px 14px -1px rgba(254, 194, 14, 0.23);
+  box-shadow: 4px 4px 14px -1px rgba(254, 194, 14, 0.23);
+  color: #000; }
+
+.input-custom {
+  background-color: #f8f8f8;
+  border: none !important;
+  padding: 10px 15px !important; }
+
+.input-custom:focus {
+  background-color: #f2f2f2 !important;
+  box-shadow: none !important; }
+
+.input-custom::placeholder {
+  color: #909090; }
+
+.section-pad {
+  padding: 80px 0px 80px 0px !important; }
+
+.section-grey {
+  background-color: #f8f8f8; }
+
+.heading-main {
+  margin-bottom: 10px;
+  font-size: 35px !Important; }
+
+.heading-intro {
+  color: #ed1f24 !important; }
+
+.content {
+  margin: 10px 0px 0px 0px; }
+
+.nav-custom .navbar-brand {
+  color: #ed1f24 !important;
+  margin: 0px 0px 15px 0px;
+  font-family: 'Fjalla One', sans-serif; }
+  @media screen and (max-width: 768px) {
+    .nav-custom .navbar-brand {
+      margin: 0px 0px 0px 0px; } }
+.nav-custom .navbar-nav li {
+  padding-top: 15px; }
+.nav-custom .navbar-nav .nav-item {
+  padding-right: 45px; }
+  .nav-custom .navbar-nav .nav-item .nav-link {
+    color: #000; }
+  .nav-custom .navbar-nav .nav-item .nav-link:hover {
+    color: #6b6b6b; }
+.nav-custom .navbar-nav .nav-item .btn-custom {
+  margin-left: 10px;
+  padding: 10px 25px !important; }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+  outline: none;
+  padding: 0 !important; }
+
+footer {
+  width: 100%;
+  border-top: 5px solid grey; }
+
+/* Homepage Code */
+/* Navabar */
+.hero {
+  height: auto;
+  border-bottom: 1px solid #ececec;
+  /* banner */ }
+  .hero .banner {
+    padding: 20px 0px 75px 0px; }
+    .hero .banner .cover-img {
+      width: 80%;
+      margin-bottom: 30px; }
+    .hero .banner .heading {
+      font-size: 90px; }
+    .hero .banner p:nth-child(2) {
+      margin: 10px 0px 25px 0px; }
+    .hero .banner p:nth-child(3) {
+      margin: 0px 0px 40px 0px; }
+    .hero .banner .btn-blue {
+      margin-right: 10px; }
+    .hero .banner .btn-orange {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700; }
+
+.donatefunds .fa {
+  color: #ed1f24;
+  margin-left: 5px; }
+
+/******* Amazon button ***********/
+.amazonbtn {
+  padding: 15px 50px;
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 100px;
+  position: relative;
+  top: -13px;
+  color: #000;
+  text-decoration: underline; }
+
+/************** what is open revolution *********/
+@media screen and (max-width: 768px) {
+  .whatisopen {
+    padding-left: 0px !important;
+    padding-right: 0px !important; } }
+
+/**************** about rufus ****************/
+.about-rufus .content {
+  margin: 30px 0px 0px 0px !important; }
+  @media screen and (max-width: 768px) {
+    .about-rufus .content img {
+      float: none !important;
+      margin-bottom: 20px; } }
+  .about-rufus .content .description:first-child {
+    margin-top: 0; }
+    @media screen and (max-width: 768px) {
+      .about-rufus .content .description:first-child {
+        margin-top: 25px; } }
+  .about-rufus .content .description {
+    margin: 15px 0px 0px 0px; }
+    .about-rufus .content .description h5 {
+      color: #45a2b4 !important; }
+    @media screen and (max-width: 768px) {
+      .about-rufus .content .description {
+        margin-top: 25px; }
+        .about-rufus .content .description .description:first-child {
+          margin-top: 0; } }
+.about-rufus a {
+  color: #ed1f24;
+  margin-right: 10px;
+  font-size: 1.6em; }
+
+/********************* pay for hardcopy ***********/
+.pay-for-hardcopy .content {
+  margin: 0px 0px 0px 0px !important; }
+  .pay-for-hardcopy .content h2 {
+    margin-bottom: 40px !Important; }
+  .pay-for-hardcopy .content a img {
+    transition: transform .2s;
+    /* Animation */
+    margin-top: 87px;
+    width: 250px; }
+    @media screen and (max-width: 480px) {
+      .pay-for-hardcopy .content a img {
+        width: 200px;
+        margin-top: 20px; } }
+
+/******************pay-as-youwish*********************/
+.pay-as-youwish {
+  padding: 0px 0px 80px 0px !Important; }
+  .pay-as-youwish .content {
+    margin: 0px 0px 0px 0px !important; }
+    .pay-as-youwish .content h2 {
+      margin-bottom: 40px !Important; }
+    .pay-as-youwish .content img {
+      margin-top: 60px;
+      margin-bottom: 50px;
+      width: 200px; }
+      @media screen and (max-width: 480px) {
+        .pay-as-youwish .content img {
+          width: 120px;
+          margin-top: 20px;
+          display: none !important; } }
+    .pay-as-youwish .content .btn-custom {
+      margin-top: 30px; }
+
+.download-for-free {
+  padding-bottom: 80px; }
+  .download-for-free form {
+    margin-top: 80px; }
+    @media screen and (max-width: 768px) {
+      .download-for-free form {
+        margin-top: 20px; } }
+
+/***************** contact us *******************/
+.contact-us p {
+  padding-right: 50px !important; }
+
+/**************** subscribe *********************/
+.subscribe {
+  padding: 80px 0px 0px 0px !important; }
+  .subscribe p {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .subscribe p.color-red {
+    color: #ed1f24; }
+  .subscribe .input-custom {
+    background-color: #f1f1f1; }
+
+/**************** footer *********************/
+footer {
+  margin-top: 50px;
+  margin-bottom: 10;
+  border-top: 2px solid #d7d7d7 !important; }
+  footer ul {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  footer li {
+    display: inline;
+    margin: 0 30px 0 0;
+    text-align: center;
+    text-transform: uppercase; }
+  footer a {
+    color: #3e3e3e; }
+
+/**************** carousel*********************/
+.carousel p {
+  color: #ed1f24;
+  margin-top: 10px; }
+.carousel .item img {
+  border-radius: 50%;
+  margin-top: 50px; }
+.carousel .item .author-detail {
+  font-weight: normal;
+  margin-top: 30px;
+  color: #000; }
+.carousel .item h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding: 10px; }
+  .carousel .item h2 span {
+    font-size: 20px; }
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 50px !important; } }
+.about {
+  height: auto;
+  border-bottom: 1px solid #ececec;
+  /* banner */ }
+  .about .banner {
+    padding: 20px 0px 0px 0px; }
+    .about .banner .cover-img {
+      width: 80%;
+      margin-bottom: 30px; }
+    .about .banner .heading {
+      font-size: 90px; }
+    .about .banner .heading-main {
+      margin: 6px 0px 20px 0px; }
+    .about .banner .btn-blue {
+      margin-right: 10px; }
+    .about .banner .btn-orange {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700; }
+    .about .banner .quote {
+      margin: 80px 0px 80px 0px; }
+      .about .banner .quote span {
+        color: #45a2b4; }
+
+.about-page .heading-intro {
+  margin: 30px 0px 30px 0px !important; }
+.about-page .content .description {
+  margin: 25px 0px 0px 0px !important; }
+.about-page .content strong {
+  color: #6b6b6b;
+  position: relative;
+  bottom: 5px;
+  margin-right: 10px; }
+
+.donate {
+  padding-bottom: 0px; }
+  .donate .heading {
+    font-size: 50px;
+    padding-bottom: 15px; }
+  .donate .heading-main {
+    color: #45a2b4; }
+
+.event {
+  height: auto;
+  border-bottom: 0px solid #ececec;
+  /* banner */ }
+  .event .banner {
+    padding: 100px 0px 100px 0px; }
+    .event .banner .cover-img {
+      width: 80%;
+      margin-bottom: 30px; }
+    .event .banner .heading {
+      padding-top: 20px;
+      font-size: 70px; }
+    .event .banner .heading-main {
+      margin: 20px 0px 20px 0px;
+      color: #45a2b4; }
+    .event .banner h5 {
+      margin: 40px 0px 40px 0px;
+      font-family: 'Lato', sans-serif !important;
+      color: #696969; }
+    .event .banner h5 .fa {
+      color: #ed1f24;
+      margin-right: 10px; }
+    .event .banner .date {
+      margin: 40px 0px 10px 0px; }
+    .event .banner .btn-blue {
+      margin-right: 10px; }
+    .event .banner .btn-orange {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700; }
+    .event .banner .quote {
+      margin: 80px 0px 80px 0px; }
+      .event .banner .quote span {
+        color: #45a2b4; }
+    @media screen and (max-width: 480px) {
+      .event .banner {
+        padding-top: 50px; }
+        .event .banner h5 {
+          font-size: 16px; } }
+
+/*# sourceMappingURL=main.css.map */

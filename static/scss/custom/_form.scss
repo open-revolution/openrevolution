@@ -1,0 +1,23 @@
+form {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 0 4em;
+    @include media($medium-screen) {
+      height: 40em;
+    }
+    @include media($large-screen) {
+      padding: 2em 0 2em 2em;
+    }
+    text-align: left;
+    input, textarea {
+      border-radius: 0 !important;
+      border-color: $brand-blue;
+    }
+    input[type="submit"] {
+      float: left;
+      background-color: rgba(0,0,0,0);
+      border: 1px solid $brand-blue;
+      border-radius: 0;
+      color: $brand-blue;
+    }
+}
