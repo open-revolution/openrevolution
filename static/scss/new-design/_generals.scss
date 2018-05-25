@@ -91,8 +91,11 @@ p,ul,li,a
 
 
 .nav-custom {
+    border-bottom:1px solid #e4e4e4;
+
     .navbar-brand{
         color:$red !important;
+        text-transform: uppercase;
         margin:0px 0px 15px 0px;
 		font-family: 'Fjalla One', sans-serif;
 

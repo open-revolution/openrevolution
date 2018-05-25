@@ -70,24 +70,27 @@ p, ul, li, a {
 .content {
   margin: 10px 0px 0px 0px; }
 
-.nav-custom .navbar-brand {
-  color: #ed1f24 !important;
-  margin: 0px 0px 15px 0px;
-  font-family: 'Fjalla One', sans-serif; }
-  @media screen and (max-width: 768px) {
-    .nav-custom .navbar-brand {
-      margin: 0px 0px 0px 0px; } }
-.nav-custom .navbar-nav li {
-  padding-top: 15px; }
-.nav-custom .navbar-nav .nav-item {
-  padding-right: 45px; }
-  .nav-custom .navbar-nav .nav-item .nav-link {
-    color: #000; }
-  .nav-custom .navbar-nav .nav-item .nav-link:hover {
-    color: #6b6b6b; }
-.nav-custom .navbar-nav .nav-item .btn-custom {
-  margin-left: 10px;
-  padding: 10px 25px !important; }
+.nav-custom {
+  border-bottom: 1px solid #e4e4e4; }
+  .nav-custom .navbar-brand {
+    color: #ed1f24 !important;
+    text-transform: uppercase;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Fjalla One', sans-serif; }
+    @media screen and (max-width: 768px) {
+      .nav-custom .navbar-brand {
+        margin: 0px 0px 0px 0px; } }
+  .nav-custom .navbar-nav li {
+    padding-top: 15px; }
+  .nav-custom .navbar-nav .nav-item {
+    padding-right: 45px; }
+    .nav-custom .navbar-nav .nav-item .nav-link {
+      color: #000; }
+    .nav-custom .navbar-nav .nav-item .nav-link:hover {
+      color: #6b6b6b; }
+  .nav-custom .navbar-nav .nav-item .btn-custom {
+    margin-left: 10px;
+    padding: 10px 25px !important; }
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
@@ -111,7 +114,7 @@ footer {
       width: 80%;
       margin-bottom: 30px; }
     .hero .banner .heading {
-      font-size: 90px; }
+      font-size: 60px; }
     .hero .banner p:nth-child(2) {
       margin: 10px 0px 25px 0px; }
     .hero .banner p:nth-child(3) {
