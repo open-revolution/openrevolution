@@ -250,23 +250,29 @@ footer {
 .carousel p {
   color: #ed1f24;
   margin-top: 10px; }
-.carousel .item img {
-  border-radius: 50%;
-  margin-top: 50px; }
-.carousel .item .author-detail {
-  font-weight: normal;
-  margin-top: 30px;
-  color: #000; }
-.carousel .item h2 {
-  text-transform: uppercase;
-  font-size: 25px;
-  margin-top: 20px;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  display: inline-block;
-  padding: 10px; }
-  .carousel .item h2 span {
-    font-size: 20px; }
+.carousel .item {
+  margin-bottom: 40px; }
+  .carousel .item img {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 50px; }
+  .carousel .item .author-detail {
+    font-weight: normal;
+    margin-top: 30px;
+    color: #000; }
+  .carousel .item h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    padding: 10px; }
+    .carousel .item h2 span {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Lato';
+      text-transform: capitalize; }
 
 @media screen and (max-width: 768px) {
   .heading {
