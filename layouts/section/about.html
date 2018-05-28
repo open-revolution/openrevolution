@@ -1,25 +1,16 @@
 {{ partial "head.html" . }}
 
 <body class="home-template">
+    {{ partial "navbar.html" . }}
 
-  <section class="about section-grey">
+  <section class="about-pg std">
     
-          <div class="container">
-              {{ partial "navbar.html" . }}
-          
-              <br/>
-          
-          <div class="banner">
+          <div class="sec-head">
+            <img src="../img/open-revolution-cover.jpg" width=200 alt="Open Revolution Cover"/>
             
-              <div class="row">
-                <div class="col-sm-10 offset-sm-1">
-					<div class="text-center">
-                  <img src="../img/open-revolution-cover.jpg" width=200 alt="Open Revolution Cover"/>
-                  
-				  <br/><br/>
-                  <h1 class="heading">ABOUT</h1>
-                  <h2 class="heading-main">THE OPEN REVOLUTION</h2>
-                  </div>
+            <h2>ABOUT</h2>
+            <h1>THE OPEN REVOLUTION</h1>
+          </div>
 				  
                   <p>
                     Forget everything you think you know about the digital age. The simple truth is that it’s not about privacy, AI or blockchain—it’s about the rules of ownership. And hope lies in the fact that we can change them in a radically better way. 
@@ -41,35 +32,19 @@
                   </p>
                   <br/><br/>
                   <!-- <h1 class="quote text-center"><span>"</span>The Only Important Thing in a book <br>is the meaning that it has for you<span>"</span></h1> -->
-                </div>
-              </div>
-            </div>
-          </div>
+                
       </section>
-
 
   <!---------------- about rufus pollock ---------------->
 
- <section class="about-rufus about-page section-pad">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-         <div class="text-center">
-             <h2 class="heading-main">About<br>Rufus Pollock</h2>
+ <section class="about-rufus std">
+  
+             <h1>About Rufus Pollock</h1>
              
-         </div>
-      </div>
-    </div>
-    <div class="content">
-       <div class="row">
-           <div class="col-md-12">
-             <img src="../img/rufus.jpg" class="img-fluid mx-auto d-block"/>
-           </div>
-           <div class="col-md-6 offset-md-3">
+             <img src="../img/rufus.jpg" align="left"/>
+          
             <p class="heading-intro text-center">Rufus Pollock is an entrepreneur, economist and technologist who has dedicated his life to create a digital economy which is both fair and innovative.</p>
-           </div>
-           <div class="col-md-8 offset-md-2">
-             <div class="description">
+        
                <p>He is the Founder and President of Open Knowledge, a leading NGO which is present is over 35 countries, empowering people and organization to access information so that they can create insight and drive change. </p>
 			    <p>Rufus Pollock has been a pioneer in the global Open Data movement, he has advised national governments, Intergovernmental Organizations, companies and NGOs on how to succeed in the digital world.  </p>
 				 <p>He holds PhD in Economics and a double first in Mathematics from the University of Cambridge. Multiple organisations such as Ashoka,  RSA and Shuttleworth have awarded him fellowship for his work including the Mead Fellowship in Economics at Emmanuel College, University of Cambridge. 
@@ -78,17 +53,11 @@
 </p><p>In this book Rufus Pollock share his vision about the path to building an Open World where creators are rewarded and information Open to all. 
 
 </p>
-             </div>
              
+             <strong>More About Rufus Pollock: &nbsp;</strong>
+             <a target="_blank" href="{{ .Site.Params.twitter }}"> <i class="icon ion-social-twitter" ></i></a>&nbsp;
+             <a target="_blank" href="{{ .Site.Params.facebook }}"> <i class="icon ion-social-facebook" ></i></a>
            
-             <strong>More About Rufus Pollock:</strong>
-             <a href="https://twitter.com/rufuspollock"><i class="fa fa-twitter"></i></a>
-             <a href="http://rufuspollock.com"><i class="fa fa-globe"></i></a>
-           </div>
-      </div>
-    </div>
-    
-  </div>
 </section>
  
 

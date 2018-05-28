@@ -4189,9 +4189,11 @@ header.navigation ul.submenu {
           font-size: 0.9em;
           font-style: italic; }
   .home-template .contact {
-    padding-top: 70px !important; }
+    padding-top: 85px !important; }
     .home-template .contact form {
       padding-top: 25px; }
+  .home-template .subscribe {
+    padding: 80px 0 !important; }
   .home-template .fellow {
     max-width: 90%;
     margin-left: auto;
@@ -4276,6 +4278,52 @@ header.navigation ul.submenu {
         background-color: white;
         border-radius: 0;
         font-weight: normal; }
+
+.about-pg {
+  padding-top: 100px !important; }
+  .about-pg .sec-head {
+    text-align: center; }
+    .about-pg .sec-head h2 {
+      margin-top: 20px;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+  @media screen and (max-width: 768px) {
+    .about-pg {
+      padding-top: 40px !important; } }
+
+.about-rufus {
+  padding-bottom: 60px !important; }
+  .about-rufus h1 {
+    text-align: center; }
+  .about-rufus img {
+    padding-right: 30px;
+    padding-top: 10px;
+    width: 200px; }
+    @media screen and (max-width: 480px) {
+      .about-rufus img {
+        width: 150px; } }
+
+.event {
+  height: 100vh;
+  text-align: center !important; }
+  .event h2 {
+    padding-top: 200px;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 849px) {
+      .event h2 {
+        padding-top: 100px; } }
+  .event h1 {
+    font-size: 50px; }
+    @media screen and (max-width: 849px) {
+      .event h1 {
+        font-size: 40px; } }
+  .event button {
+    margin-top: 20px;
+    background-color: #f9da5b;
+    color: #000; }
+
+.bg-grey {
+  background-color: #f8f8f8; }
 
 .footer-2 {
   background: black;

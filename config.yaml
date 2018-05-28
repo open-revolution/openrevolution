@@ -1,5 +1,5 @@
 baseurl: "/"
-title: "Open Revolution"
+title: "The Open Revolution"
 languageCode: "en-us"
 googleAnalytics: ""
 
@@ -8,6 +8,6 @@ permalinks:
 
 params:
   github: https://github.com/
-  twitter: https://twitter.com/
+  twitter: https://twitter.com/@rufuspollock/
   linkedin: https://www.linkedin.com/
-  facebook: https://www.facebook.com/
+  facebook: https://www.facebook.com/rufus.pollock/
