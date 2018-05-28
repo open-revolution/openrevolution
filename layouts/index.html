@@ -4,26 +4,28 @@
 
   {{ partial "navbar.html" . }}
 
-  <section class="hero">
-    <img src="img/open-revolution-cover.jpg" class="" alt="Open Revolution Cover"/>
+  <div class="newhero" style="background: #{{ .Params.backgroundcolor }}">
+    <div class="hero-body">
 
-    <div class="hero-content">
-      <h1>The Open Revolution</h1>
-      <p>The Open Revolution is a vision where digital information is owned not by the few but by everyone and where creators are recognized and rewarded.<br/>
-Choosing Open is a chance to transform our economies and societies, to create a future beyond the tired “isms” of capitalism and socialism, to build a better, more equal, and freer world.
-      </p>
-      <a class="button" onclick="scrollDown()" href="#next-section">About</a>
-      <p>
-        <a target="_blank" href="{{ .Site.Params.twitter }}"> <i class="icon ion-social-twitter" ></i></a>
-        <a target="_blank" href="{{ .Site.Params.facebook }}"> <i class="icon ion-social-facebook" ></i></a>
-      </p>
-    </div>
+      <div class="hero-content">
+        <img src="img/open-revolution-cover.jpg" class="" alt="Open Revolution Cover"/>
+      </div>
 
-    <div class="call-to-action">
-      <!-- <p>More</p> -->
-      <p class="arrow-down"><a onclick="scrollDown()" href="#next-section"><i class="ion-chevron-down"></i></a></p>
+      <div class="intro">
+          <h1>The Open Revolution</h1>
+          <p>The Open Revolution is a vision where digital information is owned not by the few but by everyone and where creators are recognized and rewarded.<br/>
+    Choosing Open is a chance to transform our economies and societies, to create a future beyond the tired “isms” of capitalism and socialism, to build a better, more equal, and freer world.
+          </p>
+          <a class="button" onclick="scrollDown()" href="#next-section">About</a>
+          <p>
+            <a target="_blank" href="{{ .Site.Params.twitter }}"> <i class="icon ion-social-twitter" ></i></a>
+            <a target="_blank" href="{{ .Site.Params.facebook }}"> <i class="icon ion-social-facebook" ></i></a>
+          </p>
+      </div>
+
     </div>
-  </section>
+  </div>
+
 
   <section id="next-section">
     <div class="video">
@@ -219,84 +221,67 @@ Choosing Open is a chance to transform our economies and societies, to create a 
   </section>
   -->
 
+  
+
    <!---------------- testimonial  ---------------->
    <section class="testimonials std">
-      <h1 class="text-center">Quotes <br>about The Open Revolution</h1>
-      <P class="text-center">Following are the thoughts of people for The Open Revolution</P>
-      <div class="row">
-        <div class="col-sm-8 offset-sm-2">
-            <div class=" text-center">
-                <div class="item">
-                  <img  src="img/audrey-tang.jpg">
-                  <p class="author-detail">This book’s practical insights are invaluable in guiding our “Open by Default” philosophy… beyond artificial scarcity and zero-sum games</p>
-                <h2>
-                Audrey Tang<br>
-                <span>Taiwan’s Digital Minister</span>
-                </h2>
-                </div>
-				
-                <div class="item">
-                  <img  src="img/geoff-mulgan.jpg">
-                  <p class="author-detail">I hope this book will stimulate a much more imaginative, and balanced, debate about the many ways a knowledge based economy can be organised</p>
-                <h2>
-                Geoff Mulgan<br>
-                <span>CEO of NESTA, Former Director of the Prime Minister's Strategy Unit</span>
-                </h2>
-                </div>
-				
-				<div class="item">
-                  <img  src="img/cory-doctorow.jpg">
-                  <p class="author-detail">The richest, most powerful people in the world have bet everything on the control of information in all its guises; Pollock's fast-moving, accessible book explains why seizing the means of attention and information is the only path to human freedom and flourishing.</p>
-                <h2>
-                Cory Doctorow<br>
-                <span>Journalist and Activist </span>
-                </h2>
-                </div>
-				
-              </div> 
+      <h1>Quotes about The Open Revolution</h1>
+      <h3>Following are the thoughts of people for The Open Revolution</h3>
+      
+      <div class="comment">
+        <div class="comment-image">
+            <img  src="img/audrey-tang.jpg">
+        </div>
+        <div class="comment-content">
+          <h1>Audrey Tang</h1>
+          <p>This book’s practical insights are invaluable in guiding our “Open by Default” philosophy… beyond artificial scarcity and zero-sum games</p>
+          <p class="comment-detail">Taiwan’s Digital Minister</p>
         </div>
       </div>
-	
+      
+      <div class="comment">
+        <div class="comment-image">
+            <img  src="img/geoff-mulgan.jpg">
+        </div>
+        <div class="comment-content">
+          <h1>Geoff Mulgan</h1>
+          <p>I hope this book will stimulate a much more imaginative, and balanced, debate about the many ways a knowledge based economy can be organised</p>
+          <p class="comment-detail">CEO of NESTA, Former Director of the Prime Minister's Strategy Unit</p>
+        </div>
+      </div>
+    
+      <div class="comment">
+        <div class="comment-image">
+            <img  src="img/cory-doctorow.jpg">
+        </div>
+        <div class="comment-content">
+          <h1>Cory Doctorow</h1>
+          <p>The richest, most powerful people in the world have bet everything on the control of information in all its guises; Pollock's fast-moving, accessible book explains why seizing the means of attention and information is the only path to human freedom and flourishing.</p>
+          <p class="comment-detail">Journalist and Activist </p>
+        </div>
+      </div>
+        
+
 	</div>
 	</div>
 </section>
   <!---------------- contact us ---------------->
 
-  <section class=" contact-us section-pad">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-            <h2 class="heading-main">Contact Us</h2>
-            <p class="heading-intro">Feel free to ask any question about Open Revolution or Remuneration Rights and ask for a hard copies of Open Revolution Book!</p>
+  <section class="std contact">
+        <h1>Contact Us</h1>
+        <h3>Feel free to ask any question about Open Revolution or Remuneration Rights and ask for a hard copies of Open Revolution Book!</h3>
 
-        </div>
-        <div class="col-md-6">
-            <form method="post" action="https://formspree.io/hello@openrevolution.net">
-              <div class="row">
-                  <div class="col-sm-6">
-                      <div class="form-group">
-                          <input name="name" id="name" type="text" class="form-control input-custom" placeholder="Your name...">
-                          <input type="hidden" name="_replyto" placeholder="Your email" />
-                      </div>
-                  </div>
-                  <div class="col-sm-6">
-                      <div class="form-group">
-                          <input name="email" id="email" type="email" class="form-control input-custom" placeholder="Your email...">
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-sm-12">
-                      <div class="form-group">
-                          <textarea name="message"  rows="7" class="form-control input-custom" placeholder="Your message..."></textarea>
-                        </div>
-                    </div>
-              </div> 
-                <button type="submit" class="btn btn-custom btn-blue">SEND MESSAGE</button>
-              </form>  
-        </div>
-      </div>
-    </div>
+        <form method="post" action="https://formspree.io/hello@openrevolution.net">
+    
+            <input name="name" id="name" type="text" class="form-control input-custom" placeholder="Your name...">
+            <input type="hidden" name="_replyto" placeholder="Your email" />
+        
+            <input name="email" id="email" type="email" class="form-control input-custom" placeholder="Your email...">
+        
+            <textarea name="message"  rows="7" class="form-control input-custom" placeholder="Your message..."></textarea>
+          
+          <button type="submit" class="btn btn-custom btn-blue">SEND MESSAGE</button>
+        </form>  
   </section>
 
 

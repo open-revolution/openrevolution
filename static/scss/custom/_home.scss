@@ -2,55 +2,119 @@
 // front page
 .home-template {
   @import "refills/hero";
-  .hero {
-    /* background-image: url("/img/open-revolution-cover.jpg"); */
-    /* background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);*/
-    background-color: #f8f8f8;
+  $container: 95%;
+  $dark-gray: #333 !default;
 
-    img {
-      height: 80vh;
-      margin-right: 5em;
-      padding-top: 5em;
+  .newhero {
+    background-color: #f8f8f8;
+    padding-top:100px;
+    $large-screen: 50em !default;
+    min-height: 92vh;
+    background-position: none;
+    background-size: none;
+    position: relative;
+
+    @media screen and (max-width:1031px){
+      padding-top:0;
+      
     }
 
-    .hero-content {
-      max-width: 40em;
-      a.button{
-        margin: 25px 10px 20px 0;
-        border: 1px solid #fff;
-        border-radius: 0;
+    @include media($large-screen) {
+      @include row(table);
+      background-position: left;
+      background-size: cover;
+      justify-content: flex-end;
+    }
+
+    .hero-body {
+      @include outer-container($container);
+      padding: 2em 2em 6em 2em;
+      @include media($large-screen) {
+        min-height: 88vh;
+        align-items: center;
+        display: flex;
+        justify-content: flex-start !important;
+
       }
-      a {
-        i {
-          font-size:25px;
-          margin-right:6px;
+
+
+      .hero-content {
+        width: 100%;
+        display: block;
+        @include media($large-screen) {
+          @include span-columns(6);
+          max-width: 30em;
+          text-align: right;
+        }
+        @media screen and (max-width:860px){
+          text-align: center !important;
+        }
+        a {
+          margin: 1.35em 0.5em 0 0;
+          border-radius: 0;
+          color: white;
+        }
+
+        img {
+          max-width:280px;
+          justify-content: flix-end;
+          padding-bottom:20px;
         }
       }
+
+      .intro {
+        @include span-columns(12);
+        iframe {
+          margin: 2em 0;
+          @include size(80vw 44.96vw);
+          @include media($large-screen) {
+            margin: 0;
+            @include size(533px 300px);
+          }
+        }
+        @include media($large-screen) {
+          @include span-columns(6);
+          @include shift(0.8);
+        }
+
+        h1 {
+          font-size:50px;
+        }
+
+        a {
+          margin-right:10px;
+          font-size:24px;
+        }
+      }
+
+      @include reset-display();
     }
 
     .call-to-action {
       display: none;
       @include media($large-screen) {
         display: block;
-        @include position(absolute, 88% null null 25%);
-        @include size(50% 12%);
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        height: 12%;
+        top: 82%;
         p {
-          color: white;
           text-align: center;
           align-items: center;
           margin: 0;
-          //font-size: 0.9em;
         }
         .arrow-down {
           font-size: 2.6em;
           a {
-            color: white;
+            color: $dark-gray;
           }
         }
       }
     }
   }
 
+  
   #next-section {
     min-height: 500px;
   }
@@ -93,6 +157,88 @@
       padding: 0;
       @include position(2em null null 25vw);
       @include size(50vw null);
+    }
+  }
+
+
+  /* Testimonials section */
+  .testimonials {
+    padding-top:70px !important;
+    h3 {
+      padding-bottom:50px;
+    }
+    .comment {
+      $base-border-radius: 3px !default;
+      $base-spacing: 1.5em !default;
+      $action-color: #477DCA !default;
+      $dark-gray: #333 !default;
+      $base-font-color: $dark-gray !default;
+      $comment-gutter: 1.4em;
+      $comment-image-padding: 0;
+      $comment-image-width: 6em;
+      $comment-color: $base-font-color;
+      $comment-background: lighten($action-color, 15%);
+      $comment-detail-color: transparentize($comment-color, 0.5);
+      $comment-image-vert-alignment: top;
+    
+      border-bottom: 1px solid transparentize($comment-color, 0.9);
+      display: table;
+      margin-bottom: $base-spacing;
+      padding-bottom: 1em;
+      width: 100%;
+    
+      .comment-image,
+      .comment-content {
+        display: table-cell;
+        vertical-align: $comment-image-vert-alignment;
+      }
+    
+      .comment-image {
+        padding-right: $comment-gutter;
+    
+        > img {
+          background: $comment-background;
+          display: block;
+          height: auto;
+          max-width: none;
+          padding: $comment-image-padding;
+          width: $comment-image-width;
+        }
+    
+        .comment-reverse-order & {
+          padding-left: 10px;
+          padding-right: 0;
+        }
+      }
+    
+      .comment-content {
+        width: 100%;
+    
+        h1 {
+          font-size: 1em;
+          margin: 0 0 0.5em 0;
+        }
+    
+        p {
+          line-height: 1.5em;
+          margin-bottom: 0.5em;
+        }
+    
+        p.comment-detail {
+          color: $comment-detail-color;
+          font-size: 0.9em;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  /* Contact */
+  .contact {
+    padding-top:70px !important;
+
+    form {
+      padding-top:25px;
     }
   }
 
@@ -189,4 +335,6 @@
 
     @include reset-display();
   }
+
+  
 }
