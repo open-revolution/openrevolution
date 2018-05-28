@@ -15,7 +15,7 @@
         }
 
         .heading{
-            font-size:90px;
+            font-size:60px;
         }
         p:nth-child(2){
             margin:10px 0px 25px 0px;
@@ -249,9 +249,12 @@ footer{
     }
 .item
 {
+    margin-bottom:40px;
+
     img
     {
         border-radius:50%;
+        width:100px;
         margin-top:50px;
     }
     .author-detail
@@ -264,7 +267,10 @@ footer{
     {
         span
         {
-            font-size:20px;
+            font-size:14px;
+            font-weight: 300;
+            font-family:'Lato';
+            text-transform: capitalize;
         }
         text-transform: uppercase;
         font-size:25px;
