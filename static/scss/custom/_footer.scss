@@ -1,0 +1,25 @@
+@import "refills/footer";
+.footer-2 {
+  padding: 1.5em 5%;
+  background: white;
+  border-top: 1px solid darken(#fff, 10);
+  ul li {
+    color: #333;
+  }
+
+  ul li a {
+    color: #333;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+  .footer-secondary-links {
+    ul li a {
+      line-height: 1.8em;
+    }
+  }
+}

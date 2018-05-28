@@ -1,0 +1,192 @@
+// ========================================================
+// front page
+.home-template {
+  @import "refills/hero";
+  .hero {
+    /* background-image: url("/img/open-revolution-cover.jpg"); */
+    /* background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);*/
+    background-color: #f8f8f8;
+
+    img {
+      height: 80vh;
+      margin-right: 5em;
+      padding-top: 5em;
+    }
+
+    .hero-content {
+      max-width: 40em;
+      a.button{
+        margin: 25px 10px 20px 0;
+        border: 1px solid #fff;
+        border-radius: 0;
+      }
+      a {
+        i {
+          font-size:25px;
+          margin-right:6px;
+        }
+      }
+    }
+
+    .call-to-action {
+      display: none;
+      @include media($large-screen) {
+        display: block;
+        @include position(absolute, 88% null null 25%);
+        @include size(50% 12%);
+        p {
+          color: white;
+          text-align: center;
+          align-items: center;
+          margin: 0;
+          //font-size: 0.9em;
+        }
+        .arrow-down {
+          font-size: 2.6em;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  #next-section {
+    min-height: 500px;
+  }
+
+  .video {
+    $large-screen: 50em !default;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 3em;
+    .video-wrapper {
+      margin-bottom: 15vh;
+      embed,
+      object,
+      iframe {
+        @include position(7vh null null 5vw);
+        @include size(90vw 50.58vw);
+        @include media($large-screen) {
+          @include position(13vh null null calc(50vw - 420px));
+          @include size(854px 480px);
+        }
+      }
+    }
+    .video-text {
+      margin-bottom: 2em;
+      text-align: left;
+      padding: 0 5%;
+      @include media($large-screen) {
+        padding: 0;
+        @include position(2em null null 25vw);
+        @include size(50vw null);
+      }
+    }
+  }
+
+  section.std {
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 0 5%;
+    @include media($large-screen) {
+      padding: 0;
+      @include position(2em null null 25vw);
+      @include size(50vw null);
+    }
+  }
+
+  /* TO CUT */
+
+  .fellow {
+    @include outer-container(90%);
+    padding-top: 3em;
+    @import "refills/logos.scss";
+  }
+
+  .side-image {
+    $base-line-height: 1.5em !default;
+    $action-color: #477DCA !default;
+    $dark-gray: #333 !default;
+    $large-screen: 53.75em !default;
+    $base-font-color: $dark-gray !default;
+    $side-image-background-top: #B5EBEB;
+    $side-image-background-bottom: #5DAC5D;
+    $side-image-content-background: #F9F9F9;
+    $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
+
+    background: white;
+    div.images-wrapper.last {
+      display: none;
+    }
+
+    @include media($large-screen) {
+      @include row(table);
+      div.images-wrapper.last {
+        display: table-cell;
+      }
+    }
+
+    .images-wrapper {
+      background: url("../images/wise.jpg"),
+                  linear-gradient($side-image-background-top, $side-image-background-bottom),
+                  no-repeat $side-image-background-top scroll;
+      background-color: $side-image-background-top;
+      background-size: 100vw 100vw;
+      min-height: 100vw;
+      @include media($large-screen) {
+        background-size: cover;
+        padding: 3em;
+        min-height: 12em;
+      }
+      display: block;
+
+      @include media($large-screen) {
+        @include span-columns(6);
+        background-position: right;
+        background-size: cover;
+      }
+    }
+
+    .side-image-content {
+      @include span-columns(12);
+      padding: 1em 1em 4em 1em;
+
+      @include media($large-screen) {
+        @include span-columns(6);
+        padding: 4em 5% 8em 5%;
+      }
+
+      h2 {
+        margin-bottom: 0.9em;
+        //font-size: 1.9em;
+      }
+
+      h4 {
+        background: #BBB;
+        color: white;
+        display: inline-block;
+        font-size: 0.75em;
+        margin-bottom: 1.3em;
+        padding: 3px 8px;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: $base-font-color;
+        line-height: $base-line-height;
+        margin-bottom: 3em;
+      }
+
+      a.button {
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 0;
+        font-weight: normal;
+      }
+    }
+
+    @include reset-display();
+  }
+}

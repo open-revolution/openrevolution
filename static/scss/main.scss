@@ -1,11 +1,25 @@
 // main.scss - the entry point
 @charset "utf-8";
 
+//$mm_maxWidth: 380px;
+
 @import
-  "new-design/generals",
-  "new-design/home",
-  "new-design/typography",
-  "new-design/_about",
-  "new-design/donate",
-  "new-design/_event"
+  "normalize",
+  "bourbon/bourbon",
+  "base/base",
+  "neat/neat",
+  "icons/icons",
+  "refills/typography",
+  "refills/tables",
+  "custom/general",
+  "custom/navbar",
+  "custom/other",
+  "custom/home",
+  "custom/bullets",
+  "custom/smallbullets",
+  "custom/blogpost",
+  "custom/ideas",
+  "custom/sections",
+  "custom/form",
+  "custom/footer"
 ;

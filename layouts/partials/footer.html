@@ -1,19 +1,22 @@
-<footer class="text-center">
-<div class="container">
-  <ul >
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>
-      <a href="/about">About</a>
-    </li>
-    <li>
-        <a href="/events">Events</a>
-      </li>
-	   <li>
-        <a href="/donate">Donate</a>
-      </li>
+<footer class="footer-2" role="contentinfo">
+  <!-- <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+  </div> -->
+  <ul>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/contact/">Contact</a></li>
   </ul>
-  <p class="text-center">2018 &copy; All Rights Reserved</p>
+
+  <div class="footer-secondary-links">
+    <ul>
+      <li> Copyright © 2017</li>
+    </ul>
+
+    <ul class="footer-social">
+      <li><a target="_blank" href="{{ .Site.Params.github }}"><i class="icon ion-social-github" ></i></a></li>
+      <li><a target="_blank" href="{{ .Site.Params.twitter }}"> <i class="icon ion-social-twitter" ></i></a></li>
+      <li><a target="_blank" href="{{ .Site.Params.linkedin }}"> <i class="icon ion-social-linkedin" ></i></a></li>
+      <li><a target="_blank" href="{{ .Site.Params.facebook }}"> <i class="icon ion-social-facebook" ></i></a></li>
+    </ul>
   </div>
 </footer>
