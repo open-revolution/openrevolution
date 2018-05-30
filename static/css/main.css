@@ -4280,6 +4280,9 @@ header.navigation ul.submenu {
         border-radius: 0;
         font-weight: normal; }
 
+header.navigation li a {
+  text-transform: uppercase !important; }
+
 .about-pg {
   padding-top: 100px !important; }
   .about-pg .sec-head {
