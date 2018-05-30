@@ -4005,6 +4005,7 @@ header.navigation ul.submenu {
     margin-bottom: 62px; } }
 
 .home-template {
+  /* Get this book section */
   /* Testimonials section */
   /* Contact */
   /* TO CUT */ }
@@ -4169,6 +4170,78 @@ header.navigation ul.submenu {
         top: 2em;
         left: 25vw;
         width: 50vw; } }
+  .home-template .get-this-book {
+    padding-top: 70px !important; }
+    .home-template .get-this-book h3 {
+      margin-bottom: 50px; }
+    .home-template .get-this-book .grid-items-lines {
+      position: relative; }
+      .home-template .get-this-book .grid-items-lines::after {
+        clear: both;
+        content: "";
+        display: table; }
+      .home-template .get-this-book .grid-items-lines .grid-item {
+        background: #fff;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+        border-right: 1px solid rgba(51, 51, 51, 0.2);
+        cursor: pointer;
+        float: left;
+        height: 500px;
+        outline: none;
+        overflow: hidden;
+        padding: 2em;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+        width: 100%; }
+        @media screen and (min-width: 860px) and (max-width: 1240px) {
+          .home-template .get-this-book .grid-items-lines .grid-item {
+            height: 700px; } }
+        @media screen and (min-width: 53.75em) {
+          .home-template .get-this-book .grid-items-lines .grid-item {
+            width: 33.3333333333%; } }
+        .home-template .get-this-book .grid-items-lines .grid-item:focus, .home-template .get-this-book .grid-items-lines .grid-item:hover {
+          background: rgba(51, 51, 51, 0.05); }
+      .home-template .get-this-book .grid-items-lines .grid-item img {
+        display: block;
+        height: 2.5em;
+        margin-bottom: 1.2em;
+        opacity: 0.2; }
+      .home-template .get-this-book .grid-items-lines .grid-item h2 {
+        color: #333;
+        font-size: 1.1em;
+        margin-bottom: 0.4em; }
+      .home-template .get-this-book .grid-items-lines .grid-item p {
+        color: rgba(51, 51, 51, 0.7);
+        line-height: 1.5em;
+        font-size: 18px !important; }
+        @media screen and (min-width: 40em) {
+          .home-template .get-this-book .grid-items-lines .grid-item p {
+            max-width: 70%; } }
+      @media screen and (min-width: 53.75em) {
+        .home-template .get-this-book .grid-items-lines .grid-item-big {
+          width: 66.6666666667%; } }
+      @media screen and (min-width: 40em) {
+        .home-template .get-this-book .grid-items-lines .grid-item-big p {
+          max-width: 50%; } }
+      @media screen and (min-width: 53.75em) {
+        .home-template .get-this-book .grid-items-lines .grid-item-medium {
+          width: 66.6666666667%;
+          max-width: 50%; } }
+      @media screen and (min-width: 40em) {
+        .home-template .get-this-book .grid-items-lines .grid-item-medium p {
+          max-width: 100%; } }
+      .home-template .get-this-book .grid-items-lines .bottom-cover {
+        background: #fff;
+        bottom: 0;
+        height: 3px;
+        position: absolute;
+        width: 100%; }
+      .home-template .get-this-book .grid-items-lines .right-cover {
+        background: #fff;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        width: 4px; }
   .home-template .testimonials {
     padding-top: 70px !important; }
     .home-template .testimonials h3 {

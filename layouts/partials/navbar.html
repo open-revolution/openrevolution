@@ -15,7 +15,12 @@
           <li class="nav-link"><a href="/#contact">Contact</a></li>
         {{end}}
 
-        <li class="nav-link"><a href="#" class="button btn-yellow">Get the Book Now</a></li>
+        {{if eq .URL "/"}}
+          <li class="nav-link"><a onclick="scrollDown()" href="#get-this-book" class="button btn-yellow">Get The Book Now</a></li>
+        {{else}}
+          <li class="nav-link"><a href="/#get-this-book">Get The Book Now</a></li>
+        {{end}}
+
       </ul>
     </nav>
   </div>
