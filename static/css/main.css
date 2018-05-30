@@ -202,7 +202,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-button,
+button, a.button,
 input,
 optgroup,
 select,
@@ -217,7 +217,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-button {
+button, a.button {
   overflow: visible; }
 
 /**
@@ -226,7 +226,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-button,
+button, a.button,
 select {
   text-transform: none; }
 
@@ -237,7 +237,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
+button, a.button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -249,14 +249,14 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
+button[disabled], a[disabled].button,
 html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
+button::-moz-focus-inner, a.button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -358,7 +358,8 @@ th {
   padding: 0; }
 
 input[type="button"], input[type="reset"], input[type="submit"],
-button {
+button,
+a.button {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -382,11 +383,14 @@ button {
   white-space: nowrap; }
   input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
-  button:focus {
+  a.button:hover,
+  button:focus,
+  a.button:focus {
     background-color: black;
     color: #fff; }
   input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
-  button:disabled {
+  button:disabled,
+  a.button:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
 
@@ -3673,7 +3677,7 @@ table {
       padding: 0.75em 1em; }
       table tbody td:first-child {
         border-left: 0; }
-      table tbody td button {
+      table tbody td button, table tbody td a.button {
         display: inline-block;
         font-size: 0.7em;
         line-height: 1.5;
@@ -3683,9 +3687,16 @@ table {
         padding: 0.3em 1em;
         width: 100%; }
         @media screen and (min-width: 40em) {
-          table tbody td button {
+          table tbody td button, table tbody td a.button {
             margin-bottom: 0;
             width: auto; } }
+
+button.btn-yellow, a.btn-yellow.button {
+  background-color: #f9da5b !important;
+  color: #000; }
+
+.content-wrapper {
+  min-height: calc(100vh - 4.8em); }
 
 header.navigation {
   background-color: #fff;
@@ -3887,7 +3898,7 @@ header.navigation {
         @media screen and (min-width: 1032px) {
           header.navigation .search-bar form input[type=search] {
             width: 100%; } }
-      header.navigation .search-bar form button[type=submit] {
+      header.navigation .search-bar form button[type=submit], header.navigation .search-bar form a[type=submit].button {
         background: white;
         border: 0;
         bottom: 0.3em;
@@ -3897,7 +3908,7 @@ header.navigation {
         position: absolute;
         right: 0.3em;
         top: 0.3em; }
-        header.navigation .search-bar form button[type=submit] img {
+        header.navigation .search-bar form button[type=submit] img, header.navigation .search-bar form a[type=submit].button img {
           height: 12px;
           opacity: 0.7;
           padding: 1px; }
@@ -3962,7 +3973,10 @@ header.navigation li a {
   font-weight: 400;
   letter-spacing: 1px;
   padding: 0 10px;
-  color: #333 !important; }
+  color: #333 !important;
+  text-transform: uppercase !important; }
+header.navigation li a.button {
+  line-height: 40px; }
 header.navigation li.more > a::after {
   font-size: 0.8em; }
 header.navigation ul.submenu {
@@ -4280,13 +4294,6 @@ header.navigation ul.submenu {
         border-radius: 0;
         font-weight: normal; }
 
-header.navigation li a, header.navigation li a button {
-  text-transform: uppercase !important; }
-
-button.btn-yellow {
-  background-color: #f9da5b;
-  color: #000; }
-
 .about-pg {
   padding-top: 100px !important; }
   .about-pg .sec-head {
@@ -4325,7 +4332,7 @@ button.btn-yellow {
     @media screen and (max-width: 849px) {
       .event h1 {
         font-size: 40px; } }
-  .event button {
+  .event button, .event a.button {
     margin-top: 20px; }
 
 .bg-grey {

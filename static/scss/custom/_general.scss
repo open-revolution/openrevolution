@@ -6,6 +6,10 @@ $sans-serif: "Lato", sans-serif;
 a.button {
   @extend button;
 }
+button.btn-yellow {
+  background-color: #f9da5b !important;
+  color: #000;
+}
 
 .content-wrapper {
   min-height: calc(100vh - 4.8em);
