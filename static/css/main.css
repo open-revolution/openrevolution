@@ -4103,8 +4103,7 @@ header.navigation ul.submenu {
         .home-template .newhero .hero-body .intro h1 {
           font-size: 50px; }
         .home-template .newhero .hero-body .intro a {
-          margin-right: 10px;
-          font-size: 24px; }
+          margin-right: 10px; }
     .home-template .newhero .call-to-action {
       display: none; }
       @media screen and (min-width: 53.75em) {
