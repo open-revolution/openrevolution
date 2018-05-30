@@ -1,57 +1,25 @@
 {{ partial "head.html" . }}
 
-<body class="home-template  section-grey">
+<body class="home-template section-grey">
 
+  {{ partial "navbar.html" . }}
+  
     <section class="donate">
-        
-              <div class="container">
-                  {{ partial "navbar.html" . }}
-              
-              
-              <div class="banner">
-                
-                  <div class="row">
-                    
-                    <div class="col-sm-6">
-                      <br/><br/>
-                      <h1 class="heading">Donate</h1>
-                      <p>
-                          We really appreciate any amount you can donate to support our vision. The Open Revolution book is completely self funded. Since the book is available to download for free, your action is what would help us spread the vision.
-						</p>
-						<p>
-Add your contribution to the The Open Revolution by Donating an amount by clicking the button below. We do not have a fixed donation amount and expect you to give a donation as per your wish. All the transactions are processed by Donorbox and are 100% secure.
-
-                      </p>
-                    </div>
-                    <div class="col-sm-5 offset-sm-1">
-                        <br/><br/>
-                        <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
-                        style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
-                    </div>
-                  </div>
-                </div>
+              <h1>Donate</h1>
+                <p>
+                    We really appreciate any amount you can donate to support our vision. The Open Revolution book is completely self funded. Since the book is available to download for free, your action is what would help us spread the vision.
+                </p>
+                <p>
+                      Add your contribution to the The Open Revolution by Donating an amount by clicking the button below. We do not have a fixed donation amount and expect you to give a donation as per your wish. All the transactions are processed by Donorbox and are 100% secure.
+                </p>
               </div>
-          </section>
-
-   <!---- <section class="about text-center">
-      <div class="content-wrapper">
-        <h1 class="page-title">{{ .Title }}</h1>
-		
-        {{ .Content }}
-      </div>--->
+              
+            <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
+            style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+        
     </section>
-  </div>
 
- 
-
-  <div class="container">
-    <div class="row">
-
-      <div class="col-sm-12">
-          {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </div>
+   {{ partial "footer.html" . }}
   
 
   {{ partial "script.html" . }}
