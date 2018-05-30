@@ -4280,8 +4280,12 @@ header.navigation ul.submenu {
         border-radius: 0;
         font-weight: normal; }
 
-header.navigation li a {
+header.navigation li a, header.navigation li a button {
   text-transform: uppercase !important; }
+
+button.btn-yellow {
+  background-color: #f9da5b;
+  color: #000; }
 
 .about-pg {
   padding-top: 100px !important; }
@@ -4322,9 +4326,7 @@ header.navigation li a {
       .event h1 {
         font-size: 40px; } }
   .event button {
-    margin-top: 20px;
-    background-color: #f9da5b;
-    color: #000; }
+    margin-top: 20px; }
 
 .bg-grey {
   background-color: #f8f8f8; }
