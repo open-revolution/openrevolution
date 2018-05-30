@@ -4193,7 +4193,8 @@ header.navigation ul.submenu {
     .home-template .contact form {
       padding-top: 25px; }
   .home-template .subscribe {
-    padding: 80px auto !important; }
+    padding-top: 80px !important;
+    padding-bottom: 80px !important; }
   .home-template .fellow {
     max-width: 90%;
     margin-left: auto;
