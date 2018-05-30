@@ -1,0 +1,12 @@
+$small-screen: em(400);
+$extra-large-screen: em(1280);
+
+$sans-serif: "Lato", sans-serif;
+
+a.button {
+  @extend button;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - 4.8em);
+}
