@@ -3696,7 +3696,13 @@ button.btn-yellow, a.btn-yellow.button {
   color: #000; }
 
 .content-wrapper {
-  min-height: calc(100vh - 4.8em); }
+  min-height: calc(100vh - 4.8em);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  word-wrap: break-word; }
+  @media screen and (max-width: 1031px) {
+    .content-wrapper {
+      padding-top: 40px; } }
 
 header.navigation {
   background-color: #fff;

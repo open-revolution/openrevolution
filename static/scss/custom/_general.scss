@@ -13,4 +13,13 @@ button.btn-yellow {
 
 .content-wrapper {
   min-height: calc(100vh - 4.8em);
+  padding-top:100px;
+  padding-bottom:100px;
+
+  
+  //Long urls causing responsive problem
+  word-wrap: break-word;
+  @media screen and (max-width:1031px) {
+    padding-top:40px;
+  }
 }
