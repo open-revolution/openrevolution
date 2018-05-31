@@ -3691,6 +3691,114 @@ table {
             margin-bottom: 0;
             width: auto; } }
 
+.modal label {
+  cursor: pointer;
+  margin-bottom: 0; }
+.modal label img {
+  border-radius: 150px;
+  display: block;
+  max-width: 300px; }
+.modal .modal-state {
+  display: none; }
+.modal .modal-trigger {
+  padding: 0.8em 1em; }
+.modal .modal-fade-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  padding-top: 0.6em;
+  text-align: left;
+  transition: opacity 0.25s ease;
+  visibility: hidden;
+  z-index: 99999999999; }
+  @media screen and (min-width: 53.75em) {
+    .modal .modal-fade-screen {
+      padding-top: 4em; } }
+  .modal .modal-fade-screen .modal-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer; }
+.modal .modal-close {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  height: 1.5em;
+  width: 1.5em;
+  background: #fff;
+  cursor: pointer; }
+  .modal .modal-close::after, .modal .modal-close::before {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 0;
+    left: 50%;
+    height: 0.15em;
+    width: 0.15em;
+    background: #FAFAFA;
+    content: "";
+    display: block;
+    margin: -3px 0 0 -1px;
+    transform: rotate(45deg); }
+  .modal .modal-close:hover::after, .modal .modal-close:hover::before {
+    background: #e1e1e1; }
+  .modal .modal-close::before {
+    transform: rotate(-45deg); }
+.modal .modal-inner {
+  background: #fff;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 0;
+  max-height: 95%;
+  overflow: auto;
+  padding: 1.5em;
+  position: relative;
+  transition: opacity 0.25s ease;
+  width: 95%; }
+  @media screen and (min-width: 40em) {
+    .modal .modal-inner {
+      max-height: 90%;
+      padding: 3em;
+      width: 60%; } }
+  @media screen and (min-width: 53.75em) {
+    .modal .modal-inner {
+      width: 50%; } }
+  .modal .modal-inner h1 {
+    color: #333;
+    text-align: left;
+    text-transform: capitalize; }
+  .modal .modal-inner p {
+    color: #333;
+    line-height: 1.5; }
+  .modal .modal-inner .modal-intro {
+    margin-bottom: 1em; }
+  .modal .modal-inner .modal-content {
+    color: #333; }
+    @media screen and (min-width: 40em) {
+      .modal .modal-inner .modal-content {
+        columns: 2 8em; } }
+  .modal .modal-inner a.cta {
+    color: #fff;
+    display: inline-block;
+    margin-right: 0.5em;
+    margin-top: 1em; }
+    .modal .modal-inner a.cta:last-child {
+      padding: 0 2em; }
+.modal .modal-state:checked + .modal-fade-screen {
+  opacity: 1;
+  visibility: visible; }
+.modal .modal-state:checked + .modal-fade-screen .modal-inner {
+  top: 0.5em; }
+
+.modal-open {
+  overflow: hidden; }
+
 a:disabled {
   color: red !important; }
 
@@ -4067,6 +4175,9 @@ header.navigation ul.submenu {
           align-items: center;
           display: flex;
           justify-content: flex-start !important; } }
+      .home-template .newhero .hero-body .button {
+        margin-top: -10px;
+        margin-bottom: 15px; }
       .home-template .newhero .hero-body .hero-content {
         width: 100%;
         display: block; }
@@ -4182,12 +4293,18 @@ header.navigation ul.submenu {
         padding: 0;
         position: relative;
         top: 2em;
-        left: 20vw;
-        width: 60vw; } }
+        left: 19vw;
+        width: 63vw; } }
   .home-template .get-this-book {
     padding-top: 70px !important; }
     .home-template .get-this-book h3 {
       margin-bottom: 50px; }
+    .home-template .get-this-book label {
+      font-weight: 300;
+      margin-bottom: 0; }
+    .home-template .get-this-book label:hover {
+      cursor: pointer;
+      text-decoration: underline; }
     .home-template .get-this-book .grid-items-lines {
       position: relative; }
       .home-template .get-this-book .grid-items-lines::after {
@@ -4195,9 +4312,9 @@ header.navigation ul.submenu {
         content: "";
         display: table; }
       .home-template .get-this-book .grid-items-lines .grid-item {
-        background: #fff;
-        border-bottom: 1px solid rgba(51, 51, 51, 0.2);
-        border-right: 1px solid rgba(51, 51, 51, 0.2);
+        background: rgba(0, 0, 0, 0.015);
+        border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+        border-right: 1px solid rgba(51, 51, 51, 0.1);
         cursor: pointer;
         float: left;
         height: 340px;

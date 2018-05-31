@@ -16,7 +16,7 @@
         <p>Forget everything you think you know about the digital age. The simple truth is that it’s not about privacy, AI or blockchain&ndash;it’s about the rules of ownership. And hope lies in the fact that we can change them in a radically better way.</p>
         <p>Today who owns information has power; and when owned by the few and their global monopolies it generates political instability and threatens our freedom.</p>
         <p>The Open Revolution offers a vision where digital information is owned not by the few but is open to all. Choosing Open is a chance to transform our economies and societies, to use the extraordinary potential of digital abundance to build a better, more equal, and freer world.</p>
-        <a class="button" onclick="scrollDown()" href="#next-section">About</a>
+        <a class="button" onclick="scrollDown()" href="#get-this-book">Download Book</a>
         <p>
           <a target="_blank" href="{{ .Site.Params.twitter }}"> <i class="icon ion-social-twitter" ></i></a>
           <a target="_blank" href="{{ .Site.Params.facebook }}"> <i class="icon ion-social-facebook" ></i></a>
@@ -28,28 +28,29 @@
 
   <!-- Get this book -->
   <section class="std-wide get-this-book" id="get-this-book">
-    <h1>Get This Book</h1>
+    <h1>Get The Book</h1>
     <h3>The book will be available in various formats for readers on 12 June, 2018</h3>
 
     <div class="grid-items-lines">
       <div href="javascript:void(0)" class="grid-item grid-item-medium">
-        <!-- <img src="/img/amazon.png" alt=""> -->
+        <img src="/img/pay.png" alt="" width=40>
         <h2>Purchase The Book</h2>
-        <p>The Open Revolution Book will be soon available to be ordered in various formats. Buy the book on Amazon or purchase directly and help fund this work.</p>
+        <p>Buy the book on Amazon or purchase directly and help fund this work.</p>
         
+		<br/>
         <ul>
           <li><a href="https://www.amazon.com/dp/B07DDDFCG6">Paperback & Kindle</a></li>
-          <li><a href="#">PDF & ePub - Buy directly</a></li>
+          <li><label for="coming-soon-modal">PDF & ePub - Buy directly</label></li>
         </ul>
         
       </div>
       <div href="javascript:void(0)" class="grid-item grid-item-medium">
-        <!-- <img src="/img/open-book.png" alt=""> -->
+        <img src="/img/open-book.png" alt=""> 
         <h2>Open version - pay what feels right</h2>
-        <p>In keeping with the philosophy of the book The Open Revolution is available “openly” and you can download it directly in PDF or ePUB.</p>
+        <p>In keeping with the philosophy of the book, The Open Revolution is available “openly” and you can download it directly.</p>
         <ul>
-          <li><a href="#">PDF - Coming Soon</a></li>
-          <li><a href="#">ePUB - Coming Soon</a></li>
+          <li><label href="#" for="coming-soon-modal">PDF - Coming Soon</label></li>
+          <li><label href="#" for="coming-soon-modal">ePUB - Coming Soon</label></li>
         </ul>
       </div>
       
@@ -318,7 +319,7 @@ Choosing Open is a chance to transform our economies and societies, to create a 
 
 
   <section class="subscribe std">
-              <h1>Subscribe and Download</h1>
+              <h1>Subscribe to Newsletter</h1>
 			        <p>Subscribe to our newsletter to receive news about the Open Revolution Movement each month and stay engage with the cause. <br/>
 Also get a download link to Open Revolution book by submitting your email
 </p>
@@ -337,8 +338,11 @@ Also get a download link to Open Revolution book by submitting your email
 
   </section>
  
-  {{ partial "footer.html" . }}
 
+  {{ partial "footer.html" . }}
+   
+  {{ partial "modals.html" . }}
+  
   {{ partial "script.html" . }}
 
 </body>

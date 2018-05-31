@@ -36,7 +36,11 @@
         justify-content: flex-start !important;
 
       }
-
+	
+		.button {
+		    margin-top: -10px;
+			margin-bottom: 15px;
+		}
 
       .hero-content {
         width: 100%;
@@ -167,15 +171,25 @@
     padding: 0 5%;
     @include media($large-screen) {
       padding: 0;
-      @include position(2em null null 20vw);
-      @include size(60vw null);
+      @include position(2em null null 19vw);
+      @include size(63vw null);
     }
+	
   }
   .get-this-book{
     padding-top:70px !important;
     h3 {
       margin-bottom:50px;
     }
+	label {
+		font-weight:300;
+		margin-bottom:0;
+	}
+	label:hover {
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	
     @mixin grid-item-columns($columns) {
       width: (100% / 12) * $columns;
     }
@@ -189,7 +203,7 @@
       $base-font-color: $dark-gray !default;
       $grid-items-background: $base-background-color;
       $grid-item-background: $base-background-color;
-      $grid-item-border: 1px solid transparentize($base-font-color, 0.8);
+      $grid-item-border: 1px solid transparentize($base-font-color, 0.9);
       $grid-item-columns: 4;
       $grid-item-big-columns: 8;
       $grid-item-color: $base-font-color;
@@ -199,7 +213,8 @@
       position: relative;
     
       .grid-item {
-        background: $grid-item-background;
+	 
+        background: rgba(0,0,0,0.015);;
         border-bottom: $grid-item-border;
         border-right: $grid-item-border;
         cursor: pointer;
@@ -472,4 +487,3 @@
 
   
 }
-
