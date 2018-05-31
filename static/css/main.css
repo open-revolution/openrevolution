@@ -4173,6 +4173,17 @@ header.navigation ul.submenu {
         top: 2em;
         left: 25vw;
         width: 50vw; } }
+  .home-template section.std-wide {
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 0 5%; }
+    @media screen and (min-width: 53.75em) {
+      .home-template section.std-wide {
+        padding: 0;
+        position: relative;
+        top: 2em;
+        left: 20vw;
+        width: 60vw; } }
   .home-template .get-this-book {
     padding-top: 70px !important; }
     .home-template .get-this-book h3 {
@@ -4189,7 +4200,7 @@ header.navigation ul.submenu {
         border-right: 1px solid rgba(51, 51, 51, 0.2);
         cursor: pointer;
         float: left;
-        height: 380px;
+        height: 340px;
         outline: none;
         overflow: hidden;
         padding: 2em;

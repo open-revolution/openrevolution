@@ -161,9 +161,18 @@
 
 
   /* Get this book section */
-  .get-this-book {
+  section.std-wide {
+    margin-bottom: 2em;
+    text-align: left;
+    padding: 0 5%;
+    @include media($large-screen) {
+      padding: 0;
+      @include position(2em null null 20vw);
+      @include size(60vw null);
+    }
+  }
+  .get-this-book{
     padding-top:70px !important;
-
     h3 {
       margin-bottom:50px;
     }
@@ -195,7 +204,7 @@
         border-right: $grid-item-border;
         cursor: pointer;
         float: left;
-        height: 380px;
+        height: 340px;
         outline: none;
         overflow: hidden;
         padding: 2em;
