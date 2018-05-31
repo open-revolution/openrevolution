@@ -195,7 +195,7 @@
         border-right: $grid-item-border;
         cursor: pointer;
         float: left;
-        height: 500px;
+        height: 380px;
         outline: none;
         overflow: hidden;
         padding: 2em;
@@ -204,7 +204,7 @@
         width: 100%;
         
         @media screen and (min-width:860px) and (max-width:1240px){
-          height:700px;
+          height:500px;
         }
         @include media($large-screen) {
           @include grid-item-columns($grid-item-columns);

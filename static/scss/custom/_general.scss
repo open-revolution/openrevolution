@@ -6,6 +6,10 @@ $sans-serif: "Lato", sans-serif;
 a.button {
   @extend button;
 }
+
+a:disabled{
+  color:red !important;
+}
 button.btn-yellow {
   background-color: #f9da5b !important;
   color: #000;
@@ -23,3 +27,5 @@ button.btn-yellow {
     padding-top:40px;
   }
 }
+
+

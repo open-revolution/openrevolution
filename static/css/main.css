@@ -3691,6 +3691,9 @@ table {
             margin-bottom: 0;
             width: auto; } }
 
+a:disabled {
+  color: red !important; }
+
 button.btn-yellow, a.btn-yellow.button {
   background-color: #f9da5b !important;
   color: #000; }
@@ -4186,7 +4189,7 @@ header.navigation ul.submenu {
         border-right: 1px solid rgba(51, 51, 51, 0.2);
         cursor: pointer;
         float: left;
-        height: 500px;
+        height: 380px;
         outline: none;
         overflow: hidden;
         padding: 2em;
@@ -4195,7 +4198,7 @@ header.navigation ul.submenu {
         width: 100%; }
         @media screen and (min-width: 860px) and (max-width: 1240px) {
           .home-template .get-this-book .grid-items-lines .grid-item {
-            height: 700px; } }
+            height: 500px; } }
         @media screen and (min-width: 53.75em) {
           .home-template .get-this-book .grid-items-lines .grid-item {
             width: 33.3333333333%; } }
