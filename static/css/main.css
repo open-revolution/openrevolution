@@ -3815,6 +3815,10 @@ button.btn-yellow, a.btn-yellow.button {
     .content-wrapper {
       padding-top: 40px; } }
 
+section h3 {
+  text-transform: capitalize;
+  font-size: 17px !important; }
+
 header.navigation {
   background-color: #fff;
   border-bottom: 1px solid #e6e6e6;
@@ -4177,7 +4181,8 @@ header.navigation ul.submenu {
           justify-content: flex-start !important; } }
       .home-template .newhero .hero-body .button {
         margin-top: -10px;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        font-size: 19px; }
       .home-template .newhero .hero-body .hero-content {
         width: 100%;
         display: block; }
@@ -4315,7 +4320,6 @@ header.navigation ul.submenu {
         background: rgba(0, 0, 0, 0.015);
         border-bottom: 1px solid rgba(51, 51, 51, 0.1);
         border-right: 1px solid rgba(51, 51, 51, 0.1);
-        cursor: pointer;
         float: left;
         height: 340px;
         outline: none;

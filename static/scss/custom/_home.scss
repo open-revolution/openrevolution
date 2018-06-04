@@ -39,7 +39,8 @@
 	
 		.button {
 		    margin-top: -10px;
-			margin-bottom: 15px;
+      margin-bottom: 15px;
+      font-size:19px;
 		}
 
       .hero-content {
@@ -217,7 +218,6 @@
         background: rgba(0,0,0,0.015);;
         border-bottom: $grid-item-border;
         border-right: $grid-item-border;
-        cursor: pointer;
         float: left;
         height: 340px;
         outline: none;
