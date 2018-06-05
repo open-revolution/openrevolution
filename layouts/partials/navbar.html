@@ -8,12 +8,7 @@
         <li class="nav-link"><a href="/about/">About</a></li>
         <li class="nav-link"><a href="/events/">Events</a></li>
 
-        <!-- Scroll to contact link changes a bit depending if you're on homepage or not -->
-        {{if eq .URL "/"}}
-          <li class="nav-link"><a onclick="scrollDown()" href="#contact">Contact</a></li>
-        {{else}}
-          <li class="nav-link"><a href="/#contact">Contact</a></li>
-        {{end}}
+        <li class="nav-link"><a href="/contact/">Contact</a></li>
 
         {{if eq .URL "/"}}
           <li class="nav-link"><a onclick="scrollDown()" href="#get-this-book" class="button btn-yellow">Get The Book Now</a></li>
