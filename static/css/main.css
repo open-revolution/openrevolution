@@ -4262,124 +4262,6 @@ header.navigation ul.submenu {
             font-size: 2.6em; }
             .home-template .newhero .call-to-action .arrow-down a {
               color: #333; } }
-  @media screen and (min-width: 25em) {
-    .home-template .donate {
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 60px; }
-      .home-template .donate::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  @media screen and (max-width: 480px) {
-    .home-template .donate {
-      max-width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 60px; }
-      .home-template .donate::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  @media screen and (min-width: 40em) {
-    .home-template .donate {
-      max-width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 130px; }
-      .home-template .donate::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  @media screen and (min-width: 53.75em) {
-    .home-template .donate {
-      max-width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 130px; }
-      .home-template .donate::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  .home-template .donate .content {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 57.3509785009%; }
-    .home-template .donate .content:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 480px) {
-      .home-template .donate .content {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .content:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 25em) {
-      .home-template .donate .content {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .content:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 40em) {
-      .home-template .donate .content {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .content:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 53.75em) {
-      .home-template .donate .content {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 57.3509785009%; }
-        .home-template .donate .content:last-child {
-          margin-right: 0; } }
-  .home-template .donate .donatation {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 40.2913699012%; }
-    .home-template .donate .donatation:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 480px) {
-      .home-template .donate .donatation {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .donatation:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 25em) {
-      .home-template .donate .donatation {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .donatation:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 40em) {
-      .home-template .donate .donatation {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        .home-template .donate .donatation:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 53.75em) {
-      .home-template .donate .donatation {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 40.2913699012%; }
-        .home-template .donate .donatation:last-child {
-          margin-right: 0; } }
   .home-template #next-section {
     min-height: 500px; }
   .home-template .video {
@@ -4688,6 +4570,126 @@ header.navigation ul.submenu {
 
 .bg-grey {
   background-color: #f8f8f8; }
+
+/* Donations page */
+@media screen and (min-width: 25em) {
+  .donate {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (max-width: 480px) {
+  .donate {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (min-width: 40em) {
+  .donate {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (min-width: 53.75em) {
+  .donate {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+.donate .content {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 57.3509785009%; }
+  .donate .content:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 25em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 40em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 53.75em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 57.3509785009%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+.donate .donorbox {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 40.2913699012%; }
+  .donate .donorbox:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 25em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 40em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 53.75em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 40.2913699012%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
 
 .footer-2 {
   background: black;

@@ -123,68 +123,6 @@
     }
   }
 
-  .donate {
-
-    $mobile:max-width 480px;
-    @include media($small-screen) {
-      @include outer-container(90%);
-      margin-top:60px;
-    }
-    @include media($mobile){
-      @include outer-container(90%);
-      margin-top:60px;
-    }
-    @include media($medium-screen){
-      @include outer-container(70%);
-      margin-top:130px;
-    }
-    @include media($large-screen) {
-      @include outer-container(70%);
-      margin-top:130px;
-    }
-
-      .content {
-        @include span-columns(7);
-
-        @include media($mobile) {
-          @include span-columns(12);
-        }
-
-        @include media($small-screen) {
-          @include span-columns(12);
-        }
-
-        @include media($medium-screen) {
-          @include span-columns(12);
-        }
-        @include media($large-screen) {
-          @include span-columns(7);
-        }
-      }
-
-      .donatation {
-        @include span-columns(5);
-
-        @include media($mobile) {
-          @include span-columns(12);
-        }
-
-        @include media($small-screen) {
-          @include span-columns(12);
-        }
-
-        @include media($medium-screen) {
-          @include span-columns(12);
-        }
-        @include media($large-screen) {
-          @include span-columns(5);
-        }
-      }
-
-      
-      
-    
-}
 
   
   #next-section {
