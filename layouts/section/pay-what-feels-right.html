@@ -1,0 +1,30 @@
+{{ partial "head.html" . }}
+
+<body class="home-template section-grey">
+
+  {{ partial "navbar.html" . }}
+  
+    <section class="donate">
+          <div class="content">
+              <h1>Pay What Feels Right</h1>
+                <p>
+                    We really appreciate any amount you can donate and contribute to support our vision. The Open Revolution book is completely self funded. Since the book is available to download for free, your action is what would help us spread the vision.
+                </p>
+                <p>
+                      Add your contribution to the The Open Revolution by Donating an amount by clicking the button below. We do not have a fixed donation amount and expect you to give a donation as per your wish. All the transactions are processed by Donorbox and are 100% secure.
+                </p>
+              </div>
+            </div>
+              
+          <div class="donation">
+              <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%"
+              style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+          </div>  
+    </section>
+
+   {{ partial "footer.html" . }}
+  
+
+  {{ partial "script.html" . }}
+</body>
+</html>
