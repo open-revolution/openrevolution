@@ -7,6 +7,10 @@ a.button {
   @extend button;
 }
 
+body a {
+  text-decoration: underline;
+}
+
 a:disabled{
   color:red !important;
 }
@@ -35,4 +39,22 @@ section {
   }
 }
 
+.toc {
+  h2 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+
+  ul li ul li {
+    font-size: 16px;
+  }
+}
+
+body ul li ul {
+  margin-bottom: 0;
+}
 

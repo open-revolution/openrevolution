@@ -562,10 +562,10 @@ html {
   https://twitter.com/benjsperry  https://twitter.com/ionicframework
   MIT License: https://github.com/driftyco/ionicons
 
-  Android-style icons originally built by GoogleΓÇÖs
+  Android-style icons originally built by Google’s
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
-  Modified icons to fit ioniconΓÇÖs grid from original.
+  Modified icons to fit ionicon’s grid from original.
 */
 @font-face {
   font-family: "Ionicons";
@@ -3802,6 +3802,9 @@ table {
 .submit_container {
   padding-top: 10px; }
 
+body a {
+  text-decoration: underline; }
+
 a:disabled {
   color: red !important; }
 
@@ -3821,6 +3824,17 @@ button.btn-yellow, a.btn-yellow.button {
 section h3 {
   text-transform: capitalize;
   font-size: 17px !important; }
+
+.toc h2 {
+  font-size: 24px;
+  margin-bottom: 0.5em; }
+.toc ul li {
+  font-size: 18px; }
+.toc ul li ul li {
+  font-size: 16px; }
+
+body ul li ul {
+  margin-bottom: 0; }
 
 header.navigation {
   background-color: #fff;
@@ -3938,7 +3952,7 @@ header.navigation {
         header.navigation li.more > a {
           margin-right: 1em; } }
       header.navigation li.more > a::after {
-        content: "ΓÇ║";
+        content: "›";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
@@ -3973,7 +3987,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 1032px) {
         header.navigation ul.submenu li {
-          line-height: 59.2307692308px; }
+          line-height: 59.23077px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -4203,8 +4217,8 @@ header.navigation ul.submenu {
           border-radius: 0;
           color: white; }
         .home-template .newhero .hero-body .hero-content img {
-          max-width: 280px;
-          justify-content: flix-end;
+          max-width: 320px;
+          justify-content: flex-end;
           padding-bottom: 20px; }
       .home-template .newhero .hero-body .intro {
         display: table-cell;
@@ -4222,9 +4236,12 @@ header.navigation ul.submenu {
           .home-template .newhero .hero-body .intro {
             display: table-cell;
             width: 50%;
-            margin-left: 6.8238434399%; } }
+            margin-left: 6.82384%; } }
         .home-template .newhero .hero-body .intro h1 {
-          font-size: 50px; }
+          font-size: 30px; }
+          .home-template .newhero .hero-body .intro h1 small {
+            font-size: 24px;
+            font-style: italic; }
         .home-template .newhero .hero-body .intro a {
           margin-right: 10px; }
     .home-template .newhero .call-to-action {
@@ -4336,7 +4353,7 @@ header.navigation ul.submenu {
             height: 500px; } }
         @media screen and (min-width: 53.75em) {
           .home-template .get-this-book .grid-items-lines .grid-item {
-            width: 33.3333333333%; } }
+            width: 33.33333%; } }
         .home-template .get-this-book .grid-items-lines .grid-item:focus, .home-template .get-this-book .grid-items-lines .grid-item:hover {
           background: rgba(51, 51, 51, 0.05); }
       .home-template .get-this-book .grid-items-lines .grid-item img {
@@ -4357,13 +4374,13 @@ header.navigation ul.submenu {
             max-width: 70%; } }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big {
-          width: 66.6666666667%; } }
+          width: 66.66667%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big p {
           max-width: 50%; } }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium {
-          width: 66.6666666667%;
+          width: 66.66667%;
           max-width: 50%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium p {
