@@ -15,11 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Analytics tracking code -->
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-102022428-2', 'auto')
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    {{ template "_internal/google_analytics_async.html" . }}
     <!-- end Google Analytics tracking code -->
 
     <!--Styles'n'Scripts -->
