@@ -135,7 +135,6 @@
     position: relative;
     margin-bottom: 3em;
     .video-wrapper {
-      margin-bottom: 15vh;
       embed,
       object,
       iframe {
@@ -145,16 +144,6 @@
           @include position(13vh null null calc(50vw - 420px));
           @include size(854px 480px);
         }
-      }
-    }
-    .video-text {
-      margin-bottom: 2em;
-      text-align: left;
-      padding: 0 5%;
-      @include media($large-screen) {
-        padding: 0;
-        @include position(2em null null 25vw);
-        @include size(50vw null);
       }
     }
   }

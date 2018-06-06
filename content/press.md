@@ -28,6 +28,32 @@ Pollock exposes the myths that cloud the digital debate. Looking beneath the sur
 
 Dr Rufus Pollock is a researcher, entrepreneur and technologist working to make the information economy work for everyone. He is the founder of Open Knowledge International and formerly the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA.
 
+# Synopses
+
+## One sentence
+
+In The Open Revolution: rewriting the rules of the information age, Rufus Pollock points to today’s “Closed” economics as the cause of many societal problems, and he charts a path to a more “Open” future that works for everyone.
+
+## One paragraph
+
+Forget everything you think you know about the digital age. It’s not about technology; it’s about **ownership**. Because, information is power and who owns information controls the future. In this urgent and provocative book, Rufus Pollock shows how today’s “Closed” digital economy is the source of problems ranging from growing inequality, to unaffordable medicines, to the power of a handful of tech monopolies to control how we think and vote. He charts a path to a more equitable, innovative and profitable future for all.
+
+### Tech-y
+
+Will the digital revolution give us digital dictatorships or digital democracies? Forget everything you think you know about the digital age. It’s not about privacy, surveillance, AI or blockchain&mdash;it’s about **ownership**. In this urgent and provocative book, Rufus Pollock presents a new diagnosis for the ills of the digital age and charts a path to a more equitable, innovative and profitable futu
+
+## Long
+
+Will the digital revolution give us digital dictatorships or digital democracies? Forget everything you think you know about the digital age. It’s not about privacy, surveillance, AI or blockchain&mdash;it’s about **ownership**. Because, in a digital age, who owns information controls the future.
+
+Today, information is everywhere. From your DNA to the latest blockbusters, from lifesaving drugs to the app on your phone, from big data to algorithms. Our entire global economy is built on it and the rules around information affect us all every day.
+
+As information continues to move into the digital domain, it can be copied and distributed with ease, making access and control even more important. But the rules we have made for it, derived from how we manage physical property, are hopelessly maladapted to the digital world.
+
+In this urgent and provocative book, Rufus Pollock shows that we must make a choice between making information **Open**, shared by all, or making it **Closed**, exclusively owned and controlled, and how today’s Closed digital economy is the source of problems ranging from growing inequality, to unaffordable medicines, to the power of a handful of tech monopolies to control how we think and vote.
+
+Choosing Open is the path to a more equitable, innovative and profitable future for all.
+
 
 # Bio
 
@@ -80,13 +106,14 @@ He holds a PhD in Economics and a double first in Mathematics from the Universit
 <br />
 <a href="/img/open-revolution-cover.jpg">Click here for full resolution</a>
 
-## Links
+# Links
 
+# Previous coverage
 
-## Previous coverage
+# Author quotes
 
-## Author quotes
+# Other related project info
 
-
-Other project info (eg imed, info on oki)
+* Open Knowledge - https://okfn.org/
+* iMed - https://imedproject.org/
 
