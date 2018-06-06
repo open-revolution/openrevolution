@@ -562,10 +562,10 @@ html {
   https://twitter.com/benjsperry  https://twitter.com/ionicframework
   MIT License: https://github.com/driftyco/ionicons
 
-  Android-style icons originally built by Google’s
+  Android-style icons originally built by GoogleΓÇÖs
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
-  Modified icons to fit ionicon’s grid from original.
+  Modified icons to fit ioniconΓÇÖs grid from original.
 */
 @font-face {
   font-family: "Ionicons";
@@ -3952,7 +3952,7 @@ header.navigation {
         header.navigation li.more > a {
           margin-right: 1em; } }
       header.navigation li.more > a::after {
-        content: "›";
+        content: "ΓÇ║";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
@@ -3987,7 +3987,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 1032px) {
         header.navigation ul.submenu li {
-          line-height: 59.23077px; }
+          line-height: 59.2307692308px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -4236,7 +4236,7 @@ header.navigation ul.submenu {
           .home-template .newhero .hero-body .intro {
             display: table-cell;
             width: 50%;
-            margin-left: 6.82384%; } }
+            margin-left: 6.8238434399%; } }
         .home-template .newhero .hero-body .intro h1 {
           font-size: 30px; }
           .home-template .newhero .hero-body .intro h1 small {
@@ -4353,7 +4353,7 @@ header.navigation ul.submenu {
             height: 500px; } }
         @media screen and (min-width: 53.75em) {
           .home-template .get-this-book .grid-items-lines .grid-item {
-            width: 33.33333%; } }
+            width: 33.3333333333%; } }
         .home-template .get-this-book .grid-items-lines .grid-item:focus, .home-template .get-this-book .grid-items-lines .grid-item:hover {
           background: rgba(51, 51, 51, 0.05); }
       .home-template .get-this-book .grid-items-lines .grid-item img {
@@ -4374,13 +4374,13 @@ header.navigation ul.submenu {
             max-width: 70%; } }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big {
-          width: 66.66667%; } }
+          width: 66.6666666667%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big p {
           max-width: 50%; } }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium {
-          width: 66.66667%;
+          width: 66.6666666667%;
           max-width: 50%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium p {
@@ -4570,6 +4570,126 @@ header.navigation ul.submenu {
 
 .bg-grey {
   background-color: #f8f8f8; }
+
+/* Donations page */
+@media screen and (min-width: 25em) {
+  .donate {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (max-width: 480px) {
+  .donate {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (min-width: 40em) {
+  .donate {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+@media screen and (min-width: 53.75em) {
+  .donate {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px; }
+    .donate::after {
+      clear: both;
+      content: "";
+      display: table; } }
+.donate .content {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 57.3509785009%; }
+  .donate .content:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 25em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 40em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 53.75em) {
+    .donate .content {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 57.3509785009%; }
+      .donate .content:last-child {
+        margin-right: 0; } }
+.donate .donorbox {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 40.2913699012%; }
+  .donate .donorbox:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 25em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 40em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 53.75em) {
+    .donate .donorbox {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 40.2913699012%; }
+      .donate .donorbox:last-child {
+        margin-right: 0; } }
 
 .footer-2 {
   background: black;
