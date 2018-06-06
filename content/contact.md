@@ -4,7 +4,10 @@ title: Get in Touch
 
 Please get in touch to share feedback, ask questions or anything else you need. We love hearing from you and will respond very promptly.
 
-As well as the form below you can reach us via **[twitter @rufuspollock](https://twitter.com/rufuspollock)**.
+As well as the form below you can reach us via:
+
+* Twitter on **[@rufuspollock](https://twitter.com/rufuspollock)**.
+* Email on <a href="mailto:rufus@openrevolution.net">rufus@openrevolution.net</a>.
 
 *Rufus and the Open Revolution team*
 
