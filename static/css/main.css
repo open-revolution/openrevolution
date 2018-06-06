@@ -4268,36 +4268,23 @@ header.navigation ul.submenu {
     overflow: hidden;
     position: relative;
     margin-bottom: 3em; }
-    .home-template .video .video-wrapper {
-      margin-bottom: 15vh; }
-      .home-template .video .video-wrapper embed,
-      .home-template .video .video-wrapper object,
-      .home-template .video .video-wrapper iframe {
-        position: relative;
-        top: 7vh;
-        left: 5vw;
-        height: 50.58vw;
-        width: 90vw; }
-        @media screen and (min-width: 53.75em) {
-          .home-template .video .video-wrapper embed,
-          .home-template .video .video-wrapper object,
-          .home-template .video .video-wrapper iframe {
-            position: relative;
-            top: 13vh;
-            left: calc(50vw - 420px);
-            height: 480px;
-            width: 854px; } }
-    .home-template .video .video-text {
-      margin-bottom: 2em;
-      text-align: left;
-      padding: 0 5%; }
+    .home-template .video .video-wrapper embed,
+    .home-template .video .video-wrapper object,
+    .home-template .video .video-wrapper iframe {
+      position: relative;
+      top: 7vh;
+      left: 5vw;
+      height: 50.58vw;
+      width: 90vw; }
       @media screen and (min-width: 53.75em) {
-        .home-template .video .video-text {
-          padding: 0;
+        .home-template .video .video-wrapper embed,
+        .home-template .video .video-wrapper object,
+        .home-template .video .video-wrapper iframe {
           position: relative;
-          top: 2em;
-          left: 25vw;
-          width: 50vw; } }
+          top: 13vh;
+          left: calc(50vw - 420px);
+          height: 480px;
+          width: 854px; } }
   .home-template section.std {
     margin-bottom: 2em;
     text-align: left;
