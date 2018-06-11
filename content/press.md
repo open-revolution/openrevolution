@@ -108,9 +108,8 @@ He holds a PhD in Economics and a double first in Mathematics from the Universit
 
 # Links
 
-# Previous coverage
-
-# Author quotes
+* https://rufuspollock.com/
+* https://imedproject.org/
 
 # Other related project info
 
