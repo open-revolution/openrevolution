@@ -6,8 +6,8 @@ Please get in touch to share feedback, ask questions or anything else you need. 
 
 As well as the form below you can reach us via:
 
-* Twitter on **[@rufuspollock](https://twitter.com/rufuspollock)**.
-* Email on <a href="mailto:rufus@openrevolution.net">rufus@openrevolution.net</a>.
+* Twitter on **[@rufuspollock](https://twitter.com/rufuspollock)**
+* Email on <a href="mailto:hello@openrevolution.net">hello@openrevolution.net</a>
 
 *Rufus and the Open Revolution team*
 
