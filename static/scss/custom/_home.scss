@@ -41,7 +41,15 @@
 		    margin-top: -10px;
       margin-bottom: 15px;
       font-size:19px;
-		}
+    }
+    
+    
+    span.rotate-90 {
+      margin-left:5px;
+      display:inline-block;
+      -webkit-transform: rotate(90deg); 
+      -moz-transform: rotate(90deg); 
+    }
 
       .hero-content {
         width: 100%;
@@ -214,7 +222,7 @@
         border-bottom: $grid-item-border;
         border-right: $grid-item-border;
         float: left;
-        height: 340px;
+        height: 360px;
         outline: none;
         overflow: hidden;
         padding: 2em;
@@ -256,7 +264,13 @@
             max-width: 70%;
           }
         }
-    
+
+      .grid-item ul li a {
+          padding-right:10px;
+      }
+
+      
+
       .grid-item-big {
         @include media($large-screen) {
           @include grid-item-columns($grid-item-big-columns);
@@ -384,6 +398,7 @@
   .subscribe {
     padding-top:80px !important;
     padding-bottom:80px !important;
+    display:none;
   }
 
   /* TO CUT */

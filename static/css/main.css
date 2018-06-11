@@ -4200,6 +4200,11 @@ header.navigation ul.submenu {
         margin-top: -10px;
         margin-bottom: 15px;
         font-size: 19px; }
+      .home-template .newhero .hero-body span.rotate-90 {
+        margin-left: 5px;
+        display: inline-block;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg); }
       .home-template .newhero .hero-body .hero-content {
         width: 100%;
         display: block; }
@@ -4328,7 +4333,7 @@ header.navigation ul.submenu {
         border-bottom: 1px solid rgba(51, 51, 51, 0.1);
         border-right: 1px solid rgba(51, 51, 51, 0.1);
         float: left;
-        height: 340px;
+        height: 360px;
         outline: none;
         overflow: hidden;
         padding: 2em;
@@ -4359,6 +4364,8 @@ header.navigation ul.submenu {
         @media screen and (min-width: 40em) {
           .home-template .get-this-book .grid-items-lines .grid-item p {
             max-width: 70%; } }
+      .home-template .get-this-book .grid-items-lines .grid-item ul li a {
+        padding-right: 10px; }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big {
           width: 66.6666666667%; } }
@@ -4428,7 +4435,8 @@ header.navigation ul.submenu {
       padding-top: 25px; }
   .home-template .subscribe {
     padding-top: 80px !important;
-    padding-bottom: 80px !important; }
+    padding-bottom: 80px !important;
+    display: none; }
   .home-template .fellow {
     max-width: 90%;
     margin-left: auto;
@@ -4741,6 +4749,7 @@ header.navigation ul.submenu {
         opacity: 1; }
 
 .footer-2 {
+  margin-top: 70px;
   padding: 1.5em 5%;
   background: white;
   border-top: 1px solid #e6e6e6; }
