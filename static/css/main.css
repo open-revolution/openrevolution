@@ -4763,7 +4763,8 @@ header.navigation ul.submenu {
     color: #333; }
   .footer-2 ul li a {
     color: #333;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 0.8em; }
     .footer-2 ul li a:focus, .footer-2 ul li a:hover {
       color: #333;
       text-decoration: underline; }
