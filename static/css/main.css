@@ -4430,7 +4430,8 @@ header.navigation ul.submenu {
           margin: 0 0 0.5em 0; }
         .home-template .testimonials .comment .comment-content p {
           line-height: 1.5em;
-          margin-bottom: 0.5em; }
+          margin-bottom: 0.5em;
+          font-size: 1em; }
         .home-template .testimonials .comment .comment-content p.comment-detail {
           color: rgba(51, 51, 51, 0.5);
           font-size: 0.9em;
