@@ -1,6 +1,10 @@
 {{ partial "head.html" . }}
 
 <body class="home-template">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TT56ST2"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   {{ partial "navbar.html" . }}
 
@@ -37,34 +41,31 @@
       <div href="javascript:void(0)" class="grid-item grid-item-medium">
         <img src="/img/pay.png" alt="" width=40>
         <h2>Purchase The Book</h2>
-        <p>Buy the book on Amazon and help support this work.</p>
+        <p>Buy the book on Amazon in paperback or digital form and support this work. Just choose the option and store that works for you.</p>
         <ul>
-          <li>Paperback 
-              <ul>
-                <li>Amazon: 
-                  <a href="{{ .Site.Params.UKpaperback }}">UK</a>
-                  <a href="{{ .Site.Params.USpaperback }}">US</a> 
-                  <a href="{{ .Site.Params.FRpaperback }}">FR</a></li>
-              </ul>
-          <li>Kindle 
-              <ul>
-                  <li>Amazon: 
-                    <a href="{{ .Site.Params.UKkindle }}">UK</a> 
-                    <a href="{{ .Site.Params.USkindle }}">US</a> 
-                    <a href="{{ .Site.Params.FRkindle }}">FR</a></li>
-                </ul>
+          <li>Paperback:
+            <a href="{{ .Site.Params.UKpaperback }}">UK</a>
+            <a href="{{ .Site.Params.USpaperback }}">US</a> 
+            <a href="{{ .Site.Params.FRpaperback }}">FR</a>
+          </li>
+          <li>Kindle:
+            <a href="{{ .Site.Params.UKkindle }}">UK</a> 
+            <a href="{{ .Site.Params.USkindle }}">US</a> 
+            <a href="{{ .Site.Params.FRkindle }}">FR</a>
           </li>
         </ul>
         
       </div>
       <div class="grid-item grid-item-medium">
         <img src="/img/open-book.png" alt=""> 
-        <h2>Open version - pay what feels right</h2>
+        <h2>Open Version - Pay What Feels Right</h2>
         <p>In keeping with the philosophy of the book, The Open Revolution is available “openly” and you can download it directly.</p>
         <ul>
           <li><label for="coming-soon-modal">PDF</label></li>
           <li><label for="coming-soon-modal">EPUB</label></li>
+          <li><label for="coming-soon-modal">EPUB</label></li>
         </ul>
+        <p>You can contribute back by <a href="/pay-what-feels-right/">paying what feels right</a></p>
       </div>
       
       <div class="right-cover"></div>
@@ -148,16 +149,6 @@
     </div>
   </section>
 
-  <section class="std">
-    <h1>About the Author</h1>
-    <p><strong>Dr Rufus Pollock</strong> is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO which is present in over 35 countries, empowering people and organization with access information so that they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.</p>
-</section>
-  <div class="video">
-    <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/15L7i0201ms?autoplay=0&showinfo=0&controls=1" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-  
   <!------------- what is open revolution section ---------------->
 
   <section class="std">
@@ -169,7 +160,17 @@
     <p>In this urgent and provocative book, Rufus Pollock shows that we must make a choice between making information Open, shared by all, or making it Closed, exclusively owned and controlled, and how today’s Closed digital economy is the source of problems ranging from growing inequality, to unaffordable medicines, to the power of a handful of tech monopolies to control how we think and vote.</p>
     <p>Choosing Open is the path to a more equitable, innovative and profitable future for all.</p>
   </section>
-  
+
+  <section class="std">
+    <h1>About the Author</h1>
+    <p><strong>Dr Rufus Pollock</strong> is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO which is present in over 35 countries, empowering people and organization with access information so that they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.</p>
+</section>
+  <div class="video">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/15L7i0201ms?autoplay=0&showinfo=0&controls=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <section class="subscribe std">
     <h1>Subscribe to Newsletter</h1>
     <p>Subscribe to our newsletter to receive news about the Open Revolution each month and stay up to date with the movement.</p>

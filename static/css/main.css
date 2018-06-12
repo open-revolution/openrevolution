@@ -562,10 +562,10 @@ html {
   https://twitter.com/benjsperry  https://twitter.com/ionicframework
   MIT License: https://github.com/driftyco/ionicons
 
-  Android-style icons originally built by GoogleΓÇÖs
+  Android-style icons originally built by Google’s
   Material Design Icons: https://github.com/google/material-design-icons
   used under CC BY http://creativecommons.org/licenses/by/4.0/
-  Modified icons to fit ioniconΓÇÖs grid from original.
+  Modified icons to fit ionicon’s grid from original.
 */
 @font-face {
   font-family: "Ionicons";
@@ -3958,7 +3958,7 @@ header.navigation {
         header.navigation li.more > a {
           margin-right: 1em; } }
       header.navigation li.more > a::after {
-        content: "ΓÇ║";
+        content: "›";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
@@ -3993,7 +3993,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 1032px) {
         header.navigation ul.submenu li {
-          line-height: 59.2307692308px; }
+          line-height: 59.23077px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -4247,7 +4247,7 @@ header.navigation ul.submenu {
           .home-template .newhero .hero-body .intro {
             display: table-cell;
             width: 50%;
-            margin-left: 6.8238434399%; } }
+            margin-left: 6.82384%; } }
         .home-template .newhero .hero-body .intro h1 {
           font-size: 30px; }
           .home-template .newhero .hero-body .intro h1 small {
@@ -4351,7 +4351,7 @@ header.navigation ul.submenu {
             height: 500px; } }
         @media screen and (min-width: 53.75em) {
           .home-template .get-this-book .grid-items-lines .grid-item {
-            width: 33.3333333333%; } }
+            width: 33.33333%; } }
         .home-template .get-this-book .grid-items-lines .grid-item:focus, .home-template .get-this-book .grid-items-lines .grid-item:hover {
           background: rgba(51, 51, 51, 0.05); }
       .home-template .get-this-book .grid-items-lines .grid-item img {
@@ -4374,13 +4374,13 @@ header.navigation ul.submenu {
         padding-right: 10px; }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big {
-          width: 66.6666666667%; } }
+          width: 66.66667%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-big p {
           max-width: 50%; } }
       @media screen and (min-width: 53.75em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium {
-          width: 66.6666666667%;
+          width: 66.66667%;
           max-width: 50%; } }
       @media screen and (min-width: 40em) {
         .home-template .get-this-book .grid-items-lines .grid-item-medium p {
@@ -4556,7 +4556,7 @@ header.navigation ul.submenu {
   height: 100vh;
   text-align: center !important; }
   .event h2 {
-    padding-top: 200px;
+    padding-top: 100px;
     margin-bottom: 20px; }
     @media screen and (max-width: 849px) {
       .event h2 {
@@ -4616,15 +4616,15 @@ header.navigation ul.submenu {
 .donate .content {
   float: left;
   display: block;
-  margin-right: 2.3576515979%;
-  width: 57.3509785009%; }
+  margin-right: 2.35765%;
+  width: 57.35098%; }
   .donate .content:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
     .donate .content {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .content:last-child {
         margin-right: 0; } }
@@ -4632,7 +4632,7 @@ header.navigation ul.submenu {
     .donate .content {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .content:last-child {
         margin-right: 0; } }
@@ -4640,7 +4640,7 @@ header.navigation ul.submenu {
     .donate .content {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .content:last-child {
         margin-right: 0; } }
@@ -4648,22 +4648,22 @@ header.navigation ul.submenu {
     .donate .content {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
-      width: 57.3509785009%; }
+      margin-right: 2.35765%;
+      width: 57.35098%; }
       .donate .content:last-child {
         margin-right: 0; } }
 .donate .donorbox {
   float: left;
   display: block;
-  margin-right: 2.3576515979%;
-  width: 40.2913699012%; }
+  margin-right: 2.35765%;
+  width: 40.29137%; }
   .donate .donorbox:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
     .donate .donorbox {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .donorbox:last-child {
         margin-right: 0; } }
@@ -4671,7 +4671,7 @@ header.navigation ul.submenu {
     .donate .donorbox {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .donorbox:last-child {
         margin-right: 0; } }
@@ -4679,7 +4679,7 @@ header.navigation ul.submenu {
     .donate .donorbox {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
+      margin-right: 2.35765%;
       width: 100%; }
       .donate .donorbox:last-child {
         margin-right: 0; } }
@@ -4687,8 +4687,8 @@ header.navigation ul.submenu {
     .donate .donorbox {
       float: left;
       display: block;
-      margin-right: 2.3576515979%;
-      width: 40.2913699012%; }
+      margin-right: 2.35765%;
+      width: 40.29137%; }
       .donate .donorbox:last-child {
         margin-right: 0; } }
 
