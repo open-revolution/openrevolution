@@ -7,10 +7,8 @@ permalinks:
   blog: /:year/:month/:day/:slug/
 
 params:
-  github: https://github.com/
   twitter: https://twitter.com/@rufuspollock/
-  linkedin: https://www.linkedin.com/
-  facebook: https://www.facebook.com/rufus.pollock/
+  facebook: https://www.facebook.com/RufusPollockOfficial/
 
   UKpaperback: https://www.amazon.co.uk/Open-Revolution-New-rules-world/dp/1983033227
   UKkindle: https://www.amazon.co.uk/Open-Revolution-New-rules-world-ebook/dp/B07DDDFCG6
