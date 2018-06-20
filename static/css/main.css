@@ -4239,6 +4239,9 @@ header.navigation ul.submenu {
           @media screen and (max-width: 480px) {
             .home-template .newhero .hero-body .hero-content img {
               width: 260px; } }
+          @media screen and (max-width: 320px) {
+            .home-template .newhero .hero-body .hero-content img {
+              width: 200px; } }
       .home-template .newhero .hero-body .intro {
         display: table-cell;
         width: 100%; }
