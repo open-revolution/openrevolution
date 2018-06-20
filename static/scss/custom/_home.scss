@@ -41,6 +41,13 @@
 		    margin-top: -10px;
       margin-bottom: 15px;
       font-size:19px;
+
+      u {
+        
+        @media screen and (max-width:768px){
+          display:none;
+        }
+      }
     }
     
     
@@ -72,6 +79,10 @@
           max-width: 320px;
           justify-content: flex-end;
           padding-bottom:20px;
+
+          @media screen and (max-width:480px){
+            width:260px;
+          }
         }
       }
 
@@ -222,7 +233,7 @@
         border-bottom: $grid-item-border;
         border-right: $grid-item-border;
         float: left;
-        height: 360px;
+        height: 380px;
         outline: none;
         overflow: hidden;
         padding: 2em;
@@ -232,6 +243,10 @@
         
         @media screen and (min-width:860px) and (max-width:1240px){
           height:500px;
+        }
+
+        @media screen and (max-width:859px){
+          height:auto;
         }
         @include media($large-screen) {
           @include grid-item-columns($grid-item-columns);
