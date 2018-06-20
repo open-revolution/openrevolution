@@ -4206,9 +4206,11 @@ header.navigation ul.submenu {
         margin-top: -10px;
         margin-bottom: 15px;
         font-size: 19px; }
-        @media screen and (max-width: 768px) {
-          .home-template .newhero .hero-body .button u {
-            display: none; } }
+        .home-template .newhero .hero-body .button u {
+          text-decoration: none; }
+          @media screen and (max-width: 768px) {
+            .home-template .newhero .hero-body .button u {
+              display: none; } }
       .home-template .newhero .hero-body span.rotate-90 {
         margin-left: 5px;
         display: inline-block;
