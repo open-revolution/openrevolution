@@ -375,6 +375,10 @@
           max-width: none;
           padding: $comment-image-padding;
           width: $comment-image-width;
+
+          @media screen and(max-width:480px){
+            width: 50px;
+          }
         }
     
         .comment-reverse-order & {

@@ -4434,6 +4434,9 @@ header.navigation ul.submenu {
           max-width: none;
           padding: 0;
           width: 6em; }
+          @media screen and (max-width: 480px) {
+            .home-template .testimonials .comment .comment-image > img {
+              width: 50px; } }
         .comment-reverse-order .home-template .testimonials .comment .comment-image {
           padding-left: 10px;
           padding-right: 0; }
