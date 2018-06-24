@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://openrevolution.net/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/pay-what-feels-right/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/press/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/events/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/make-it-happen/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/contact/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/media/open-revolution.pdf</loc>
+  <lastmod>2018-06-20T20:29:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openrevolution.net/preview/</loc>
+  <lastmod>2018-06-20T20:29:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
