@@ -13,10 +13,10 @@ As well as the form below you can reach us via:
 
 <form method="post" action="https://formspree.io/hello@openrevolution.net">
     <input name="name" id="name" type="text" class="form-control input-custom" placeholder="Your name..." required>
-    <input type="hidden" name="_replyto" id="_replyto" value="" placeholder="Your email" />
+    <!-- <input type="hidden" name="_replyto" id="_replyto" value="" placeholder="Your email" /> -->
     <input type="hidden" name="_subject" id="_subject" value="Open Revolution Contact Form - ">
 
-    <input name="email" id="email" type="email" class="form-control input-custom" placeholder="Your email..." required>
+    <input name="_replyto" id="_replyto" type="email" class="form-control input-custom" placeholder="Your email..." required>
     <textarea name="message"  rows="7" class="form-control input-custom" placeholder="Your message..." required></textarea>
   
   <button type="submit">SEND MESSAGE</button>
