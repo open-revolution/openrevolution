@@ -12,10 +12,12 @@ As well as the form below you can reach us via:
 *Rufus and the Open Revolution team*
 
 <form method="post" action="https://formspree.io/hello@openrevolution.net">
-    <input name="name" id="name" type="text" class="form-control input-custom" placeholder="Your name...">
-    <input type="hidden" name="_replyto" placeholder="Your email" />
-    <input name="email" id="email" type="email" class="form-control input-custom" placeholder="Your email...">
-    <textarea name="message"  rows="7" class="form-control input-custom" placeholder="Your message..."></textarea>
+    <input name="name" id="name" type="text" class="form-control input-custom" placeholder="Your name..." required>
+    <input type="hidden" name="_replyto" id="_replyto" value="" placeholder="Your email" />
+    <input type="hidden" name="_subject" id="_subject" value="Open Revolution Contact Form - ">
+
+    <input name="email" id="email" type="email" class="form-control input-custom" placeholder="Your email..." required>
+    <textarea name="message"  rows="7" class="form-control input-custom" placeholder="Your message..." required></textarea>
   
   <button type="submit">SEND MESSAGE</button>
 </form>  
