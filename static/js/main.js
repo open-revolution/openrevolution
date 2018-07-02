@@ -76,8 +76,4 @@ $(document).ready(function(){
   $("#name").on("input",function(){
     $("#_subject").val($sub+$(this).val());
   });
-
-  $("#email").on("input",function(){
-    $("#_replyto").val($(this).val());
-  })
 })
