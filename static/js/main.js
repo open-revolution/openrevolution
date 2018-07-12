@@ -67,3 +67,13 @@ $(document.links).filter(function() {
     return this.hostname
   }
 });
+
+
+//Contact Form
+$(document).ready(function(){
+  var $sub= $("#_subject").val();
+
+  $("#name").on("input",function(){
+    $("#_subject").val($sub+$(this).val());
+  });
+})
