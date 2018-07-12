@@ -26,7 +26,7 @@ In the not-too-distant future, Think Tanks will be conducting impact assessments
 
 In addition, the implementation of remuneration rights does not depend on government as philanthropists and patrons of the arts could pledge their money directly into embryonic remuneration rights pool.
 
-Want to know more? [Download the book](#get-this-book/) and check out our [FAQs page](/faqs/).
+Want to know more? [Download the book](/#get-this-book/) and check out our [FAQs page](/faqs/).
 
 Want to join - read on!
 
@@ -35,13 +35,13 @@ Want to join - read on!
 ### Join the movement
 
 * Get updates about the movement - sign up to the newsletter
-* Connect & Inspire - [Join the Facebook group ]()
+* Connect & Inspire - [Join the Facebook group ](https://www.facebook.com/groups/186769192043463/)
 
 ### Share the movement
 
 * Social media (social media sharing icons tba)
 * Translate the book - [Get in touch](/contact/) if you can help translate the book into other languages
-* [Digital Suppers]() 
+* [Digital Suppers](http://digitalsupper.com/) 
 
 Digital Suppers are a great way to get friends together to discuss the digital trends shaping our society and how an Open world is key to ensuring society benefits from the digital revolution.
 
