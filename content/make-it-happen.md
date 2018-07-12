@@ -1,5 +1,5 @@
 ---
-Title: Make it Happen
+title: Make it Happen
 ---
 
 To make an Open world needs *us*.
