@@ -10,7 +10,7 @@
         {{ range .Data.Pages }}
           <li style="margin-bottom:40px; clear:both">
             <div>
-              <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+              <a href="{{ .Params.link }}" target="_blank"><h2>{{ .Title }}</h2></a>
               {{if ( (isset .Params "imagepath"))}}
               <img src="{{ $.Site.BaseURL }}img/blog_content/{{ .Params.imagepath }}"/>
               {{ end }}
@@ -36,7 +36,7 @@
               {{ else }}
                 {{ .Summary | markdownify}}...
               {{ end }}
-                <a class= "readmore" href="{{ .Permalink }}">Read more <span>&rsaquo;</span></a>
+                <a class= "readmore" href="{{ .Params.link }}" target="_blank">Read more <span>&rsaquo;</span></a>
             </div>    
           </li>
         {{ end }}
