@@ -2,8 +2,8 @@
 title: "Open Data Conference in Zurich"
 date: 2018-07-10
 slug: open-data-conference-in-zurich
-authors: [rufuspollock]
-imagePath: how-much-is-enough_2256291b.jpg
+authors: [okfn]
+imagePath: open-data-conference.jpg
 ---
 
 Last week, the annual open data conference in Switzerland took place in St. Gallen. In this post, Oleg Lavrovsky, activist for Open Knowledge and board member of the Swiss Chapter, shares a look back at the event showcasing the latest developments in the country, with results of the first Open Data Student Awards. For more coverage, photos and links visit [Opendata.ch/2018](http://opendata.ch/2018).

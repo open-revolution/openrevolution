@@ -12,7 +12,7 @@
             <div>
               <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
               {{if ( (isset .Params "imagepath"))}}
-              <img src="{{ $.Site.BaseURL }}images/{{ .Params.imagepath }}"/>
+              <img src="{{ $.Site.BaseURL }}img/blog_content/{{ .Params.imagepath }}"/>
               {{ end }}
               <div>
                 <p class="date">
@@ -20,10 +20,10 @@
                   {{ range $index,$item := .Params.authors }}
                     {{ $author := index $.Site.Params $item}}
                     {{if $author.path}}
-                    <img src="{{ $.Site.BaseURL }}images/blog/{{$author.path}}" class="avatar" />
+                    <img src="{{ $.Site.BaseURL }}img/blog/{{$author.path}}" class="avatar" />
                     <span>{{ $author.fullname }}</span>
                     {{else}}
-                    <img src="{{ $.Site.BaseURL }}images/blog/default-avatar.png" class="avatar" />
+                    <img src="{{ $.Site.BaseURL }}img/blog/default-avatar.png" class="avatar" />
                       <span>{{ $author.fullname }}</span>
                     {{end}}
                   {{end}}

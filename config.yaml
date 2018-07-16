@@ -16,3 +16,19 @@ params:
   USkindle: https://www.amazon.com/Open-Revolution-New-rules-world-ebook/dp/B07DDDFCG6
   FRpaperback: https://www.amazon.fr/Open-Revolution-New-rules-world/dp/1983033227
   FRkindle: https://www.amazon.fr/Open-Revolution-rules-world-English-ebook/dp/B07DDDFCG6
+  rufuspollock:
+    path: rufus-pollock.png
+    fullname: Rufus Pollock
+
+  okfn:
+    fullname: OKFN Blog Post
+  
+  derfrietag:
+    fullname: derFrietag
+
+  elightenmenteco:
+    fullname: Enlightenment Economics
+
+  boingboing:
+    path: boing-boing.png
+    fullname: Boing Boing
