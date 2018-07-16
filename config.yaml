@@ -32,3 +32,6 @@ params:
   boingboing:
     path: boing-boing.png
     fullname: Boing Boing
+
+  bbc:
+    fullname: BBC Click
