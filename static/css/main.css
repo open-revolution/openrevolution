@@ -4145,6 +4145,12 @@ header.navigation ul.submenu {
   .navbar-margin {
     margin-bottom: 62px; } }
 
+.banner-top {
+  text-align: center;
+  padding: 2px 0px;
+  font-size: 12px;
+  background-color: #f8f8f8; }
+
 .home-template {
   /* Get this book section */
   /* Testimonials section */
