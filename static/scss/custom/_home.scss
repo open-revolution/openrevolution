@@ -520,4 +520,37 @@
   }
 
   
+  .getinvolved {
+    padding: 25px 25px;
+    background-color: #fbfbfb;
+
+    img {
+      width: 22px;
+      margin-right: 6px;
+      position: relative;
+      top: 4px;
+    }
+
+    h3 {
+      font-size:19px !important;
+    }
+
+    .social-icon {
+      width:20px;
+    }
+
+    .social-icon:hover {
+      opacity:.8;
+    }
+  }
+
+  #makeit-btn {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 7px 10px;
+    margin: 0 5px;
+    margin-top:-2px;
+  }
+
 }
