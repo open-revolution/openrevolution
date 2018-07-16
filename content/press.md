@@ -59,15 +59,15 @@ Choosing Open is the path to a more equitable, innovative and profitable future 
 
 ## 1 Sentence
 
-Dr Rufus Pollock is a researcher, entrepreneur and technologist and the founder of Open Knowledge International.
+Dr Rufus Pollock is a researcher, entrepreneur and technologist and the founder of the international non-profit Open Knowledge.
 
 ## Short
 
-Dr Rufus Pollock is a researcher, entrepreneur and technologist. He is the founder of Open Knowledge and formerly the Mead Fellow in Economics at Emmanuel College, University of Cambridge. 
+Dr Rufus Pollock is a researcher, entrepreneur and technologist. He is the founder of the international non-profit Open Knowledge and formerly the Mead Fellow in Economics at Emmanuel College, University of Cambridge. 
 
 ## Medium
 
-Dr Rufus Pollock is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO which is present in over 35 countries, empowering people and organization with access information so that they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.
+Dr Rufus Pollock is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO with a presence in over 35 countries, empowering people and organizations with access to information so they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.
 
 ## Long
 
