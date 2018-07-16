@@ -90,6 +90,12 @@
         }
 
         .ascovered-logos {
+          text-align: center;
+          @include media($large-screen){
+            width: 270px;
+            float: right;
+            text-align:left;
+          }
           span {
             padding-top:10px;
             font-size:20px;
@@ -99,7 +105,7 @@
             margin-top:22px;
             margin-right:10px;
             @include media($large-screen) {
-              float:right;
+              float:left;
             }
 
           }
