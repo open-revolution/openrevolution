@@ -4147,9 +4147,12 @@ header.navigation ul.submenu {
 
 .banner-top {
   text-align: center;
-  padding: 2px 0px;
+  padding: 4px 0px;
   font-size: 12px;
-  background-color: #f8f8f8; }
+  color: #fff;
+  background-color: #b2b2b2; }
+  .banner-top a {
+    color: #fff; }
 
 .home-template {
   /* Get this book section */
@@ -4180,7 +4183,7 @@ header.navigation ul.submenu {
       margin: auto; }
   .home-template .newhero {
     background-color: #f8f8f8;
-    padding-top: 100px;
+    padding-top: 120px;
     min-height: 92vh;
     background-position: none;
     background-size: none;
@@ -4341,7 +4344,7 @@ header.navigation ul.submenu {
       .home-template section.std {
         padding: 0;
         position: relative;
-        top: 2em;
+        top: 4em;
         left: 25vw;
         width: 50vw; } }
   .home-template section.std-wide {
@@ -5164,13 +5167,17 @@ section.other-pages-special .side-image-content a {
 
 section.news {
   padding-top: 4em; }
+  section.news .latest-news {
+    padding-left: 40px; }
   section.news .content-wrapper {
     max-width: 67%;
     margin-left: auto;
     margin-right: auto; }
     @media screen and (max-width: 768px) {
       section.news .content-wrapper {
-        max-width: 90%; } }
+        max-width: 90%; }
+        section.news .content-wrapper .latest-news {
+          padding-left: 0px; } }
   section.news a {
     font-weight: 500;
     border-bottom: none; }

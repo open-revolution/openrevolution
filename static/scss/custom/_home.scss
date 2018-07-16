@@ -7,7 +7,7 @@
 
   .newhero {
     background-color: #f8f8f8;
-    padding-top:100px;
+    padding-top:120px;
     $large-screen: 50em !default;
     min-height: 92vh;
     background-position: none;
@@ -199,7 +199,7 @@
     padding: 0 5%;
     @include media($large-screen) {
       padding: 0;
-      @include position(2em null null 25vw);
+      @include position(4em null null 25vw);
       @include size(50vw null);
     }
   }

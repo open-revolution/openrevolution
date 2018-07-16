@@ -200,6 +200,9 @@ section.other-pages-special {
   }
 }
 section.news {
+  .latest-news {
+    padding-left:40px;
+  }
   padding-top: 4em;
   
   .content-wrapper {
@@ -209,6 +212,10 @@ section.news {
 
     @media screen and (max-width:768px){
       max-width:90%;
+
+      .latest-news {
+        padding-left:0px;
+      }
     }
   }
   a {

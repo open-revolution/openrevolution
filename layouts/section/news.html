@@ -6,6 +6,7 @@
 
   <section class="news">
     <div class="content-wrapper">
+      <h1 class="latest-news">Latest News</h1>
       <ul>
         {{ range .Data.Pages }}
           <li style="margin-bottom:40px; clear:both">
@@ -31,8 +32,8 @@
               </div>
             </div>
             <div>
-              {{ if gt (len .Summary) 200 }}
-                {{ slicestr .Summary 0 200 | markdownify}}...
+              {{ if gt (len .Summary) 600 }}
+                {{ slicestr .Summary 0 600 | markdownify}}...
               {{ else }}
                 {{ .Summary | markdownify}}...
               {{ end }}

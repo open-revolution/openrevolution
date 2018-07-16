@@ -22,7 +22,7 @@ Watch this space for details of upcoming events in Barcelona and Seoul.
 </div>
 
 <div class="event_">
-  <h3>BOOK LAUNCH EVENT</h3>
+  <h3>LONDON BOOK LAUNCH EVENT</h3>
   <h5> Newspeak House, 133 Bethnal Green Rd, London</h5>
   <h5> 12th June 2018, 6:30 PM - 8:30 PM (BST)</h5>
 </div>
