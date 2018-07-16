@@ -4199,7 +4199,7 @@ header.navigation ul.submenu {
       @media screen and (min-width: 53.75em) {
         .home-template .newhero .hero-body {
           min-height: 88vh;
-          align-items: center;
+          align-items: none;
           display: flex;
           justify-content: flex-start !important; } }
       .home-template .newhero .hero-body .button {
@@ -4233,15 +4233,25 @@ header.navigation ul.submenu {
           border-radius: 0;
           color: white; }
         .home-template .newhero .hero-body .hero-content img {
-          max-width: 320px;
+          max-width: 270px;
           justify-content: flex-end;
-          padding-bottom: 20px; }
+          padding-bottom: 15px; }
           @media screen and (max-width: 480px) {
             .home-template .newhero .hero-body .hero-content img {
               width: 260px; } }
           @media screen and (max-width: 320px) {
             .home-template .newhero .hero-body .hero-content img {
               width: 200px; } }
+        .home-template .newhero .hero-body .hero-content .ascovered-logos span {
+          padding-top: 10px;
+          font-size: 20px; }
+        .home-template .newhero .hero-body .hero-content .ascovered-logos img {
+          width: 60px;
+          margin-top: 22px;
+          margin-right: 10px; }
+          @media screen and (min-width: 53.75em) {
+            .home-template .newhero .hero-body .hero-content .ascovered-logos img {
+              float: right; } }
       .home-template .newhero .hero-body .intro {
         display: table-cell;
         width: 100%; }
