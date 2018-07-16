@@ -1,0 +1,51 @@
+{{ partial "head.html" . }}
+
+<body class="home-template">
+
+  {{ partial "navbar.html" . }}
+
+  <section class="news">
+    <div class="content-wrapper">
+      <ul>
+        {{ range .Data.Pages }}
+          <li style="margin-bottom:40px; clear:both">
+            <div>
+              <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+              {{if ( (isset .Params "imagepath"))}}
+              <img src="{{ $.Site.BaseURL }}images/{{ .Params.imagepath }}"/>
+              {{ end }}
+              <div>
+                <p class="date">
+                  <i class="icon ion-calendar"></i> {{ .Date.Format "2 January 2006" }}
+                  {{ range $index,$item := .Params.authors }}
+                    {{ $author := index $.Site.Params $item}}
+                    {{if $author.path}}
+                    <img src="{{ $.Site.BaseURL }}images/blog/{{$author.path}}" class="avatar" />
+                    <span>{{ $author.fullname }}</span>
+                    {{else}}
+                    <img src="{{ $.Site.BaseURL }}images/blog/default-avatar.png" class="avatar" />
+                      <span>{{ $author.fullname }}</span>
+                    {{end}}
+                  {{end}}
+                </p>
+              </div>
+            </div>
+            <div>
+              {{ if gt (len .Summary) 200 }}
+                {{ slicestr .Summary 0 200 | markdownify}}...
+              {{ else }}
+                {{ .Summary | markdownify}}...
+              {{ end }}
+                <a class= "readmore" href="{{ .Permalink }}">Read more <span>&rsaquo;</span></a>
+            </div>    
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+
+  {{ partial "footer.html" . }}
+
+  {{ partial "script.html" . }}
+</body>
+</html>

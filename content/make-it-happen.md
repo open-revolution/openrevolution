@@ -71,7 +71,7 @@ Want to join - read on!
     
     <h3><img src="/img/icon-share.png" /> Share the movement </h3>
     <ul>
-        <li>Social media &nbsp; <a href="#"><img src="/img/icon-fb.png" class="social-icon"/></a>  <a href="#"><img src="/img/icon-twitter.png" class="social-icon" /></a></li>
+        <li>Social media &nbsp; <a href="https://www.facebook.com/RufusPollockOfficial/"><img src="/img/icon-fb.png" class="social-icon"/></a>  <a href="https://twitter.com/rufuspollock"><img src="/img/icon-twitter.png" class="social-icon" /></a></li>
         <li>Translate the book - <a href="/contact/">Get in touch</a> if you can help translate the book into other languages</li>
         <li><a href="http://digitalsupper.com/">Digital Suppers</a></li>
     </ul>
