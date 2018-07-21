@@ -73,7 +73,11 @@ Want to join - read on!
     
     <h3><img src="/img/icon-share.png" /> Share the movement </h3>
     <ul>
-        <li>Share with friends &nbsp; <a href="https://www.facebook.com/groups/186769192043463/" target="_blank"><img src="/img/icon-fb.png" class="social-icon" /></a>  <a href="https://twitter.com/rufuspollock" target="_blank"><img src="/img/icon-twitter.png" class="social-icon" /></a></li>
+        <li>Share with friends &nbsp; 
+            <a href="https://www.facebook.com/groups/186769192043463/" target="_blank"><img src="/img/icon-fb.png" class="social-icon" /></a>  
+            <a href="https://twitter.com/rufuspollock" target="_blank"><img src="/img/icon-twitter.png" class="social-icon" /></a>
+            <a href="https://medium.com/open-revolution" target="_blank"><img src="/img/icon-medium.png" class="social-icon" /></a>
+        </li>
         <li>Translate the book - <a href="/contact/">Get in touch</a> if you can help translate the book into other languages</li>
         <li><a href="http://digitalsupper.com/">Digital Suppers</a></li>
     </ul>
