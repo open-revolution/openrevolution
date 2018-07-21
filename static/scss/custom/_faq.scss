@@ -1,0 +1,32 @@
+.faq {
+    font-weight:300;
+
+    h1 {
+        font-size:20px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size:17px;
+        margin-top:15px;
+        margin-bottom:0;
+        font-weight:600;
+    }
+
+    p {
+        font-size:17px;
+    }
+
+    .faq-summary-item {
+        padding-top:5px;
+        padding-bottom:5px;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}

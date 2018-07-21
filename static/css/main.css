@@ -4993,6 +4993,26 @@ header.navigation ul.submenu {
   .direction-l .desc,
   .direction-r .desc {
     margin: 1em 4em 0 4em; } }
+.faq {
+  font-weight: 300; }
+  .faq h1 {
+    font-size: 20px;
+    font-weight: 600; }
+  .faq h2 {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 600; }
+  .faq p {
+    font-size: 17px; }
+  .faq .faq-summary-item {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .faq .faq-summary-item a {
+      text-decoration: none; }
+    .faq .faq-summary-item a:hover {
+      text-decoration: underline; }
+
 section {
   padding: 50px 20px 20px; }
   @media screen and (min-width: 53.75em) {
