@@ -5004,7 +5004,12 @@ header.navigation ul.submenu {
     margin-bottom: 0;
     font-weight: 600; }
   .faq p {
-    font-size: 17px; }
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-bottom: 15px; }
+  .faq .faq-content {
+    margin-top: 100px; }
   .faq .faq-summary-item {
     padding-top: 5px;
     padding-bottom: 5px; }

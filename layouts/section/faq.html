@@ -6,11 +6,11 @@
   <section class="std">
     <div class="content-wrapper">
       <h1 class="page-title">{{ .Title }}</h1>
-      <h1>OUR MOST FREQUENTLY ASKED QUESTIONS</h1>
-      {{ .Content }}
+      <!-- <h1>OUR MOST FREQUENTLY ASKED QUESTIONS</h1>
+      {{ .Content }} 
 
-      <br />
-      <!-- <h1>MORE QUESTIONS</h1>
+      <br />-->
+      <h1>OUR MOST FREQUENTLY ASKED QUESTIONS</h1>
       <div class="faq-summary">
         {{ range sort .Data.Pages ".Weight" }}
           <div class="faq-summary-item">
@@ -25,7 +25,7 @@
         {{ end }}
       </div>
       <br /><br /><br />
-      <h1>FULL ANSWERS</h1>
+      <h1>FULL ANSWERS</h1> <br/><br/>
       {{ range .Data.Pages }}
         <div class="faq-content" id="{{ .Source.BaseFileName }}">
           <h1>{{ .Weight }}. {{ .Title }}</h1>
@@ -34,7 +34,7 @@
           </p>
           {{ .Content }}
         </div>
-      {{ end }} -->
+      {{ end }}
 
     </div>
   </section>
