@@ -13,7 +13,14 @@
         <li class="nav-link"> <a href="/press/">Press</a> </li>
         <li class="nav-link"><a href="/events/">Events</a></li>
         <li class="nav-link"><a href="/make-it-happen/">Get Involved</a></li>
-		<li class="nav-link"><a href="/faq/">FAQ</a></li>
+        <li class="nav-link more" id="js-navigation-more">
+          <a href="/faq/">FAQ</a>
+          <ul class="submenu">
+            <li><a href="/faq/">Main FAQ</a></li>
+            <li><a href="/remuneration-rights/">Remuneration Rights</a></li>
+            <li><a href="/preview/">An Open World - a Preview</a></li>
+          </ul>
+        </li>
         <li class="nav-link"><a href="/contact/">Contact</a></li>
         {{if eq .URL "/"}}
           <li class="nav-link"><a onclick="scrollDown()" href="#get-this-book" class="button btn-yellow">Get The Book Now</a></li>
