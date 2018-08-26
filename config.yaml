@@ -37,3 +37,6 @@ params:
 
   bbc:
     fullname: BBC Click
+
+  theeconomistbabbage:
+    fullname: The Economist
