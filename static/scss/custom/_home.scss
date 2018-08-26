@@ -139,6 +139,10 @@
         a {
           margin-right:10px;
         }
+
+        .fab {
+          font-size:30px;
+        }
       }
 
       @include reset-display();
