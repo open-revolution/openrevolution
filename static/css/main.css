@@ -4297,6 +4297,8 @@ header.navigation ul.submenu {
           margin-right: 10px; }
         .home-template .newhero .hero-body .intro .fab {
           font-size: 30px; }
+        .home-template .newhero .hero-body .intro .fa-medium {
+          font-size: 30.5px; }
     .home-template .newhero .call-to-action {
       display: none; }
       @media screen and (min-width: 53.75em) {
