@@ -117,3 +117,16 @@ header.navigation {
     color:#fff;
   }
 }
+
+
+/* Fixes to smaller screen padding issue */
+@media screen and (min-width:1030px) and (max-width:1350px){
+  header.navigation a.logo {
+    font-size:0.9em;
+    padding-right:1em;
+  }
+
+  header.navigation ul li.nav-link { 
+      padding-right:0.1em !important;
+  }
+}
