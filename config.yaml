@@ -4,6 +4,12 @@ languageCode: "en-us"
 googleAnalytics: UA-102022428-3
 enableRobotsTXT: true
 
+# in hugo >= 0.60 suddenly switched off html! https://gohugo.io/news/0.60.0-relnotes/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 permalinks:
   blog: /:year/:month/:day/:slug/
 

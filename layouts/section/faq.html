@@ -14,23 +14,23 @@
       <div class="faq-summary">
         {{ range sort .Data.Pages ".Weight" }}
           <div class="faq-summary-item">
-            <a href="#{{ .Source.BaseFileName }}" id="ref-{{ .Source.BaseFileName }}"><h2>{{ .Weight }}. {{ .Title }}</h2></a>
+            <a href="#{{ .File.BaseFileName }}" id="ref-{{ .File.BaseFileName }}"><h2>{{ .Weight }}. {{ .Title }}</h2></a>
             {{ if gt (len .Summary) 150 }}
               {{ slicestr .Summary 0 150 }}...
             {{ else }}
               {{ .Summary }}...
             {{ end }}
-            <a class= "readmore" href="#{{ .Source.BaseFileName }}">read more <span>&rsaquo;</span></a>
+            <a class= "readmore" href="#{{ .File.BaseFileName }}">read more <span>&rsaquo;</span></a>
           </div>
         {{ end }}
       </div>
       <br /><br /><br />
       <h1>FULL ANSWERS</h1>
       {{ range .Data.Pages }}
-        <div class="faq-content" id="{{ .Source.BaseFileName }}">
+        <div class="faq-content" id="{{ .File.BaseFileName }}">
           <h1>{{ .Weight }}. {{ .Title }}</h1>
           <p>
-            <a href="#ref-{{ .Source.BaseFileName }}" class="return-link">back to the question</a>
+            <a href="#ref-{{ .File.BaseFileName }}" class="return-link">back to the question</a>
           </p>
           {{ .Content }}
         </div>
