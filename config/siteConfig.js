@@ -1,12 +1,12 @@
 const siteConfig = {
-  title: 'Datopian Next.js Template',
-  tagline: 'A starter template for Next.JS with Tailwind and MDX',
-  description: 'Hello ...',
-  author: 'Datopian',
+  title: 'Open Revolution',
+  tagline: 'Rewriting the rules of the information age',
+  description: 'Forget everything you know about the digital age. It’s not about privacy, surveillance, AI or blockchain—it’s about ownership. Because, in a digital age, those who own information own the future. And today we are playing with old rules in a new world and that is a problem.',
+  author: 'Rufus Pollock & Life Itself',
   // logo image
-  authorLogo: 'https://playbook.datopian.com/img/datopian-dark-logotype.svg',
+  authorLogo: 'https://lifeitself.us/wp-content/uploads/2020/12/life-itself-logo.svg',
   // url to author
-  authorUrl: 'https://datopian.com/',
+  authorUrl: 'https://lifeitself.us/',
   // Google analytics key e.g. G-XXXX
   analytics: '',
   // optional additional nextSeo content set on each page
