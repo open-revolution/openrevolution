@@ -3,7 +3,7 @@ const navLinks = [
   { href: '/pay-what-feels-right/', name: 'Pay What Feels Right' },
   { href: '/press/', name: 'Press' },
   { href: '/events/', name: 'Events' },
-  { href: '/get-involved/', name: 'Get Involved' },
+  { href: '/make-it-happen/', name: 'Get Involved' },
   { href: '/faq/', name: 'FAQ' },
   { href: '/preview/', name: 'Preview' },
   { href: '/contact/', name: 'Contact' },

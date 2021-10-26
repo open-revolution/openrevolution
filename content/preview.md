@@ -2,7 +2,7 @@
 title: Book Preview
 ---
 
-{{< toc >}}
+# Table of Contents
 
 # Monopolising your attention
 

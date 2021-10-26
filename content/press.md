@@ -4,7 +4,7 @@ title: Press
 
 This page is intended for journalists and those interested in writing about or sharing the book and its ideas.
 
-{{< toc >}}
+# Table of Contents
 
 # Contact
 
@@ -102,7 +102,7 @@ He holds a PhD in Economics and a double first in Mathematics from the Universit
 
 ## Cover
 
-<img src="/img/open-revolution-cover.jpg" class="" alt="Open Revolution Cover" style="height: 500px;" />
+<img src="/img/open-revolution-cover.jpg" class="" alt="Open Revolution Cover" style={{height: "500px"}} />
 <br />
 <a href="/img/open-revolution-cover.jpg">Click here for full resolution</a>
 
