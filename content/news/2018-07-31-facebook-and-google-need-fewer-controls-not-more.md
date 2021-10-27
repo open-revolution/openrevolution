@@ -1,5 +1,5 @@
 ---
-title: "Facebook and Google need fewer controls, not more"
+title: "The Problem with Facebook and Google is Monopoly not Privacy"
 date: 2018-07-31
 slug: facebook-and-google-need-fewer-controls-not-more
 authors: [rufuspollock]
