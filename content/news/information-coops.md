@@ -1,5 +1,5 @@
 ---
-title: "Information Coops: Collective Funding of Information Goods from Software to Medicines"
+title: "Information and Platform Coops: Collective Funding of Information Goods from Software to Platforms to Medicines"
 date: 2017-01-11
 author: rufuspollock
 ---
@@ -73,7 +73,8 @@ This is not to say that coops cannot be a fit here -- after all, one could argue
 
 ## Postscript: a Note on Platform Coops
 
-Almost all of the above applies to platform coops. In fact, platform coops are often just information coops in disguise (for example you could see "spot-op", our coop for music as a platform coop but it is really just an information coop). Even where platform coops are really about platforms they share most of the same economic dynamics: a common, core asset ('the platform') that needs a critical mass of suppliers and users. Morever, the core platform normally usually involves some major "information" goods in the form of software, algorithms and data -- even they are also "market-places".
+Almost all of the above applies to platform coops. In fact, platform coops are often just information coops in disguise (for example you could see "spot-op", our coop for music as a platform coop but it is really just an information coop to create the platform). Even where platform coops are really about platforms they share most of the same economic dynamics: a common, core asset ('the platform') that needs a critical mass of suppliers and users. Morever, the core platform normally usually involves some major "information" goods in the form of software, algorithms and data -- even they are also "market-places".
 
 Thus, both the principles set out above, and the challenges, apply to platform coops. This can be useful giving the increasing discussion of platform coops in the context of increasing "uberization".
 
+See [Platformnomics for more on platforms, platform monopolies and platform coops](/platformnomics/).
