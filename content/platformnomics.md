@@ -1,5 +1,5 @@
 ---
-title: "Ubernomics: Platform Monopolies & How to Fix Them"
+title: "Platformnomics: Platforms, Platform Monopolies & How to Fix Them"
 ---
 
 *First version: Dec 2016, updated Feb 2018*
