@@ -1,7 +1,7 @@
 const siteConfig = {
   title: 'Open Revolution',
   tagline: 'Rewriting the rules of the information age',
-  description: 'Forget everything you know about the digital age. It’s not about privacy, surveillance, AI or blockchain—it’s about ownership. Because, in a digital age, those who own information own the future. And today we are playing with old rules in a new world and that is a problem.',
+  description: 'Forget everything you know about the digital age. It’s not about privacy, surveillance, AI or blockchain—it’s about ownership. Because, in a digital age, who owns information owns the future.',
   author: 'Rufus Pollock & Life Itself',
   // logo image
   authorLogo: 'https://lifeitself.us/wp-content/uploads/2020/12/life-itself-logo.svg',
