@@ -6,6 +6,7 @@ const navLinks = [
   { href: '/make-it-happen/', name: 'Get Involved' },
   { href: '/faq/', name: 'FAQ' },
   { href: '/preview/', name: 'Preview' },
+  { href: '/platformnomics/', name: 'Platforms' },
   { href: '/contact/', name: 'Contact' },
 ]
 
