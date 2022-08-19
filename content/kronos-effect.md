@@ -2,7 +2,7 @@
 title: Kronos Effect
 ---
 
-> By nature, monopolists fear any innovation that threatens their position. And this fear drives them to seek to neutralize these threats by destroying or devouring (acquiring) them. This echoes the Greek Titan Kronos, father of Zeus, who ate his children because he feared they would usurp him (as they ultimately did, in fact).
+> By nature, monopolists fear any innovation that threatens their position. And this fear drives them to seek to neutralize these threats by destroying or devouring (acquiring) them. This echoes the Greek Titan Kronos, father of Zeus, who ate his children because he feared they would usurp him -- as they did, in fact ultimately. -- From the Open Revolution, Chapter 1
 
 Monopolists want to restrict or kill off any development that threatens their monopoly be that a product or a regulation. This is because monopolists fear with good reason that these innovations will one day threaten them by spawning or becoming competition.
 
