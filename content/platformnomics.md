@@ -8,13 +8,13 @@ title: "Platformnomics: Platforms, Platform Monopolies & How to Fix Them"
   <img src="/img/platformnomics/ubernomics-uber-lyft.jpg" />
 </div>
 
-Around the world countries have wrestled with the question of how to manage companies like Uber and AirBnB. Are these new platforms something to be welcomed or something to be stopped? But how we treat Uber-like companies is largely dependent on how we see and understand them.
+Around the world countries have wrestled with the question of how to manage companies like Amazon, Google, Facebook, Uber and AirBnB. Are these new platforms something to be welcomed or something to be stopped? But how we treat platform companies is largely dependent on how we see and understand them.
 
-There is, in fact, nothing especially digital about the underlying economics of Uber or AirBnB's business model. In fact, Uber's economics are very similar to businesses that have been with us for hundreds or even thousands of years: marketplaces / platforms.
+There is, in fact, nothing especially digital about the underlying economics of these platforms business model. In fact, their economics are very similar to businesses that have been with us for hundreds or even thousands of years: marketplaces.
 
-Because of the positive feedback between buyers and sellers, the initial free competition between marketplaces tends towards "one" -- one dominant marketplace. And, hence, to monopoly if that one marketplace is exclusively owned and controlled.
+Marketplaces like our modern digital platforms have a simple economics which is problematic for free market capitalism. Specifically, there is a positive feedback between buyers and sellers: more buyers at a fish market bring more sellers which in turn bring more buyers. This creates a winner-takes-all dynamic and any free competition between marketplaces ultimately tends towards "one" -- a single dominant player. This, in turn, means monopoly if that one platform/marketplace is exclusively owned and controlled.
 
-Monopoly is not inevitable though: we can have open platforms/marketplaces -- just as we have free and open markets. To do this requires us to open the digital infrastructure and, where appropriate, to open the order book too.
+Monopoly is not inevitable though: we can have open platforms -- just as we have free and open marketsplace. To do this requires us to open the digital infrastructure and, where appropriate, to open the order book too.
 
 *Note: we'll use the term platform and marketplace interchangeably going forward. Today, "platform" is the more common term in the digital world and in economics ("two-sided platforms" etc). However, here we often prefer "marketplace" because it connects this with something both familiar and ancient.*
 
