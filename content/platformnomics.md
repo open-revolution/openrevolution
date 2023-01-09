@@ -14,7 +14,7 @@ There is, in fact, nothing especially digital about the underlying economics of 
 
 Marketplaces like our modern digital platforms have a simple economics which is problematic for free market capitalism. Specifically, there is a positive feedback between buyers and sellers: more buyers at a fish market bring more sellers which in turn bring more buyers. This creates a winner-takes-all dynamic and any free competition between marketplaces ultimately tends towards "one" -- a single dominant player. This, in turn, means monopoly if that one platform/marketplace is exclusively owned and controlled.
 
-Monopoly is not inevitable though: we can have open platforms -- just as we have free and open marketsplace. To do this requires us to open the digital infrastructure and, where appropriate, to open the order book too.
+Monopoly is not inevitable though: we can have open platforms -- just as we have free and open markets. To do this requires us to open the digital infrastructure and, where appropriate, to open the order book too.
 
 *Note: we'll use the term platform and marketplace interchangeably going forward. Today, "platform" is the more common term in the digital world and in economics ("two-sided platforms" etc). However, here we often prefer "marketplace" because it connects this with something both familiar and ancient.*
 
