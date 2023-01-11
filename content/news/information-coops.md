@@ -1,7 +1,7 @@
 ---
 title: "Information and Platform Coops: Collective Funding of Information Goods from Software to Platforms to Medicines"
-date: 2017-01-11
-author: rufuspollock
+created: 2017-01-11
+authors: [rufus-pollock]
 ---
 
 *This is an excerpt from my [upcoming book on the information age and the importance of an open future for the digital economy][book]. I'm publishing it as part of an upcoming event with Ed Mayo and colleagues about a national strategy for coops in the UK.*

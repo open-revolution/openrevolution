@@ -1,6 +1,6 @@
 ---
 title: "Open Data Conference in Zurich"
-date: 2018-07-10
+created: 2018-07-10
 slug: open-data-conference-in-zurich
 authors: [okfn]
 imagePath: open-data-conference.jpg

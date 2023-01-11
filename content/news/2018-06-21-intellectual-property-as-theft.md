@@ -1,6 +1,6 @@
 ---
 title: "Intellectual property as theft"
-date: 2018-06-21
+created: 2018-06-21
 slug: intellectual-property-as-theft
 authors: [elightenmenteco]
 imagePath: intellectual-property-as-theft.png

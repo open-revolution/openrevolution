@@ -1,6 +1,6 @@
 ---
 title: "Interview in The Economist's Babbage podcast"
-date: 2018-08-01
+created: 2018-08-01
 slug: interview-in-the-economists-babbage-podcast
 authors: [theeconomistbabbage]
 imagePath: the-economist-babbage.jpg
