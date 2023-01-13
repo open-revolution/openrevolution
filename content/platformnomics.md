@@ -4,7 +4,7 @@ title: "Platformnomics: Platforms, Platform Monopolies & How to Fix Them"
 
 *First version: Dec 2016, updated Feb 2018*
 
-<div class="img">
+<div className="img">
   <img src="/img/platformnomics/ubernomics-uber-lyft.jpg" />
 </div>
 
@@ -18,7 +18,7 @@ Monopoly is not inevitable though: we can have open platforms -- just as we have
 
 *Note: we'll use the term platform and marketplace interchangeably going forward. Today, "platform" is the more common term in the digital world and in economics ("two-sided platforms" etc). However, here we often prefer "marketplace" because it connects this with something both familiar and ancient.*
 
-<div class="img">
+<div className="img">
   <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Market_Day_in_Stockport_1910s.jpg" alt="Market Day in Stockport 1910s.jpg" style={{height: '500px'}} />
   <p>Market Day in Stockport in 1910s. <a href="https://commons.wikimedia.org/w/index.php?curid=34595715">Link</a></p>
 </div>
@@ -41,7 +41,7 @@ There is nothing especially digital about the underlying economics of Uber's bus
 
 For example, Billingsgate in London was for several hundred years the home of London's fish market -- and one of the biggest such markets in the world. Or back in the 13th century, Champagne became the site of a major medieval fairs where merchants all over Europe would converge each spring to buy and sell to each other. The economics of Billingsgate fish market or the Champagne fairs are the same as Uber today.
 
-<div class="img">
+<div className="img">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Billingsgate_Fish_Market._Interior_ILN_1876.jpg" alt="Billingsgate Fish Market. Interior ILN 1876.jpg" style={{height: '400px'}} />
   <p>Billingsgate Fish Market in London, 1876. <a href="https://commons.wikimedia.org/w/index.php?curid=7498159">Link</a></p>
 </div>
@@ -161,7 +161,7 @@ Summary: we can have monopoly platforms or open ones -- it's our choice. Open pl
 
 Stripped to their essence Uber, AirBnB and the like resemble a very old economic structure: the marketplace.[^nomenclature] Marketplaces have existed for thousands of years, practically since civilization first began. Marketplaces are where buyers and sellers come together to exchange. At a fish market you buy fish, at a stock market you buy stocks etc.
 
-<div class="img">
+<div className="img">
   <img src="/img/platformnomics/ubernomics-market-thailand.jpg" />
   <p>Rot Fai Train Night Market, Thailand (<a href="https://unsplash.com/photos/Dj5evF5JCjI">Credit</a>)</p>
 </div>

@@ -1,8 +1,8 @@
 ---
 title: "The Monopolists are Happy"
-date: 2018-07-04
+created: 2018-07-04
 slug: the-monopolists-are-happy
-authors: [rufuspollock]
+authors: [rufus-pollock]
 link: https://www.freitag.de/autoren/der-freitag/die-monopolisten-freuen-sich
 ---
 

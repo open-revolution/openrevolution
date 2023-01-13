@@ -1,6 +1,6 @@
 ---
 title: "The Open Revolution: the vital struggle of open vs closed, free vs unfree"
-date: 2018-06-12
+created: 2018-06-12
 slug: the-open-revolution-vital-struggle-of-open-vs-closed
 authors: [boingboing]
 imagePath: vital-struggle-of-open-vs-closed.jpg

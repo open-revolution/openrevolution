@@ -1,6 +1,6 @@
 ---
 title: "Interview with Rufus Pollock"
-date: 2018-06-18
+created: 2018-06-18
 slug: interview-with-rufus-pollock
 authors: [bbc]
 imagePath: interview-with-rufus-pollock.png

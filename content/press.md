@@ -4,11 +4,11 @@ title: Press
 
 This page is intended for journalists and those interested in writing about or sharing the book and its ideas.
 
-# Table of Contents
+# Table of contents
 
 # Contact
 
-See the [contact page][contact] or email <a href="mailto:rufus@openrevolution.net">rufus@openrevolution.net</a>
+See the [contact page][contact] or email <a href="mailto:rufus@openrevolution.net">`rufus@openrevolution.net`</a>
 
 [contact]: /contact/
 
@@ -26,7 +26,7 @@ Pollock exposes the myths that cloud the digital debate. Looking beneath the sur
 
 **About the author**
 
-Dr Rufus Pollock is a researcher, entrepreneur and technologist working to make the information economy work for everyone. He is the founder of Open Knowledge International and formerly the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA.
+Dr Rufus Pollock is a researcher, entrepreneur and technologist working to make the information economy work for everyone. He is the founder of Open Knowledge International and formerly the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a `$1m` Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA.
 
 # Synopses
 
@@ -67,7 +67,7 @@ Dr Rufus Pollock is a researcher, entrepreneur and technologist. He is the found
 
 ## Medium
 
-Dr Rufus Pollock is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO with a presence in over 35 countries, empowering people and organizations with access to information so they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.
+Dr Rufus Pollock is a researcher, technologist and entrepreneur. He has been a pioneer in the global Open Data movement, advising national governments, international organisations and industry on how to succeed in the digital world. He is the founder of Open Knowledge, a leading NGO with a presence in over 35 countries, empowering people and organizations with access to information so they can create insight and drive change. Formerly, he was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a `$1m` Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA. He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge.
 
 ## Long
 
@@ -75,7 +75,7 @@ Dr Rufus Pollock is a researcher, technologist and entrepreneur working to make 
 
 He is the founder of Open Knowledge a leading NGO which is present in over 35 countries, empowering people and organization to access information so that they can create insight and drive change. 
 
-Formerly, Pollock was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a $1m Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA.
+Formerly, Pollock was the Mead Fellow in Economics at Emmanuel College, University of Cambridge. He has been the recipient of a `$1m` Shuttleworth Fellowship and is currently an Ashoka Fellow and Fellow of the RSA.
 
 He holds a PhD in Economics and a double first in Mathematics from the University of Cambridge. He is the author of The Value of the Public Domain published by IPPR (the Institute for Public Policy Research) and the lead economist on the “Economic and Social Impact of the Public Domain” funded by the European Commission.
 
@@ -84,25 +84,26 @@ He holds a PhD in Economics and a double first in Mathematics from the Universit
 
 ## Bio Picture
 
-<div class="img-holder">
+<div className="img-holder">
   <img src="https://rufuspollock.com/images/Rufus_Pollock_square.jpeg" />
   <a href="https://rufuspollock.com/images/rufuspollock-high-res.jpg" >
   <br/>
-  Click through for higher-res versions.</a>
+  Click through for higher-res versions.
+  </a>
 </div>
 
-<div class="img-holder">
+<div className="img-holder">
   <img src="https://rufuspollock.com/images/19933597778_bc072d208f.jpg"/><br />
   <a href="https://rufuspollock.com/images/rufuspollock-high-res02.jpg" >Click through for higher-res versions.</a>
 </div>
 
-<div class="img-holder">
+<div className="img-holder">
   <img src="https://rufuspollock.com/images/6.jpg"/>
 </div>
 
 ## Cover
 
-<img src="/img/open-revolution-cover.jpg" class="" alt="Open Revolution Cover" style={{height: "500px"}} />
+<img src="/img/open-revolution-cover.jpg" className="" alt="Open Revolution Cover" style={{height: "500px"}} />
 <br />
 <a href="/img/open-revolution-cover.jpg">Click here for full resolution</a>
 

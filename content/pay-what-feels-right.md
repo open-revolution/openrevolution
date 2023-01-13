@@ -8,6 +8,6 @@ At the same time, we still live in a closed world and [Remuneration Rights](/rem
 
 *Thank-you -- Rufus*
 
-<div class="donorbox">
-  <iframe class="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+<div className="donorbox">
+  <iframe className="donate-popup" src="https://donorbox.org/embed/open-revolution-pay" height="685px" width="100%" seamless="seamless" name="donorbox" frameBorder="0" scrolling="no" allowpaymentrequest ></iframe>
 </div>  
