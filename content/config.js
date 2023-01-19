@@ -10,6 +10,10 @@ const config = {
     { href: "/platformnomics/", name: "Platforms" },
     { href: "/contact/", name: "Contact" },
   ],
+  analytics: 'G-SZTB5WW5H4',
+  search: {
+    provider: "kbar",
+  },
 };
 
 export default config;
