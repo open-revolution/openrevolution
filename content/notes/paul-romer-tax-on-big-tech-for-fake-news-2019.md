@@ -1,5 +1,5 @@
 ---
-title: 
+title: Paul Romer in NY Times on Taxing Big Tech to fix Fake News
 created: 2019-05-11
 ---
 
