@@ -1,4 +1,9 @@
-# The Unlikely Convergence of Baking and Mechanism Design
+---
+title: The Unlikely Convergence of Baking and Mechanism Design
+created: 2023-01-23 
+type: Blog
+---
+
 ### _What creating the perfect loaf can teach us about incentivizing the production and distribution of digital goods_
 
 At first glance, bread baking and mechanism design for digital goods don’t have much in common. At one level this is true: a granary loaf is a rather different object to an incentive model. At another level, however, there’s far more convergence than you might think.
