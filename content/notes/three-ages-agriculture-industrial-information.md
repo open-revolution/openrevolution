@@ -1,7 +1,7 @@
 ---
 title: "Three Economic Ages: Agriculture, Industrial, Information"
 created: 2015-08-20
-date: 2016-12-08
+updated: 2016-12-08
 type: Blog
 ---
 

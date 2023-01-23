@@ -1,6 +1,6 @@
 ---
 title: A Cloud Future? Is the current trend to cloud unstoppable or is it about to reverse?
-date: 2016-12-13 
+created: 2016-12-13 
 type: Blog
 ---
 

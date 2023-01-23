@@ -1,6 +1,6 @@
 ---
 title: "Open Information Funds: Strategy and Steps to their Creation"
-date: 2017-05-13
+created: 2017-05-13
 type: Blog
 ---
 
