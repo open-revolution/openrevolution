@@ -10,69 +10,13 @@ At first glance, bread baking and mechanism design for digital goods don’t hav
 
 In both cases we start with a desired output; the purpose of the exercise is to create something. Crucially, though, both require us to follow a process which combines certain ingredients or building blocks to produce our output. In the case of bread these ingredients at the most basic level are flour, water, yeast, salt and perhaps oil. Now each of these ingredients has a number of variants we can choose to select and combine in different ways. For example we might use white or brown flour, fresh or dry yeast and so on. This gives us a whole host of combinations which in turn will lead to differences in our bread. Our granary loaf may use the same broad ingredients as a french stick, but will use different varieties of each to give rise to a different end product.
 
-<table>
-  <tr>
-   <td><strong>Ingredient Category</strong>
-   </td>
-   <td><strong>Variety 1</strong>
-   </td>
-   <td><strong>Variety 2</strong>
-   </td>
-   <td><strong>Variety 3</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Flour
-   </td>
-   <td>White
-   </td>
-   <td>Brown
-   </td>
-   <td>Rye
-   </td>
-  </tr>
-  <tr>
-   <td>Water
-   </td>
-   <td>Hard
-   </td>
-   <td>Medium
-   </td>
-   <td>Soft
-   </td>
-  </tr>
-  <tr>
-   <td>Yeast
-   </td>
-   <td>Dry
-   </td>
-   <td>Instant
-   </td>
-   <td>Fresh
-   </td>
-  </tr>
-  <tr>
-   <td>Salt
-   </td>
-   <td>Table
-   </td>
-   <td>Sea
-   </td>
-   <td>Himalayan
-   </td>
-  </tr>
-  <tr>
-   <td>Oil
-   </td>
-   <td>Olive
-   </td>
-   <td>Sunflower
-   </td>
-   <td>Vegetable
-   </td>
-  </tr>
-</table>
-
+| Ingredient Category | Variety 1 | Variety 2 | Variety 3 |
+|---------------------|-----------|-----------|-----------|
+| Flour               | White     | Brown     | Rye       |
+| Water               | Hard      | Medium    | Soft      |
+| Yeast               | Dry       | Instant   | Fresh     |
+| Salt                | Table     | Sea       | Himalayan |
+| Oil                 | Olive     | Sunflower | Vegetable |
 
 _This table gives an idea of just how many combinations of ingredients are possible when making a humble loaf of bread._
 
