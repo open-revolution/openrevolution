@@ -4,13 +4,11 @@ created: 2023-01-23
 type: Blog
 ---
 
-### _What creating the perfect loaf can teach us about incentivizing the production and distribution of digital goods_
+### What creating the perfect loaf can teach us about incentivizing the production and distribution of digital goods
 
 At first glance, bread baking and mechanism design for digital goods don’t have much in common. At one level this is true: a granary loaf is a rather different object to an incentive model. At another level, however, there’s far more convergence than you might think.
 
 In both cases we start with a desired output; the purpose of the exercise is to create something. Crucially, though, both require us to follow a process which combines certain ingredients or building blocks to produce our output. In the case of bread these ingredients at the most basic level are flour, water, yeast, salt and perhaps oil. Now each of these ingredients has a number of variants we can choose to select and combine in different ways. For example we might use white or brown flour, fresh or dry yeast and so on. This gives us a whole host of combinations which in turn will lead to differences in our bread. Our granary loaf may use the same broad ingredients as a french stick, but will use different varieties of each to give rise to a different end product.
-
-
 
 <table>
   <tr>
@@ -116,10 +114,8 @@ It being so hard to incentivize adequate production and distribution leads to lo
 
 This is no-one's fault. The venn diagram of technology engineers with economics degrees is fairly small. To the person with a hammer everything looks like a nail, and to the person with a background in computer science everything looks like a technology problem. Even policymakers who _have_ studied economics are often tripped up by the fundamental differences between digital and physical goods. Despite the digital world being so central to modern society, the unique economics underpinning it–what we’re calling _diginomics_–still hasn’t made it into mainstream education. We’re here to change that. 
 
-_Register for our newsletter to keep up to date with the project. Our next post will outline the building blocks of proper mechanism design, and begin advising on how they can be combined._
+Register for our newsletter to keep up to date with the project. Our next post will outline the building blocks of proper mechanism design, and begin advising on how they can be combined.
 
-
-<!-- Footnotes themselves at the bottom. -->
 ## Notes
 
 [^1]:
