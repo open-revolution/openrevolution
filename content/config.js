@@ -11,9 +11,7 @@ const config = {
     { href: "/contact/", name: "Contact" },
   ],
   analytics: 'G-SZTB5WW5H4',
-  search: {
-    provider: "kbar",
-  },
+  theme: { default: "" },
 };
 
 export default config;
