@@ -10,7 +10,7 @@ Diane Coyle, the Bennett Professor of Public Policy at the University of Cambrid
 
 > I’ve been dipping into a new ... book by Rufus Pollock, The Open Revolution. I'm not great at reading whole books online, hence the dipping. What I've read, though, I really like. It states: ...
 
-She makes a lot of good points which I thought worth responding to in a bit of detail as it helped clarifies some key points. As the comment is yet to show up on her site I'm also posting it here.
+She has a lot of good observations which I thought worth responding to in a bit of detail as it helps clarify some key points. I'm posting it here as well as on her site.
 
 ## Comments on Professor Coyle's Post
 
