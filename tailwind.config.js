@@ -31,8 +31,8 @@ module.exports = {
           dark: colors.gray[300],
         },
         secondary: {
-          DEFAULT: "",
-          dark: "",
+          DEFAULT: "#F0CA5E",
+          dark: "#F0CA5E",
         },
       },
     },
