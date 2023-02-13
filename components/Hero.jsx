@@ -1,15 +1,15 @@
 export default function Hero() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-32">
+    <section className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
       <div className="mx-auto max-w-6xl lg:mx-0 lg:flex-1 text-primary">
         <h1 className="mt-10 lg:mt-0 max-w-lg text-4xl font-bold tracking-tight sm:text-6xl">
           Diginomics
         </h1>
         <p className="mt-6 text-2xl leading-8">
-          Learn the rules of the digital economy and how to use them to increase access to just about anything.
+          Learn the rules of the digital economy. Use them to increase access to just about anything.
         </p>
         <div className="mt-8 sm:mx-auto sm:max-w-full sm:text-center lg:mx-0 lg:text-left">
-          <form action="#" method="POST" className="mt-3 sm:flex gap-x-4">
+          <form action="https://usebasin.com/f/75c2fab53910" method="POST" enctype="multipart/form-data" className="mt-3 sm:flex gap-x-4">
             <label htmlFor="name" className="sr-only">
               Name
             </label>
@@ -38,12 +38,12 @@ export default function Hero() {
             </button>
           </form>
           <p className="mt-3 text-sm font-medium">
-            Get short updates approx monthly as we release new material.
+            Get updates when we release new material.
           </p>
         </div>
       </div>
       <div className="mt-16 sm:mt-24 lg:mt-0 lg:max-w-full lg:flex-1">
-        <img src="/assets/hero_image.png" alt="" className="mx-auto w-full cover" />
+        <img src="/assets/undraw_teaching.svg" alt="" className="mx-auto w-full cover" />
       </div>
     </section>
   )
