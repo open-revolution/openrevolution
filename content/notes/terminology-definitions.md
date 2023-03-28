@@ -6,7 +6,7 @@ Before outlining options for business model types, we must define and outline te
 
 **Digital goods** are all those economic goods which are made up of data or information. These can range from software to datasets to music and even pieces of intellectual property such as pharmaceutical patents. These goods can also be known as information goods, information products and similar terms. 
 
-The** business model** is the part of the entity or project which incentivises the production and distribution of digital goods. When it functions properly it is economically sustainable, that is to say that these incentives (and this production/distribution) persist over time.
+The **business model** is the part of the entity or project which incentivises the production and distribution of digital goods. When it functions properly it is economically sustainable, that is to say that these incentives (and this production/distribution) persist over time.
 
 **Building blocks** refer to the different components a business model needs to function. The core building blocks are as follows:
 
