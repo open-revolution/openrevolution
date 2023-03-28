@@ -1,3 +1,10 @@
+---
+title: "How business model concepts fit together"
+created: 2023-03-28 
+authors: [ theo-cox, rufuspollock]
+type: Blog
+---
+
 Our [glossary](notes/glossary.md) outlines the key terms necesssary for understanding business model design. The diagram below gives a visual overview of how these concepts fit together in the design process:
 
 
