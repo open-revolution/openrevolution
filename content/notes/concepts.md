@@ -1,6 +1,6 @@
-# Terminology Definitions
+# Concept Definitions
 
-Business models are composed of **building blocks** which can be assembled under **constraints **to make a **limited number of business model types**. Learning these types–and the list of blocks and the rules for assembly–allow you to rapidly design business models that are successful for chosen outcomes.
+Business models are composed of **building blocks** which can be assembled under **constraints** to make a **limited number of business model types**. Learning these types–and the list of blocks and the rules for assembly–allow you to rapidly design business models that are successful for chosen outcomes.
 
 Before outlining options for business model types, we must define and outline terminology. 
 
@@ -17,11 +17,11 @@ The **business model** is the part of the entity or project which incentivises t
 * **Governance model**- how decisions are made
 * **Rights framework** - how rights for access and use are defined 
 
-There are a number of different options for each building block. There are **constraints **on how different building block options can be combined. This limits the number of combinations which are possible, as choices around one building block can limit others. For example, not every revenue source is compatible with every rights framework. We will elaborate more on constraints below.
+There are a number of different options for each building block. There are **constraints** on how different building block options can be combined. This limits the number of combinations which are possible, as choices around one building block can limit others. For example, not every revenue source is compatible with every rights framework. We will elaborate more on constraints below.
 
-The upshot of these constraints is that there are a limited number of **business model types **which can be created. Types are just generalized combinations of building blocks, and form the basis of any specific business model which is then created in reality. By analogy “seeded wholemeal” is a generalized type of bread, although each major supermarket may create their own real world instantiation of this type.
+The upshot of these constraints is that there are a limited number of **business model types** which can be created. Types are just generalized combinations of building blocks, and form the basis of any specific business model which is then created in reality. By analogy “seeded wholemeal” is a generalized type of bread, although each major supermarket may create their own real world instantiation of this type.
 
-Different model types will have different **features. **These are specific characteristics of how the business model functions. The major features we will consider are:
+Different model types will have different **features.** These are specific characteristics of how the business model functions. The major features we will consider are:
 
 
 * **Level of access** - how widely accessible the business model makes data
@@ -100,7 +100,7 @@ We will deal with each in turn.
 
 ## Hard Constraints
 
-There is only one genuine hard constraint on combining building blocks. This is that **an Open access rights framework is incompatible with any revenue model relying on user fees, either partially or entirely. **Definitionally, if anyone has to pay to access data, then that data is not Open. 
+There is only one genuine hard constraint on combining building blocks. This is that **an Open access rights framework is incompatible with any revenue model relying on user fees, either partially or entirely.** Definitionally, if anyone has to pay to access data, then that data is not Open. 
 
 
 ## Soft Constraints 
@@ -133,4 +133,4 @@ Now of course many projects or entities will seek both to some degree, however t
 
 
 * **Access**: optimizing for social welfare will mean selecting a business model which prioritizes high levels of access. By contrast, business models which use closed rights frameworks may enable you to make more money (although this is not always the case, as businesses such as Facebook demonstrate). 
-* **Quality: **optimizing for social welfare will mean setting the level of data quality at the most useful level affordable, all things being equal. By contrast, a business model seeking to make the most money possible will produce the digital goods at whatever quality maximizes profit. Often, this will be the lowest quality possible without detrimentally impacting demand.
+* **Quality:** optimizing for social welfare will mean setting the level of data quality at the most useful level affordable, all things being equal. This is a matter of cost-benefit analysis, trading off gains in quality most often against levels of provision (i.e. the same resources can get you more lower quality digital goods or fewer higher quality digital goods) By contrast, a business model seeking to make the most money possible will produce the digital goods at whatever quality maximizes profit. Often, this will be the lowest quality possible without detrimentally impacting demand.
