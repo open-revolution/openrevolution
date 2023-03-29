@@ -1,5 +1,5 @@
 ---
-title: "How business model concepts fit together"
+title: "Building Business Models: A Framework v1-alpha"
 created: 2023-03-28 
 authors: [ theo-cox, rufuspollock]
 type: Blog
