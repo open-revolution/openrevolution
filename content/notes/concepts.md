@@ -35,7 +35,7 @@ Different model types can vary across these dimensions. Choosing a model type wi
 
 The diagram below shows the different options available for each building block. We will describe these below. Note that even these options are themselves broad umbrellas and can themselves branch into further variations when developed further.
 
-![Building Blocks](https://user-images.githubusercontent.com/72795023/228253252-e484ba31-6e70-4953-90f7-455feef736d0.svg)
+![Building Blocks (1)](https://user-images.githubusercontent.com/72795023/228890509-72ea53ef-b285-4af8-bb70-0fd720525adb.svg)
 
 
 ## Revenue Source
@@ -56,8 +56,7 @@ The compensation mechanism dictates how contributors are compensated for their w
 
 
 
-* **Salary** - all activities are undertaken in-house, by employees who are compensated through their salaries.
-* **Fixed Fee** - goods and services are purchased from third parties at a price which is set according to what is being purchased. For example: 100 EUR per dataset. 
+* **Fixed Payment** - contributors receive a fixed price for their contributions. For example: 100 EUR per dataset. 
 * **Conditional Payment** - rather than a fixed fee, third parties are given a conditional payment right entitling them to a share of profits. Entitlement can be based on many factors, including demand or some metric of importance. For example: share of profit share = number of times your dataset downloaded / total downloads for all datasets. 
 * **Complementary Goods/Services** - contributors are not paid directly in money, but are compensated through an ability to sell complementary goods or services. For example: data providers share data for free, and then sell consultancy services based on expert use of this data. 
 * **Pro Bono** - contributors get no compensation at all. They contribute for other reasons such as their values or positive reputational benefits.
@@ -113,7 +112,7 @@ There are far more soft constraints, however. These are as follows:
     * **Reason**: Highly limited access conditions will likely make the project unattractive to potential funders under most conditions.
 * None/donations is an infeasible revenue source for an entity or project with a fully closed rights framework.
     * **Reason**: a closed entity or project will by definition have fewer potential users, limiting the level of donations which can be gathered. Also, if the entity or project is relying largely or entirely on pro bono contributions or complementary goods/services models then in the former case there are limited reasons why someone would contribute to a closed entity or project for free (given ethics based contributions often seek to advance open knowledge) and in the latter case the market for complementary goods/services will probably be smaller for a closed entity or project than an open or semi-open one.
-* None/donations is an infeasible revenue source for an entity or project which predominantly uses salaries, fees or conditional payments as a compensation mechanism.
+* None/donations is an infeasible revenue source for an entity or project which predominantly uses fixed or conditional payments as a compensation mechanism.
     * **Reason**: it will be hard to gather enough donations to make sufficient monetary payments of these kinds.
 * As a rule of thumb, the less guaranteed compensation offered under the compensation mechanism (moving to the right on the diagram, excluding mixed models) the more democratic one should make the governance model (moving to the right on the diagram).
     * **Reason**: participation in governance can act as an added incentive to contributors in the place of money. Also, where compensation depends on the success of the entity or project as in the conditional payment and (to a lesser extent) complementary goods/services compensation mechanisms, contributors will likely want to be able to influence this outcome.
