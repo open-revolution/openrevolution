@@ -20,8 +20,6 @@ Incentives (at least according to orthodox economics) are a matter of cost-benef
 
 **The unique traits of digital goods listed above mean they’re particularly susceptible to market failures**. People can’t produce digital goods and sell them in the same way as other goods, and so Adam Smith’s parable of the baker breaks down. Even in cases of private benefit, these can be subtle and not apparent to key decision-makers (e.g. efficiency gains in ways that aren't apparent upfront), meaning there’s still a disinclination to invest. They might also take the form of industry wide benefits (e.g. from innovation potential), which are hindered by the dynamics of collective action problems[^4].
 
-
-<!-- Footnotes themselves at the bottom. -->
 ## Notes
 
 [^1]:
