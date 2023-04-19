@@ -1,10 +1,10 @@
 # Concept Definitions
 
-Business models are composed of **building blocks** which can be assembled under **constraints **to make a **limited number of business model types**. Learning these types–and the list of blocks and the rules for assembly–allow you to rapidly design business models that are successful for chosen outcomes.
+Business models are composed of **building blocks** which can be assembled under **constraints** to make a **limited number of business model types**. Learning these types–and the list of blocks and the rules for assembly–allow you to rapidly design business models that are successful for chosen outcomes.
 
 Before outlining options for business model types, we must define and outline terminology. 
 
-**Digital goods **are all those economic goods which are made up of data or information. These can range from software to datasets to music and even pieces of intellectual property such as pharmaceutical patents. These goods can also be known as information goods, information products and similar terms. 
+**Digital goods** are all those economic goods which are made up of data or information. These can range from software to datasets to music and even pieces of intellectual property such as pharmaceutical patents. These goods can also be known as information goods, information products and similar terms. 
 
 The **business model** is the part of the entity or project which incentivises the production and distribution of digital goods. When it functions properly it is economically sustainable, that is to say that these incentives (and this production/distribution) persist over time.
 
