@@ -73,7 +73,7 @@ _Note that the cooperative structure can be either a for-profit or non-profit, h
 The supplier remuneration mechanism dictates how contributors are compensated for their work. This is required to incentivise data providers and other actors who carry out activities necessary for the entity or project to function. There are two initial categories with a number of subcategories under each. Again, mixes of many of these are possible.
 
 
-* **Paid**- suppliers are paid money to contribute
+* **Paid**: suppliers are paid money to contribute
     * **_Fixed fee_**: traditional payment models where money is exchanged for work or goods.
         * **_Time based_**: payment for time, unconditional on outcome e.g. classic wages.
         * **_Output based_**: pay for specific outputs e.g. piecework or purchasing inputs on the marketplace.
