@@ -1,7 +1,7 @@
 const config = {
   navLinks: [
     { href: "/news/", name: "News" },
-    { href: "/pay-what-feels-right/", name: "Pay What Feels Right" },
+    { href: "/book/", name: "Book" },
     { href: "/press/", name: "Press" },
     { href: "/events/", name: "Events" },
     { href: "/make-it-happen/", name: "Get Involved" },
