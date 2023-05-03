@@ -1,6 +1,7 @@
 ---
 title: The Unlikely Convergence of Baking and Mechanism Design
 created: 2023-01-23 
+authors: [theo-cox]
 type: Blog
 ---
 
