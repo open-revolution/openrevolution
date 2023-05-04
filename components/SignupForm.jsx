@@ -12,7 +12,7 @@ export default function SignupForm() {
               method="POST"
               action="https://1ebb0834.sibforms.com/serve/MUIEAEWoYKGaQ5Ty1tAlys64kf6S_8N6CuhB8-u6kAb0PXvyp9av4hutql6FYMrLzN4LyZlkYavHz2ThM46y10rzI5jTVzefjpahkqBJ8ii-iAdJA-W63AJKaKIcHv3JXygaAt0CvnNJv0oWuVsvXEo6B_tqc2shk-1XlaB8_q04jDEuNBnvFUSgA3fY9yxITLj0PxoshaYB_umt"
               data-type="subscription"
-              className="flex items-center"
+              className="flex flex-col items-center gap-y-2 max-w-sm mx-auto"
             >
               <div className="sib-input sib-form-block w-full !p-0 !px-0 sm:flex-1">
                 <div className="form__entry entry_block">
@@ -27,7 +27,7 @@ export default function SignupForm() {
                       placeholder="Enter your email"
                       data-required="true"
                       required=""
-                      className="entry__field block w-full !rounded-md !ring-1 !ring-primary !p-3 !m-0 !text-base placeholder-gray-500 !shadow-sm focus:border-primary focus:ring-primary sm:flex-1"
+                      className="entry__field block min-w-0 flex-auto rounded-md border bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-primary focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6"
                     />
                   </div>
                   <label className="entry__error entry__error--primary !m-0"></label>
@@ -37,7 +37,7 @@ export default function SignupForm() {
                 <button
                   type="submit"
                   form="sib-form"
-                  className="sib-form-block__button sib-form-block__button-with-loader mt-3 w-full rounded-md border border-transparent bg-primary !px-6 !py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:ml-3 sm:mt-0 sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center"
+                  className="sib-form-block__button sib-form-block__button-with-loader mt-3 w-full !max-w-xs rounded-md border border-transparent bg-primary !px-6 !py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:ml-3 sm:mt-0 sm:inline-flex sm:w-auto sm:flex-shrink-0 sm:items-center"
                 >
                   <svg
                     className="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
@@ -45,7 +45,7 @@ export default function SignupForm() {
                   >
                     <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
                   </svg>
-                  Sign up now
+                  Sign me up to the masterclass and send me lesson 1
                 </button>
               </div>
               <input
