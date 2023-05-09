@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 grid lg:grid-cols-2 lg:gap-x-10 px-8 lg:py-20">
+        <div className="mx-auto max-w-7xl pb-20 lg:pt-10 grid lg:grid-cols-2 lg:gap-x-10 px-8 lg:py-20">
           <div className="px-6 lg:px-0 lg:pt-4 mt-16 lg:mx-0 lg:mt-0 md:mx-auto md:max-w-2xl">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg">
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="mx-auto max-w-2xl mt-20 sm:mt-24 lg:mx-0 lg:mt-0 order-first">
+          <div className="mx-auto max-w-2xl mt-16 lg:mx-0 lg:mt-0 order-first">
             <div className="px-4 py-6 sm:p-10 border shadow-sm rounded-3xl">
               <div className="relative">
                 <h2 className="text-center text-2xl text-primary font-semibold font-headings">
@@ -65,8 +65,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto mt-16 grid max-w-2xl gap-y-6 lg:mt-0 lg:max-w-7xl pb-24 lg:pb-20">
-        <div className="px-6 lg:px-16 md:mx-auto space-y-8">
+      <section className="mx-auto mt-6 grid max-w-2xl gap-y-6 lg:mt-0 lg:max-w-7xl pb-24 lg:pb-20">
+        <div className="px-8 lg:px-16 md:mx-auto space-y-8">
           <div>
             <h1 className="mt-2 text-2xl font-bold tracking-tight text-primary sm:text-3xl text-center sm:text-left">
               Want to make sure this course is worth it before you sign up?
