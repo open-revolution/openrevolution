@@ -1,11 +1,8 @@
 ---
 title: "Talk at The Open Research Week 2021: The Open Revolution - Making a radically fairer and free future"
 created: 2021-02-09
-slug: talk-open-research-week-2021-open-revolution
 authors: [rufus-pollock]
 ---
-
-## The Open Research Week - February 2021
 
 As part of The Open Research Week 2021 I presented my talk *The Open Revolution: Making a radically fairer and free future*. This event was hosted as a collaboration between the University of Liverpool, Liverpool John Mores University and Edge Hill University in February 2021.
 
