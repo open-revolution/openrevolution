@@ -10,17 +10,15 @@ export default function Home() {
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg">
                 <ul className="mt-6 text-lg leading-7 text-primary list-outside list-['\2713']">
-                  <li className="pl-2">5 day course + 2 bonus sessions</li>
-                  <li className="pl-2">Over 5000 words</li>
-                  <li className="pl-2">3 simple powerful principles</li>
-                  <li className="pl-2">5 intuitive insights</li>
-                  <li className="pl-2">Understand key trends from the rise of the tech giants to the election of Donald Trump.</li>
-                  <li className="pl-2">Simple frameworks you can start using to build sustainable digital businesses and ecosystems, today.</li>
+                  <li className="pl-2">7 day course</li>
+                  <li className="pl-2">Over 9000 words</li>
+                  <li className="pl-2">7 days of intuitive insights</li>
+                  <li className="pl-2">An introduction to the key principles</li>
+                  <li className="pl-2">Understand the implications of the digital economy, where it is taking us, and what this means for you, and society in general</li>
+                  {/* <li className="pl-2">Simple frameworks you can start using to build sustainable digital businesses and ecosystems, today.</li> */}
                 </ul>
                 <h1 className="mt-10 text-2xl font-bold tracking-tight text-primary sm:text-3xl">
-                  Everything you need to start understanding 
-                  the digital world as a citizen, entrepreneur
-                  and policy-maker.
+                  Everything you need to start understanding the digital economy today!
                 </h1>
                 <p className="mt-6 text-lg leading-7 text-primary">
                   Written by Rufus Pollock and Theo Cox,
@@ -38,14 +36,14 @@ export default function Home() {
             <div className="px-4 py-6 sm:p-10 border shadow-sm rounded-3xl">
               <div className="relative">
                 <h2 className="text-center text-2xl text-primary font-semibold font-headings">
-                  Understanding the digital economy in 5 days
+                  Understanding the digital economy in 7 days
                 </h2>
               </div>
               {/* Book cover */}
               <div className="py-10">
                 <div className="relative bg-secondary grid grid-flow-row grid-rows-3 justify-center h-[400px] w-[300px] mx-auto shadow-2xl rounded-sm ring-1 ring-gray-900/10 sm:px-3">
                   <h3 className="pt-6 text-md text-center font-medium">
-                    🗺️ The Diginomics Introductory Masterclass
+                    🗺️ Diginomics 101 Masterclass
                   </h3>
                   <p className="self-center px-16 text-2xl font-semibold text-center flex flex-col gap-1 max-w-xs mx-auto">
                     <span>How to Understand</span>
@@ -72,31 +70,49 @@ export default function Home() {
               Want to make sure this course is worth it before you sign up?
             </h1>
             <p className="mt-12 text-xl text-primary">
-              Here’s everything that’s covered:
+              Here’s everything that we will cover:
             </p>
             <ul role="list" className="mt-6 space-y-8 text-lg leading-7 text-primary">
               <li className="flex gap-x-3">
                 <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                  <strong className="font-semibold underline underline-offset-4">Day 1:</strong> Why using the right mental model for the digital world is so important
+                  <strong className="font-semibold underline underline-offset-4">Day 1:</strong> We’re in a new digital economy
                 </span>
               </li>
               <li className="flex gap-x-3">
                 <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                  <strong className="font-semibold underline underline-offset-4">Day 2:</strong> Why data is different and bits aren’t equivalent to atoms
+                  <strong className="font-semibold underline underline-offset-4">Day 2:</strong> It’s more than digital, it’s information
                 </span>
               </li>
               <li className="flex gap-x-3">
                 <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                  <strong className="font-semibold underline underline-offset-4">Day 3:</strong> Understand the implications of data being costlessly copyable 
+                  <strong className="font-semibold underline underline-offset-4">Day 3:</strong> Costless copying: the essential difference between bits and atoms
                 </span>
               </li>
               <li className="flex gap-x-3">
                 <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                 <span>
-                  <strong className="font-semibold underline underline-offset-4">Day 5 (Bonus):</strong> Fancy economic terminology to wow your friends with
+                  <strong className="font-semibold underline underline-offset-4">Day 4:</strong> The magical apple tree: once upon a time in the digital economy
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                <span>
+                  <strong className="font-semibold underline underline-offset-4">Day 5:</strong> Exclusive rights "property": one way to pay for the first copy
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                <span>
+                  <strong className="font-semibold underline underline-offset-4">Day 6:</strong> Costless copying revisited
+                </span>
+              </li>
+              <li className="flex gap-x-3">
+                <CalendarIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                <span>
+                  <strong className="font-semibold underline underline-offset-4">Day 7:</strong> Core tension: access vs innovation
                 </span>
               </li>
             </ul>
