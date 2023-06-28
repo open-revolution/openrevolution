@@ -59,7 +59,7 @@ But there's something different now. Because when Mr Frisbee job goes he's repla
 
 Well there is something fundamentally different. To see that I want you to think of an analogy. Imagine for a moment that the economy is like a running race. 
 
-Consider that there are different types of running races. For example, at my school we had a running race where there wasn't a single winner: everyone who finished in under two hours was a winner. Everyone who finished in under two hours they'd done it, they'd made it 
+Consider that there are different types of running races. For example, at my school we had a running race where there wasn't a single winner: everyone who finished in under two hours was a winner. Everyone who finished in under two hours they'd done it, they'd made it. 
 
 Now, that's what the old economy was like.
 
@@ -73,7 +73,7 @@ Why is that like a digital economy? Because in a digital economy the fundamental
 
 So now we have a situation where I can supply everyone.
 
-### New digita economy is a magical apple tree economy where farmer Gates has a tree that can supply everyone
+### New digital economy is a magical apple tree economy where farmer Gates has a tree that can supply everyone
 
 And that’s very different. Let’s go back to the example of the apple farmer for a minute. There's a limit or how many apples a farmer can supply. That means I can be farming apples, you can be farming apples, someone else can be farming apples and we can all sell our apples and make a living. 
 
@@ -83,7 +83,7 @@ Suddenly Mr. Gates can supply everyone with his apples that cost him nothing. He
 
 And that's what's going on. The real world Mr. Gates once he has the Windows operating system he dominates. He supplies everyone in the world and it costs him nothing to make each new copy. So he can dominate that market.
 
-And that's what we're seeing: these incredible monopolies like Facebook, Google, Windows. And in very vertical you look at you have monopoly or close to it.
+And that's what we're seeing: these incredible monopolies like Facebook, Google, Windows. And in every vechicle you look at you have monopoly or close to it.
 
 ### Exclusive ownership: a seemingly sensible solution to the costly first copy problem
 
@@ -91,7 +91,7 @@ Now, there’s one really important to thing to add to the story. And that’s t
 
 That's what crucial. Because we could have a story where Mr Gates magical apple tree is shared with everyone. Everyone has apples. But no, we've created rules that give people exclusive control and ownership. 
 
-And there's a logic to that: it costs money to create the "apple tree”. We all know it costs money to make Windows or to make a movie. So as a society we thought: "Ok, we've got to have a way they make their money back." So what we've done is given out these monopoly rights like copyright and patents that given someone exclusive, monopoly control of these pieces of software, these movies, these databases etc.
+And there's a logic to that: it costs money to create the "apple tree”. We all know it costs money to make Windows or to make a movie. So as a society we thought: "Ok, we've got to have a way they make their money back." So what we've done is given out these monopoly rights like copyright and patents that have given someone exclusive, monopoly control of these pieces of software, these movies, these databases etc.
 
 ## But there is this massive unintended side-effect: inequality, stagnation and instability
 
