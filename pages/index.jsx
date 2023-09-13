@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <p className="text-primary text-center text-lg py-4">Key principles learned over 20 years in a simple guide.</p>
+                <p className="text-primary text-center text-lg py-4">Key principles learned over 20 years in a FREE simple guide.</p>
               </div>
               <div className="pt-4">
                 <SignupForm />
@@ -140,7 +140,7 @@ export default function Home() {
                 type="submit"
                 className="mt-3 w-full max-w-xs sm:justify-self-start rounded-md border border-transparent bg-primary px-6 py-2 text-base font-medium text-white shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:mt-0"
               >
-                Sign me up to the masterclass and send me lesson 1
+                Sign me up to the FREE masterclass and send me lesson 1
               </button>
             </form>
           </div>
