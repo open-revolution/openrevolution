@@ -1,12 +1,11 @@
 const config = {
   navLinks: [
     { href: "/news/", name: "News" },
-    { href: "/book/", name: "Book" },
-    { href: "/press/", name: "Press" },
     { href: "/events/", name: "Events" },
     { href: "/make-it-happen/", name: "Get Involved" },
     { href: "/faq/", name: "FAQ" },
     { href: "/preview/", name: "Preview" },
+    { href: "/diginomics/", name: "Platforms" },
     { href: "/platformnomics/", name: "Platforms" },
     { href: "/contact/", name: "Contact" },
   ],
