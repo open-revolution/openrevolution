@@ -6,11 +6,10 @@ export default function SubscribedPage() {
       <div className="mx-auto w-full max-w-7xl pt-16 pb-20 text-center lg:pt-48">
         <div className="mx-auto px-4 sm:px-8 sm:w-3/4 lg:w-1/2">
           <h1 className="text-2xl font-headings font-bold tracking-tight text-primary xl:text-4xl flex flex-col">
-            Thank you for subscribing!
+            Thank you for signing up!
           </h1>
           <p className="mx-auto mt-3 max-w-md text-base text-primary sm:text-base md:mt-5 md:max-w-3xl">
-            Your subscription to our list has been confirmed.
-            You have been added to our list and will receive news from us soon.
+            The Diginomics Masterclass lesson #1 is on its way to you!
           </p>
           <Link
             href="/"
