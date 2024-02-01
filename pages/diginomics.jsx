@@ -33,7 +33,7 @@ export default function Home() {
             <div className="px-2 py-4 sm:p-10">
               <div className="relative">
                 <h2 className="text-center text-4xl text-primary font-semibold font-headings">
-                  Become a digital economy expert in 7 days
+                  Become expert on the digital economy in 7 days
                 </h2>
               </div>
               {/* Book cover */}
