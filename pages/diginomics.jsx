@@ -24,7 +24,7 @@ export default function Home() {
                   to leading governments, IGOs and companies for over two decades.
                 </p>
                 <div className="py-10 font-bold text-center italic text-2xl leading-8">
-                 "This is a $1,000,000 guide – and they just put it out there for free for anyone to have."
+                  Over 10,000 downloads
                 </div>
               </div>
             </div>
@@ -52,9 +52,8 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-primary text-center text-lg pt-4">Key principles learned over 20 years in a <span className="font-bold">FREE</span> simple guide</p>
-                <p className="py-2 text-center text-lg font-bold">Over 10,000 downloads</p>
               </div>
-              <div className="pt-4">
+              <div className="pt-6">
                 <form
                   method="POST"
                   action="https://1ebb0834.sibforms.com/serve/MUIEABg79115rPtMI1fZhLoYmKiTdVgnX9y2kqJ2yyzRMcv_w3UsqZZV0CfFLdQsyyVVof0kHf012lqXLGL3aNloY3_yzN7OQyUxiMMWiTHJziOPYJXjbjX2CSNSHXrKU7brIv_gnrtlDXL03YzznNOPlPyXzUGktiyU0WUdfyR9dmsxq5Zal1JWKa8J_SykSjOF6aM8NOn5nIFU"
